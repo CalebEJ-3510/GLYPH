@@ -1,5 +1,7 @@
 # Glyph
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://glyph-guard.streamlit.app/)
+
 A **blue-team / defensive detection tool** that detects the artifacts and behaviors
 keyloggers leave behind in Windows telemetry (Sysmon, Event Logs, ETW, registry,
 and process activity).
