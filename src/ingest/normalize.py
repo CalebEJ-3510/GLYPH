@@ -26,11 +26,7 @@ from typing import Any, Generator, Iterable
 
 import pandas as pd
 
-from src.schema import (
-    CANONICAL_COLUMNS,
-    make_event,
-    VALID_LABELS,
-)
+from src.schema import CANONICAL_COLUMNS, VALID_LABELS, make_event
 
 log = logging.getLogger(__name__)
 
