@@ -71,8 +71,9 @@ def _first(d: dict, keys: tuple[str, ...], default: Any = None) -> Any:
 def _parse_pid(value: Any) -> int | None:
     if value is None:
         return None
+    s = str(value).strip()
     try:
-        return int(str(value).strip())
+        return int(s, 0)
     except (ValueError, TypeError):
         return None
 
@@ -118,9 +119,8 @@ def _extract_process_name(image_path: str | None) -> str | None:
     if image_path == "":
         return ""
     # Split on both Windows and POSIX separators; take the last non-empty part
-    parts = image_path.replace("\\", "/").split("/")
-    name = parts[-1] if parts else None
-    return name if name else None
+    parts = [p for p in image_path.replace("\\", "/").split("/") if p]
+    return parts[-1] if parts else ""
 
 
 def _parse_timestamp(ts_str: str) -> pd.Timestamp:
@@ -130,9 +130,19 @@ def _parse_timestamp(ts_str: str) -> pd.Timestamp:
     """
     if ts_str is None:
         raise TypeError("ts_str cannot be None")
+    
+    import datetime
+    if isinstance(ts_str, datetime.datetime) or pd.api.types.is_datetime64_any_dtype(ts_str):
+        ts = pd.Timestamp(ts_str)
+        if ts.tz is None:
+            ts = ts.tz_localize("UTC")
+        elif ts.tz.zone != "UTC":
+            ts = ts.tz_convert("UTC")
+        return ts
+
     if not ts_str:
         return pd.Timestamp.now("UTC")
-    ts_str = ts_str.strip().rstrip("Z")
+    ts_str = str(ts_str).strip().rstrip("Z")
     try:
         ts = pd.Timestamp(ts_str, tz="UTC")
     except Exception:
