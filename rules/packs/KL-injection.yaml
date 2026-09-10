@@ -1,0 +1,107 @@
+# Detection Pack: DLL Injection & Remote Thread Rules
+# =====================================================
+# Covers injection-based keyloggers that inject into browsers, explorer.exe,
+# or other trusted processes to capture keystrokes in their context.
+#
+# MITRE ATT&CK:
+#   T1055     — Process Injection
+#   T1055.001 — DLL Injection
+#   T1056.001 — Input Capture: Keylogging
+
+pack_version: "1.0"
+pack_name: "injection-based-keylogger"
+
+rules:
+
+  - id: KL-009
+    name: "CreateRemoteThread into browser process"
+    description: >
+      A remote thread was created inside a browser process (Chrome, Firefox,
+      Edge).  Injection-based keyloggers target browsers to capture form
+      fields and password inputs.  This is almost never legitimate.
+    applies_to:
+      - event_id: 8   # CreateRemoteThread
+    condition:
+      target_object_contains_any:
+        - "chrome.exe"
+        - "firefox.exe"
+        - "msedge.exe"
+        - "iexplore.exe"
+        - "opera.exe"
+        - "brave.exe"
+    severity: critical
+    score: 90
+    mitre_technique: "T1055.001"
+    evidence_template: >
+      Remote thread injected into browser by '{process_name}' (PID {pid}).
+      Target: {target_object}
+
+  - id: KL-010
+    name: "CreateRemoteThread into explorer.exe or winlogon.exe"
+    description: >
+      A remote thread was created inside explorer.exe or winlogon.exe.
+      These are high-value injection targets for keyloggers because they
+      handle shell input and authentication respectively.
+    applies_to:
+      - event_id: 8   # CreateRemoteThread
+    condition:
+      target_object_contains_any:
+        - "explorer.exe"
+        - "winlogon.exe"
+        - "lsass.exe"
+    severity: critical
+    score: 85
+    mitre_technique: "T1055"
+    evidence_template: >
+      Remote thread injected into high-value target by '{process_name}' (PID {pid}).
+      Target: {target_object}
+
+  - id: KL-011
+    name: "Unsigned process spawned from browser or email client"
+    description: >
+      An unsigned process was spawned with a browser or email client as its
+      parent.  This is a common delivery pattern for keylogger droppers
+      (malicious attachment → browser download → execution).
+    applies_to:
+      - event_id: 1   # Process Create
+    condition:
+      parent_process_name_in:
+        - "chrome.exe"
+        - "firefox.exe"
+        - "msedge.exe"
+        - "iexplore.exe"
+        - "outlook.exe"
+        - "thunderbird.exe"
+        - "winrar.exe"
+        - "7zfm.exe"
+      NOT:
+        signed: true
+    severity: high
+    score: 60
+    mitre_technique: "T1566.001"
+    evidence_template: >
+      Unsigned process '{process_name}' spawned by browser/email client
+      '{parent_process_name}' (PID {pid}).
+      Path: {process_path}
+
+  - id: KL-012
+    name: "Process spawned from Temp directory"
+    description: >
+      A new process was created with its image in a user-writable temp
+      directory.  Keylogger droppers commonly write to Temp before executing.
+    applies_to:
+      - event_id: 1   # Process Create
+    condition:
+      process_path_contains_any:
+        - "\\Temp\\"
+        - "\\AppData\\Local\\Temp\\"
+        - "\\AppData\\Roaming\\"
+      NOT:
+        process_in_allowlist: true
+    severity: medium
+    score: 40
+    mitre_technique: "T1059"
+    evidence_template: >
+      Process '{process_name}' (PID {pid}) launched from staging path:
+      {process_path}
+      Parent: {parent_process_name}

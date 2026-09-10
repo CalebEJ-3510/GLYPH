@@ -1,0 +1,97 @@
+<!--
+  Glyph — Sysmon Configuration
+  =====================================================
+  Derived from Olaf Hartong's sysmon-modular baseline with additions
+  specifically tuned for keylogger artifact detection.
+
+  Key coverage:
+    - Event ID 1  : Process Create (all processes, with SHA-256 hashes)
+    - Event ID 7  : Image/DLL Load (user32.dll, keyboard-adjacent DLLs)
+    - Event ID 8  : CreateRemoteThread (DLL injection vector)
+    - Event ID 9  : RawAccessRead (driver-based loggers touching physical disk)
+    - Event ID 12 : Registry Object Create/Delete (Run keys, hook persistence)
+    - Event ID 13 : Registry Value Set
+    - Event ID 14 : Registry Key/Value Rename
+
+  Reference: https://github.com/olafhartong/sysmon-modular
+-->
+<Sysmon schemaversion="4.90">
+  <HashAlgorithms>SHA256</HashAlgorithms>
+  <CheckRevocation>False</CheckRevocation>
+
+  <EventFiltering>
+
+    <!-- ===================================================================
+         Event ID 1 — Process Create
+         Capture everything; exclude known-noisy system processes.
+    =================================================================== -->
+    <RuleGroup name="ProcessCreate" groupRelation="or">
+      <ProcessCreate onmatch="exclude">
+        <Image condition="is">C:\Windows\System32\MpCmdRun.exe</Image>
+        <Image condition="is">C:\Windows\System32\wuauclt.exe</Image>
+      </ProcessCreate>
+    </RuleGroup>
+
+    <!-- ===================================================================
+         Event ID 7 — Image/DLL Load
+         Focus on keyboard-adjacent and injection-relevant DLLs.
+    =================================================================== -->
+    <RuleGroup name="ImageLoad" groupRelation="or">
+      <ImageLoad onmatch="include">
+        <!-- Hook-based keyloggers must load user32.dll -->
+        <ImageLoaded condition="end with">user32.dll</ImageLoaded>
+        <!-- Raw input path -->
+        <ImageLoaded condition="end with">hid.dll</ImageLoaded>
+        <!-- Common injection staging DLLs -->
+        <ImageLoaded condition="end with">ntdll.dll</ImageLoaded>
+        <ImageLoaded condition="end with">kernel32.dll</ImageLoaded>
+        <!-- Credential-adjacent -->
+        <ImageLoaded condition="end with">wincred.dll</ImageLoaded>
+        <ImageLoaded condition="end with">credui.dll</ImageLoaded>
+      </ImageLoad>
+    </RuleGroup>
+
+    <!-- ===================================================================
+         Event ID 8 — CreateRemoteThread
+         All remote thread creation is suspicious; log everything.
+    =================================================================== -->
+    <RuleGroup name="CreateRemoteThread" groupRelation="or">
+      <CreateRemoteThread onmatch="include">
+        <TargetImage condition="contains">explorer.exe</TargetImage>
+        <TargetImage condition="contains">chrome.exe</TargetImage>
+        <TargetImage condition="contains">firefox.exe</TargetImage>
+        <TargetImage condition="contains">msedge.exe</TargetImage>
+        <TargetImage condition="contains">lsass.exe</TargetImage>
+        <TargetImage condition="contains">winlogon.exe</TargetImage>
+        <TargetImage condition="not contains">C:\Windows\System32</TargetImage>
+      </CreateRemoteThread>
+    </RuleGroup>
+
+    <!-- ===================================================================
+         Event ID 9 — RawAccessRead
+         Driver-based keyloggers may read the keyboard device directly.
+    =================================================================== -->
+    <RuleGroup name="RawAccessRead" groupRelation="or">
+      <RawAccessRead onmatch="include">
+        <Device condition="contains">\Device\KeyboardClass</Device>
+        <Device condition="contains">\Device\HarddiskVolume</Device>
+      </RawAccessRead>
+    </RuleGroup>
+
+    <!-- ===================================================================
+         Event ID 12/13/14 — Registry Events
+         Persistence via Run keys; hook registration artifacts.
+    =================================================================== -->
+    <RuleGroup name="RegistryEvent" groupRelation="or">
+      <RegistryEvent onmatch="include">
+        <TargetObject condition="contains">SOFTWARE\Microsoft\Windows\CurrentVersion\Run</TargetObject>
+        <TargetObject condition="contains">SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce</TargetObject>
+        <TargetObject condition="contains">SYSTEM\CurrentControlSet\Services</TargetObject>
+        <TargetObject condition="contains">SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\AppInit_DLLs</TargetObject>
+        <TargetObject condition="contains">SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon</TargetObject>
+        <TargetObject condition="contains">SYSTEM\CurrentControlSet\Control\Class\{4D36E96B</TargetObject>
+      </RegistryEvent>
+    </RuleGroup>
+
+  </EventFiltering>
+</Sysmon>

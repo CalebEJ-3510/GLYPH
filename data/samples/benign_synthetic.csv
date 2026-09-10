@@ -1,0 +1,941 @@
+timestamp,host,event_id,event_source,process_name,process_path,process_hash,pid,ppid,parent_process_name,image_loaded,registry_key,registry_value,target_object,signed,signature,label,technique_tag,raw_fields
+2026-01-01 08:00:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Windows\System32\powershell.exe,0835fe801eef4867b5500d5aee5ffd6f,1000,999.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\powershell.exe'}
+2026-01-01 08:00:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1000,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:00:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1000,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 08:00:00.200000+00:00,LABVM,7,Sysmon,powershell.exe,,,1000,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:00:00.250000+00:00,LABVM,7,Sysmon,powershell.exe,,,1000,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 08:02:00+00:00,LABVM,1,Sysmon,python.exe,C:\Windows\System32\python.exe,04f31932b1e04ad4976eb516d30cc164,1001,1000.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\python.exe'}
+2026-01-01 08:02:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1001,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 08:02:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1001,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 08:02:00.500000+00:00,LABVM,13,Sysmon,python.exe,,,1001,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 08:04:00+00:00,LABVM,1,Sysmon,python.exe,C:\Program Files\python.exe,e2144fc377a64fe589f963028cc22f4e,1002,1001.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\python.exe'}
+2026-01-01 08:04:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1002,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:04:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1002,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 08:04:00.200000+00:00,LABVM,7,Sysmon,python.exe,,,1002,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:06:00+00:00,LABVM,1,Sysmon,notepad.exe,C:\Windows\System32\notepad.exe,3960186374324834834a04e668b6c50c,1003,1002.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\notepad.exe'}
+2026-01-01 08:06:00.100000+00:00,LABVM,7,Sysmon,notepad.exe,,,1003,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 08:06:00.150000+00:00,LABVM,7,Sysmon,notepad.exe,,,1003,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 08:06:00.200000+00:00,LABVM,7,Sysmon,notepad.exe,,,1003,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:06:00.250000+00:00,LABVM,7,Sysmon,notepad.exe,,,1003,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 08:06:00.500000+00:00,LABVM,13,Sysmon,notepad.exe,,,1003,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 08:08:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Windows\System32\firefox.exe,23f05757b64741548d8b340b3233f7e0,1004,1003.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\firefox.exe'}
+2026-01-01 08:08:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1004,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 08:08:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1004,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:08:00.200000+00:00,LABVM,7,Sysmon,firefox.exe,,,1004,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 08:08:00.250000+00:00,LABVM,7,Sysmon,firefox.exe,,,1004,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:10:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Windows\System32\firefox.exe,e27c6e8e2dee432faeae9d347480ee2f,1005,1004.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\firefox.exe'}
+2026-01-01 08:10:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1005,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:10:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1005,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 08:10:00.200000+00:00,LABVM,7,Sysmon,firefox.exe,,,1005,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 08:10:00.250000+00:00,LABVM,7,Sysmon,firefox.exe,,,1005,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:12:00+00:00,LABVM,1,Sysmon,explorer.exe,C:\Windows\System32\explorer.exe,096875155b844336a26d31845e75e92d,1006,1005.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\explorer.exe'}
+2026-01-01 08:12:00.100000+00:00,LABVM,7,Sysmon,explorer.exe,,,1006,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:12:00.150000+00:00,LABVM,7,Sysmon,explorer.exe,,,1006,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 08:14:00+00:00,LABVM,1,Sysmon,chrome.exe,C:\Windows\System32\chrome.exe,375bd11d2602451a81dc42f97db838eb,1007,1006.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\chrome.exe'}
+2026-01-01 08:14:00.100000+00:00,LABVM,7,Sysmon,chrome.exe,,,1007,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:14:00.150000+00:00,LABVM,7,Sysmon,chrome.exe,,,1007,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 08:14:00.200000+00:00,LABVM,7,Sysmon,chrome.exe,,,1007,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 08:14:00.250000+00:00,LABVM,7,Sysmon,chrome.exe,,,1007,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 08:16:00+00:00,LABVM,1,Sysmon,mspaint.exe,C:\Program Files\mspaint.exe,8ab34d1f67dc42219a8eb6ae25657ccb,1008,1007.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\mspaint.exe'}
+2026-01-01 08:16:00.100000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1008,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 08:16:00.150000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1008,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:16:00.200000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1008,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 08:18:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Program Files\powershell.exe,e0e776d1edb444cb98c6172215b511d3,1009,1008.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\powershell.exe'}
+2026-01-01 08:18:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1009,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 08:18:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1009,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 08:18:00.200000+00:00,LABVM,7,Sysmon,powershell.exe,,,1009,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 08:18:00.250000+00:00,LABVM,7,Sysmon,powershell.exe,,,1009,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 08:20:00+00:00,LABVM,1,Sysmon,calc.exe,C:\Windows\System32\calc.exe,fb298f85d9c64037b7e80e3748bc0845,1010,1009.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\calc.exe'}
+2026-01-01 08:20:00.100000+00:00,LABVM,7,Sysmon,calc.exe,,,1010,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 08:20:00.150000+00:00,LABVM,7,Sysmon,calc.exe,,,1010,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:20:00.200000+00:00,LABVM,7,Sysmon,calc.exe,,,1010,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 08:22:00+00:00,LABVM,1,Sysmon,explorer.exe,C:\Windows\System32\explorer.exe,47248a31a3014aed8910c39b2ad77572,1011,1010.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\explorer.exe'}
+2026-01-01 08:22:00.100000+00:00,LABVM,7,Sysmon,explorer.exe,,,1011,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:22:00.150000+00:00,LABVM,7,Sysmon,explorer.exe,,,1011,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 08:22:00.200000+00:00,LABVM,7,Sysmon,explorer.exe,,,1011,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:22:00.250000+00:00,LABVM,7,Sysmon,explorer.exe,,,1011,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 08:22:00.500000+00:00,LABVM,13,Sysmon,explorer.exe,,,1011,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 08:24:00+00:00,LABVM,1,Sysmon,mspaint.exe,C:\Program Files\mspaint.exe,2d60892bfd52454f9081b75280a12d09,1012,1011.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\mspaint.exe'}
+2026-01-01 08:24:00.100000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1012,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 08:24:00.150000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1012,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:24:00.500000+00:00,LABVM,13,Sysmon,mspaint.exe,,,1012,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 08:26:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Windows\System32\powershell.exe,9ddee93e7ee942559b9c1c628f1a0d3f,1013,1012.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\powershell.exe'}
+2026-01-01 08:26:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1013,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:26:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1013,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:28:00+00:00,LABVM,1,Sysmon,code.exe,C:\Program Files\code.exe,09cf64777a1d4d0cb361ecfcc3e19e2a,1014,1013.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\code.exe'}
+2026-01-01 08:28:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1014,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 08:28:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1014,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 08:30:00+00:00,LABVM,1,Sysmon,explorer.exe,C:\Program Files\explorer.exe,488f8e72cb6d42b59f96e41575e5b87d,1015,1014.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\explorer.exe'}
+2026-01-01 08:30:00.100000+00:00,LABVM,7,Sysmon,explorer.exe,,,1015,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 08:30:00.150000+00:00,LABVM,7,Sysmon,explorer.exe,,,1015,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:30:00.500000+00:00,LABVM,13,Sysmon,explorer.exe,,,1015,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 08:32:00+00:00,LABVM,1,Sysmon,notepad.exe,C:\Program Files\notepad.exe,63c89819cd4148a6ae72b4e97bcd010f,1016,1015.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\notepad.exe'}
+2026-01-01 08:32:00.100000+00:00,LABVM,7,Sysmon,notepad.exe,,,1016,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 08:32:00.150000+00:00,LABVM,7,Sysmon,notepad.exe,,,1016,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:32:00.200000+00:00,LABVM,7,Sysmon,notepad.exe,,,1016,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 08:32:00.500000+00:00,LABVM,13,Sysmon,notepad.exe,,,1016,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 08:34:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Program Files\powershell.exe,ea74de4a4a8c4cbba485d59fb44965eb,1017,1016.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\powershell.exe'}
+2026-01-01 08:34:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1017,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 08:34:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1017,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:34:00.200000+00:00,LABVM,7,Sysmon,powershell.exe,,,1017,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 08:36:00+00:00,LABVM,1,Sysmon,python.exe,C:\Windows\System32\python.exe,a0fb0c1c970e48be822d34de86410343,1018,1017.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\python.exe'}
+2026-01-01 08:36:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1018,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 08:36:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1018,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 08:36:00.200000+00:00,LABVM,7,Sysmon,python.exe,,,1018,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 08:36:00.250000+00:00,LABVM,7,Sysmon,python.exe,,,1018,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 08:36:00.300000+00:00,LABVM,7,Sysmon,python.exe,,,1018,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 08:36:00.500000+00:00,LABVM,13,Sysmon,python.exe,,,1018,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 08:38:00+00:00,LABVM,1,Sysmon,cmd.exe,C:\Windows\System32\cmd.exe,2bdd94792e2547f3ad3e4c708850bb9c,1019,1018.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\cmd.exe'}
+2026-01-01 08:38:00.100000+00:00,LABVM,7,Sysmon,cmd.exe,,,1019,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 08:38:00.150000+00:00,LABVM,7,Sysmon,cmd.exe,,,1019,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:38:00.200000+00:00,LABVM,7,Sysmon,cmd.exe,,,1019,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 08:38:00.250000+00:00,LABVM,7,Sysmon,cmd.exe,,,1019,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 08:38:00.300000+00:00,LABVM,7,Sysmon,cmd.exe,,,1019,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 08:40:00+00:00,LABVM,1,Sysmon,python.exe,C:\Windows\System32\python.exe,d42bcc8a3c2f42afa2a8bb9bf13164a3,1020,1019.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\python.exe'}
+2026-01-01 08:40:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1020,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:40:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1020,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 08:40:00.200000+00:00,LABVM,7,Sysmon,python.exe,,,1020,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 08:40:00.250000+00:00,LABVM,7,Sysmon,python.exe,,,1020,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 08:40:00.300000+00:00,LABVM,7,Sysmon,python.exe,,,1020,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 08:42:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Program Files\powershell.exe,d57f9d1d4b0348cd8030cc84ed2737d9,1021,1020.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\powershell.exe'}
+2026-01-01 08:42:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1021,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 08:42:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1021,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 08:42:00.200000+00:00,LABVM,7,Sysmon,powershell.exe,,,1021,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 08:42:00.250000+00:00,LABVM,7,Sysmon,powershell.exe,,,1021,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 08:42:00.300000+00:00,LABVM,7,Sysmon,powershell.exe,,,1021,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:44:00+00:00,LABVM,1,Sysmon,cmd.exe,C:\Program Files\cmd.exe,27c27faf305d4bd3bc899ad9544f564f,1022,1021.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\cmd.exe'}
+2026-01-01 08:44:00.100000+00:00,LABVM,7,Sysmon,cmd.exe,,,1022,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 08:44:00.150000+00:00,LABVM,7,Sysmon,cmd.exe,,,1022,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 08:44:00.200000+00:00,LABVM,7,Sysmon,cmd.exe,,,1022,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 08:46:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Windows\System32\wordpad.exe,ae8b6a7798eb43d5946fbd2e874ddf8e,1023,1022.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\wordpad.exe'}
+2026-01-01 08:46:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1023,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 08:46:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1023,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 08:46:00.200000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1023,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 08:46:00.250000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1023,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 08:48:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Program Files\wordpad.exe,c696d648a1bd4f9ab9d5b786b07943f1,1024,1023.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\wordpad.exe'}
+2026-01-01 08:48:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1024,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:48:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1024,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:48:00.200000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1024,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 08:48:00.250000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1024,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 08:48:00.300000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1024,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 08:48:00.500000+00:00,LABVM,13,Sysmon,wordpad.exe,,,1024,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 08:50:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Windows\SysWOW64\powershell.exe,76083f8a70974bea9de4c8c019e94aa7,1025,1024.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\powershell.exe'}
+2026-01-01 08:50:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1025,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:50:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1025,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:50:00.200000+00:00,LABVM,7,Sysmon,powershell.exe,,,1025,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 08:50:00.250000+00:00,LABVM,7,Sysmon,powershell.exe,,,1025,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 08:50:00.300000+00:00,LABVM,7,Sysmon,powershell.exe,,,1025,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 08:50:00.500000+00:00,LABVM,13,Sysmon,powershell.exe,,,1025,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 08:52:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Windows\SysWOW64\taskmgr.exe,3cd1dfc2a0a34353a4aae3289256ac81,1026,1025.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\taskmgr.exe'}
+2026-01-01 08:52:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1026,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:52:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1026,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 08:52:00.200000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1026,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 08:54:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Windows\System32\firefox.exe,69c05aac312c485ea1f168f698fed659,1027,1026.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\firefox.exe'}
+2026-01-01 08:54:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1027,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:54:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1027,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:54:00.200000+00:00,LABVM,7,Sysmon,firefox.exe,,,1027,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 08:54:00.250000+00:00,LABVM,7,Sysmon,firefox.exe,,,1027,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 08:54:00.300000+00:00,LABVM,7,Sysmon,firefox.exe,,,1027,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 08:54:00.500000+00:00,LABVM,13,Sysmon,firefox.exe,,,1027,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 08:56:00+00:00,LABVM,1,Sysmon,python.exe,C:\Windows\System32\python.exe,ec90506e16c6400b9fa168c2ae79f04d,1028,1027.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\python.exe'}
+2026-01-01 08:56:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1028,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 08:56:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1028,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:56:00.200000+00:00,LABVM,7,Sysmon,python.exe,,,1028,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:58:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Windows\System32\firefox.exe,d484aeb9e5394e629b0de89f8d2fcfed,1029,1028.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\firefox.exe'}
+2026-01-01 08:58:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1029,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 08:58:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1029,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 08:58:00.200000+00:00,LABVM,7,Sysmon,firefox.exe,,,1029,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 08:58:00.250000+00:00,LABVM,7,Sysmon,firefox.exe,,,1029,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 08:58:00.300000+00:00,LABVM,7,Sysmon,firefox.exe,,,1029,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 09:00:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Program Files\taskmgr.exe,595f051822ac4169b9d2d7f606f53e9a,1030,1029.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\taskmgr.exe'}
+2026-01-01 09:00:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1030,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 09:00:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1030,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 09:00:00.200000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1030,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 09:02:00+00:00,LABVM,1,Sysmon,cmd.exe,C:\Program Files\cmd.exe,02f057b473b442c3a1b1575d70d8e421,1031,1030.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\cmd.exe'}
+2026-01-01 09:02:00.100000+00:00,LABVM,7,Sysmon,cmd.exe,,,1031,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 09:02:00.150000+00:00,LABVM,7,Sysmon,cmd.exe,,,1031,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 09:02:00.200000+00:00,LABVM,7,Sysmon,cmd.exe,,,1031,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 09:02:00.250000+00:00,LABVM,7,Sysmon,cmd.exe,,,1031,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 09:04:00+00:00,LABVM,1,Sysmon,python.exe,C:\Windows\System32\python.exe,bca91915ca67408a8de793f2cda28134,1032,1031.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\python.exe'}
+2026-01-01 09:04:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1032,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 09:04:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1032,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 09:06:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Windows\System32\powershell.exe,eb7d501dd7a844d89b0284d8ebcb5564,1033,1032.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\powershell.exe'}
+2026-01-01 09:06:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1033,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 09:06:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1033,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 09:08:00+00:00,LABVM,1,Sysmon,cmd.exe,C:\Windows\System32\cmd.exe,cd34da8134264cbfab993d8600bf4a65,1034,1033.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\cmd.exe'}
+2026-01-01 09:08:00.100000+00:00,LABVM,7,Sysmon,cmd.exe,,,1034,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 09:08:00.150000+00:00,LABVM,7,Sysmon,cmd.exe,,,1034,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 09:08:00.200000+00:00,LABVM,7,Sysmon,cmd.exe,,,1034,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 09:08:00.250000+00:00,LABVM,7,Sysmon,cmd.exe,,,1034,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 09:08:00.500000+00:00,LABVM,13,Sysmon,cmd.exe,,,1034,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 09:10:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Windows\System32\firefox.exe,52671a932f9744ce8848fd1fc85866be,1035,1034.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\firefox.exe'}
+2026-01-01 09:10:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1035,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 09:10:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1035,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 09:10:00.200000+00:00,LABVM,7,Sysmon,firefox.exe,,,1035,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 09:10:00.250000+00:00,LABVM,7,Sysmon,firefox.exe,,,1035,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 09:10:00.300000+00:00,LABVM,7,Sysmon,firefox.exe,,,1035,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 09:12:00+00:00,LABVM,1,Sysmon,cmd.exe,C:\Windows\System32\cmd.exe,5d46c662229e4d13a5d2c5e38e343f61,1036,1035.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\cmd.exe'}
+2026-01-01 09:12:00.100000+00:00,LABVM,7,Sysmon,cmd.exe,,,1036,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 09:12:00.150000+00:00,LABVM,7,Sysmon,cmd.exe,,,1036,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 09:12:00.200000+00:00,LABVM,7,Sysmon,cmd.exe,,,1036,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 09:14:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Windows\SysWOW64\wordpad.exe,c1b5acd032a24979a51003b02b98cfbe,1037,1036.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\wordpad.exe'}
+2026-01-01 09:14:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1037,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 09:14:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1037,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 09:14:00.200000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1037,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 09:16:00+00:00,LABVM,1,Sysmon,cmd.exe,C:\Program Files\cmd.exe,3ec43940ed4748c38b3814a922e83d9d,1038,1037.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\cmd.exe'}
+2026-01-01 09:16:00.100000+00:00,LABVM,7,Sysmon,cmd.exe,,,1038,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 09:16:00.150000+00:00,LABVM,7,Sysmon,cmd.exe,,,1038,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 09:16:00.200000+00:00,LABVM,7,Sysmon,cmd.exe,,,1038,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 09:16:00.250000+00:00,LABVM,7,Sysmon,cmd.exe,,,1038,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 09:18:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Program Files\taskmgr.exe,3d0b8df3b408444cb42580666fb5f9b7,1039,1038.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\taskmgr.exe'}
+2026-01-01 09:18:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1039,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 09:18:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1039,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 09:18:00.200000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1039,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 09:18:00.250000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1039,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 09:18:00.500000+00:00,LABVM,13,Sysmon,taskmgr.exe,,,1039,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 09:20:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Windows\SysWOW64\powershell.exe,c7f6301995664c23bce7e181abf0e87e,1040,1039.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\powershell.exe'}
+2026-01-01 09:20:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1040,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 09:20:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1040,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 09:20:00.200000+00:00,LABVM,7,Sysmon,powershell.exe,,,1040,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 09:20:00.250000+00:00,LABVM,7,Sysmon,powershell.exe,,,1040,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 09:22:00+00:00,LABVM,1,Sysmon,notepad.exe,C:\Windows\System32\notepad.exe,2dab9ab8cdc2401095e4ce36d016568e,1041,1040.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\notepad.exe'}
+2026-01-01 09:22:00.100000+00:00,LABVM,7,Sysmon,notepad.exe,,,1041,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 09:22:00.150000+00:00,LABVM,7,Sysmon,notepad.exe,,,1041,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 09:22:00.200000+00:00,LABVM,7,Sysmon,notepad.exe,,,1041,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 09:24:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Windows\SysWOW64\taskmgr.exe,0b3a3c87ea9d4d358966f3614fc6aeb9,1042,1041.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\taskmgr.exe'}
+2026-01-01 09:24:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1042,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 09:24:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1042,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 09:26:00+00:00,LABVM,1,Sysmon,python.exe,C:\Windows\System32\python.exe,0c7aa408aaa5486da18199f7202299c8,1043,1042.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\python.exe'}
+2026-01-01 09:26:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1043,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 09:26:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1043,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 09:26:00.200000+00:00,LABVM,7,Sysmon,python.exe,,,1043,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 09:28:00+00:00,LABVM,1,Sysmon,notepad.exe,C:\Windows\SysWOW64\notepad.exe,7fde4340148c470685f52fd4e8e1463f,1044,1043.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\notepad.exe'}
+2026-01-01 09:28:00.100000+00:00,LABVM,7,Sysmon,notepad.exe,,,1044,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 09:28:00.150000+00:00,LABVM,7,Sysmon,notepad.exe,,,1044,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 09:28:00.200000+00:00,LABVM,7,Sysmon,notepad.exe,,,1044,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 09:30:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Program Files\firefox.exe,12a3926160b446de907ae3ff1faddf5f,1045,1044.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\firefox.exe'}
+2026-01-01 09:30:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1045,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 09:30:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1045,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 09:30:00.200000+00:00,LABVM,7,Sysmon,firefox.exe,,,1045,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 09:32:00+00:00,LABVM,1,Sysmon,notepad.exe,C:\Windows\System32\notepad.exe,4d5f9caadf744111bef2edc13111c310,1046,1045.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\notepad.exe'}
+2026-01-01 09:32:00.100000+00:00,LABVM,7,Sysmon,notepad.exe,,,1046,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 09:32:00.150000+00:00,LABVM,7,Sysmon,notepad.exe,,,1046,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 09:32:00.200000+00:00,LABVM,7,Sysmon,notepad.exe,,,1046,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 09:32:00.250000+00:00,LABVM,7,Sysmon,notepad.exe,,,1046,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 09:32:00.300000+00:00,LABVM,7,Sysmon,notepad.exe,,,1046,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 09:34:00+00:00,LABVM,1,Sysmon,code.exe,C:\Windows\System32\code.exe,bb2be6e8c4024fd7aecdbc2fdc4eba9c,1047,1046.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\code.exe'}
+2026-01-01 09:34:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1047,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 09:34:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1047,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 09:34:00.200000+00:00,LABVM,7,Sysmon,code.exe,,,1047,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 09:34:00.250000+00:00,LABVM,7,Sysmon,code.exe,,,1047,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 09:34:00.300000+00:00,LABVM,7,Sysmon,code.exe,,,1047,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 09:36:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Windows\SysWOW64\firefox.exe,b4aab578268e4b9691fe94ff69dc4061,1048,1047.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\firefox.exe'}
+2026-01-01 09:36:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1048,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 09:36:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1048,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 09:38:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Program Files\firefox.exe,b88cd3531c6442d089d255b0b11c774c,1049,1048.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\firefox.exe'}
+2026-01-01 09:38:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1049,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 09:38:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1049,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 09:38:00.500000+00:00,LABVM,13,Sysmon,firefox.exe,,,1049,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 09:40:00+00:00,LABVM,1,Sysmon,explorer.exe,C:\Windows\System32\explorer.exe,bb0204008ede4df2896b0c0441cbdc4b,1050,1049.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\explorer.exe'}
+2026-01-01 09:40:00.100000+00:00,LABVM,7,Sysmon,explorer.exe,,,1050,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 09:40:00.150000+00:00,LABVM,7,Sysmon,explorer.exe,,,1050,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 09:40:00.200000+00:00,LABVM,7,Sysmon,explorer.exe,,,1050,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 09:40:00.250000+00:00,LABVM,7,Sysmon,explorer.exe,,,1050,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 09:40:00.300000+00:00,LABVM,7,Sysmon,explorer.exe,,,1050,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 09:42:00+00:00,LABVM,1,Sysmon,cmd.exe,C:\Windows\System32\cmd.exe,acf91fdb09eb4090aeb809e6e8fba2bc,1051,1050.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\cmd.exe'}
+2026-01-01 09:42:00.100000+00:00,LABVM,7,Sysmon,cmd.exe,,,1051,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 09:42:00.150000+00:00,LABVM,7,Sysmon,cmd.exe,,,1051,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 09:44:00+00:00,LABVM,1,Sysmon,python.exe,C:\Program Files\python.exe,48f6cb5739a946a88a05cd6945c7e837,1052,1051.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\python.exe'}
+2026-01-01 09:44:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1052,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 09:44:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1052,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 09:44:00.200000+00:00,LABVM,7,Sysmon,python.exe,,,1052,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 09:44:00.250000+00:00,LABVM,7,Sysmon,python.exe,,,1052,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 09:46:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Windows\System32\powershell.exe,d4a4f63a361048d0a57aee74fecf5347,1053,1052.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\powershell.exe'}
+2026-01-01 09:46:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1053,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 09:46:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1053,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 09:46:00.200000+00:00,LABVM,7,Sysmon,powershell.exe,,,1053,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 09:46:00.250000+00:00,LABVM,7,Sysmon,powershell.exe,,,1053,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 09:48:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Windows\SysWOW64\wordpad.exe,927c899e6d8d4cb280c122d3bd86d44a,1054,1053.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\wordpad.exe'}
+2026-01-01 09:48:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1054,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 09:48:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1054,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 09:48:00.200000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1054,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 09:50:00+00:00,LABVM,1,Sysmon,explorer.exe,C:\Windows\SysWOW64\explorer.exe,ae707ef8c66842ff8f52d7c812c18394,1055,1054.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\explorer.exe'}
+2026-01-01 09:50:00.100000+00:00,LABVM,7,Sysmon,explorer.exe,,,1055,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 09:50:00.150000+00:00,LABVM,7,Sysmon,explorer.exe,,,1055,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 09:50:00.200000+00:00,LABVM,7,Sysmon,explorer.exe,,,1055,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 09:50:00.250000+00:00,LABVM,7,Sysmon,explorer.exe,,,1055,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 09:50:00.300000+00:00,LABVM,7,Sysmon,explorer.exe,,,1055,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 09:52:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Windows\System32\taskmgr.exe,e5bde0fd715e4966ba963f0ce6950a3a,1056,1055.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\taskmgr.exe'}
+2026-01-01 09:52:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1056,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 09:52:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1056,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 09:52:00.200000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1056,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 09:52:00.250000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1056,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 09:52:00.500000+00:00,LABVM,13,Sysmon,taskmgr.exe,,,1056,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 09:54:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Windows\System32\wordpad.exe,c05c2cc02d264d139f54331660412263,1057,1056.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\wordpad.exe'}
+2026-01-01 09:54:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1057,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 09:54:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1057,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 09:56:00+00:00,LABVM,1,Sysmon,calc.exe,C:\Windows\SysWOW64\calc.exe,302f9df62ea54fffbed20d7efcd48618,1058,1057.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\calc.exe'}
+2026-01-01 09:56:00.100000+00:00,LABVM,7,Sysmon,calc.exe,,,1058,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 09:56:00.150000+00:00,LABVM,7,Sysmon,calc.exe,,,1058,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 09:56:00.200000+00:00,LABVM,7,Sysmon,calc.exe,,,1058,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 09:56:00.500000+00:00,LABVM,13,Sysmon,calc.exe,,,1058,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 09:58:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Program Files\powershell.exe,f2accccb5bc441d38907ea1deb87da4b,1059,1058.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\powershell.exe'}
+2026-01-01 09:58:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1059,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 09:58:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1059,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 09:58:00.500000+00:00,LABVM,13,Sysmon,powershell.exe,,,1059,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 10:00:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Program Files\taskmgr.exe,80f6052579ba4d42adbe6ff50908b80c,1060,1059.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\taskmgr.exe'}
+2026-01-01 10:00:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1060,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 10:00:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1060,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 10:00:00.500000+00:00,LABVM,13,Sysmon,taskmgr.exe,,,1060,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 10:02:00+00:00,LABVM,1,Sysmon,mspaint.exe,C:\Windows\SysWOW64\mspaint.exe,59cd3ad54d1d4b96871e47fb3aace261,1061,1060.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\mspaint.exe'}
+2026-01-01 10:02:00.100000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1061,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 10:02:00.150000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1061,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 10:02:00.200000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1061,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 10:02:00.250000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1061,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 10:02:00.300000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1061,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 10:04:00+00:00,LABVM,1,Sysmon,code.exe,C:\Windows\SysWOW64\code.exe,593e29ef6ff546fea8b525159650cdc5,1062,1061.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\code.exe'}
+2026-01-01 10:04:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1062,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 10:04:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1062,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 10:04:00.200000+00:00,LABVM,7,Sysmon,code.exe,,,1062,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 10:06:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Windows\SysWOW64\wordpad.exe,23de4cb2171e4f96ab25e8ee3fba2776,1063,1062.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\wordpad.exe'}
+2026-01-01 10:06:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1063,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 10:06:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1063,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 10:06:00.500000+00:00,LABVM,13,Sysmon,wordpad.exe,,,1063,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 10:08:00+00:00,LABVM,1,Sysmon,chrome.exe,C:\Program Files\chrome.exe,d9de1ab43c6449e084f9db99ceec377c,1064,1063.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\chrome.exe'}
+2026-01-01 10:08:00.100000+00:00,LABVM,7,Sysmon,chrome.exe,,,1064,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 10:08:00.150000+00:00,LABVM,7,Sysmon,chrome.exe,,,1064,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 10:08:00.200000+00:00,LABVM,7,Sysmon,chrome.exe,,,1064,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 10:10:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Windows\System32\taskmgr.exe,403fd1ac24e5400a8f482a49779c7d11,1065,1064.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\taskmgr.exe'}
+2026-01-01 10:10:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1065,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 10:10:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1065,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 10:10:00.200000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1065,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 10:10:00.250000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1065,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 10:10:00.300000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1065,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 10:10:00.500000+00:00,LABVM,13,Sysmon,taskmgr.exe,,,1065,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 10:12:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Windows\SysWOW64\firefox.exe,0dae219072ab4e30b791dd005979ad48,1066,1065.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\firefox.exe'}
+2026-01-01 10:12:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1066,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 10:12:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1066,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 10:12:00.200000+00:00,LABVM,7,Sysmon,firefox.exe,,,1066,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 10:12:00.250000+00:00,LABVM,7,Sysmon,firefox.exe,,,1066,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 10:12:00.300000+00:00,LABVM,7,Sysmon,firefox.exe,,,1066,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 10:14:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Program Files\firefox.exe,50a441591d3947ac9866790927dee135,1067,1066.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\firefox.exe'}
+2026-01-01 10:14:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1067,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 10:14:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1067,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 10:14:00.200000+00:00,LABVM,7,Sysmon,firefox.exe,,,1067,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 10:14:00.250000+00:00,LABVM,7,Sysmon,firefox.exe,,,1067,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 10:14:00.300000+00:00,LABVM,7,Sysmon,firefox.exe,,,1067,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 10:16:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Program Files\powershell.exe,b3c13c9fb0c548dd8cbbb7dcd1a27b7a,1068,1067.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\powershell.exe'}
+2026-01-01 10:16:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1068,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 10:16:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1068,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 10:16:00.200000+00:00,LABVM,7,Sysmon,powershell.exe,,,1068,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 10:18:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Program Files\firefox.exe,303d7b79e9e14573a272a987eb82b334,1069,1068.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\firefox.exe'}
+2026-01-01 10:18:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1069,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 10:18:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1069,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 10:20:00+00:00,LABVM,1,Sysmon,mspaint.exe,C:\Windows\System32\mspaint.exe,ad1fd3e426d349f2b6415977327b7e09,1070,1069.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\mspaint.exe'}
+2026-01-01 10:20:00.100000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1070,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 10:20:00.150000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1070,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 10:20:00.200000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1070,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 10:20:00.250000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1070,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 10:20:00.300000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1070,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 10:22:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Windows\SysWOW64\firefox.exe,67ee331c9a2c41f1814e7dafc9d04c54,1071,1070.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\firefox.exe'}
+2026-01-01 10:22:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1071,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 10:22:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1071,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 10:22:00.200000+00:00,LABVM,7,Sysmon,firefox.exe,,,1071,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 10:22:00.250000+00:00,LABVM,7,Sysmon,firefox.exe,,,1071,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 10:22:00.500000+00:00,LABVM,13,Sysmon,firefox.exe,,,1071,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 10:24:00+00:00,LABVM,1,Sysmon,chrome.exe,C:\Windows\System32\chrome.exe,4946cb5e1224466cbbff06466924de3d,1072,1071.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\chrome.exe'}
+2026-01-01 10:24:00.100000+00:00,LABVM,7,Sysmon,chrome.exe,,,1072,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 10:24:00.150000+00:00,LABVM,7,Sysmon,chrome.exe,,,1072,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 10:24:00.500000+00:00,LABVM,13,Sysmon,chrome.exe,,,1072,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 10:26:00+00:00,LABVM,1,Sysmon,notepad.exe,C:\Program Files\notepad.exe,93fd8fbe69cc40b2a7880834f28ff981,1073,1072.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\notepad.exe'}
+2026-01-01 10:26:00.100000+00:00,LABVM,7,Sysmon,notepad.exe,,,1073,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 10:26:00.150000+00:00,LABVM,7,Sysmon,notepad.exe,,,1073,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 10:26:00.200000+00:00,LABVM,7,Sysmon,notepad.exe,,,1073,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 10:26:00.500000+00:00,LABVM,13,Sysmon,notepad.exe,,,1073,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 10:28:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Windows\SysWOW64\wordpad.exe,1a948fef411b464c8d99a4efc3ed21aa,1074,1073.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\wordpad.exe'}
+2026-01-01 10:28:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1074,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 10:28:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1074,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 10:28:00.200000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1074,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 10:28:00.250000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1074,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 10:30:00+00:00,LABVM,1,Sysmon,mspaint.exe,C:\Windows\SysWOW64\mspaint.exe,5d4f4b499ded4989a4a5c9f6b5928386,1075,1074.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\mspaint.exe'}
+2026-01-01 10:30:00.100000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1075,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 10:30:00.150000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1075,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 10:32:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Windows\SysWOW64\firefox.exe,a295151b59dc4ef99a4d8d2fbde90405,1076,1075.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\firefox.exe'}
+2026-01-01 10:32:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1076,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 10:32:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1076,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 10:34:00+00:00,LABVM,1,Sysmon,explorer.exe,C:\Program Files\explorer.exe,c8dd85e6f46242ed8caf3e34502ddada,1077,1076.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\explorer.exe'}
+2026-01-01 10:34:00.100000+00:00,LABVM,7,Sysmon,explorer.exe,,,1077,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 10:34:00.150000+00:00,LABVM,7,Sysmon,explorer.exe,,,1077,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 10:36:00+00:00,LABVM,1,Sysmon,chrome.exe,C:\Windows\System32\chrome.exe,0f62f22c097c43aca3f031386cc57ed3,1078,1077.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\chrome.exe'}
+2026-01-01 10:36:00.100000+00:00,LABVM,7,Sysmon,chrome.exe,,,1078,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 10:36:00.150000+00:00,LABVM,7,Sysmon,chrome.exe,,,1078,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 10:38:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Windows\SysWOW64\firefox.exe,d289e8a15595456da5f8a84ac12d321c,1079,1078.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\firefox.exe'}
+2026-01-01 10:38:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1079,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 10:38:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1079,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 10:38:00.200000+00:00,LABVM,7,Sysmon,firefox.exe,,,1079,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 10:40:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Windows\SysWOW64\powershell.exe,3b43e9c4ad90408d8f0d172a436f90b6,1080,1079.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\powershell.exe'}
+2026-01-01 10:40:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1080,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 10:40:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1080,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 10:40:00.200000+00:00,LABVM,7,Sysmon,powershell.exe,,,1080,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 10:40:00.250000+00:00,LABVM,7,Sysmon,powershell.exe,,,1080,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 10:40:00.300000+00:00,LABVM,7,Sysmon,powershell.exe,,,1080,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 10:42:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Windows\System32\wordpad.exe,e8db81c853714fbc8a263ddc1c661a6c,1081,1080.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\wordpad.exe'}
+2026-01-01 10:42:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1081,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 10:42:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1081,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 10:42:00.200000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1081,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 10:42:00.250000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1081,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 10:42:00.300000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1081,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 10:44:00+00:00,LABVM,1,Sysmon,code.exe,C:\Windows\SysWOW64\code.exe,75e0d760735d440bbc43953dcb8e8d97,1082,1081.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\code.exe'}
+2026-01-01 10:44:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1082,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 10:44:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1082,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 10:44:00.200000+00:00,LABVM,7,Sysmon,code.exe,,,1082,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 10:44:00.250000+00:00,LABVM,7,Sysmon,code.exe,,,1082,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 10:44:00.300000+00:00,LABVM,7,Sysmon,code.exe,,,1082,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 10:46:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Windows\SysWOW64\taskmgr.exe,7368efc950f245388bd6672cd97a00f6,1083,1082.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\taskmgr.exe'}
+2026-01-01 10:46:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1083,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 10:46:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1083,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 10:46:00.200000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1083,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 10:48:00+00:00,LABVM,1,Sysmon,python.exe,C:\Windows\System32\python.exe,b1f5432889ba441c8d8597d9301c2574,1084,1083.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\python.exe'}
+2026-01-01 10:48:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1084,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 10:48:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1084,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 10:48:00.200000+00:00,LABVM,7,Sysmon,python.exe,,,1084,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 10:48:00.250000+00:00,LABVM,7,Sysmon,python.exe,,,1084,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 10:48:00.300000+00:00,LABVM,7,Sysmon,python.exe,,,1084,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 10:48:00.500000+00:00,LABVM,13,Sysmon,python.exe,,,1084,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 10:50:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Windows\System32\taskmgr.exe,c22b05c2692d4a81ad97375eec184a6f,1085,1084.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\taskmgr.exe'}
+2026-01-01 10:50:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1085,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 10:50:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1085,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 10:50:00.200000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1085,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 10:50:00.250000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1085,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 10:52:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Program Files\taskmgr.exe,9b3eaca1698047cab4e5f3d7ef3731f6,1086,1085.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\taskmgr.exe'}
+2026-01-01 10:52:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1086,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 10:52:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1086,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 10:52:00.200000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1086,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 10:52:00.250000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1086,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 10:52:00.500000+00:00,LABVM,13,Sysmon,taskmgr.exe,,,1086,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 10:54:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Windows\System32\taskmgr.exe,3539c5eaef2b45dc9be0efac4a0050c9,1087,1086.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\taskmgr.exe'}
+2026-01-01 10:54:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1087,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 10:54:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1087,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 10:54:00.500000+00:00,LABVM,13,Sysmon,taskmgr.exe,,,1087,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 10:56:00+00:00,LABVM,1,Sysmon,code.exe,C:\Windows\SysWOW64\code.exe,846b62ad70a14a1790bdc1b760e99d8f,1088,1087.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\code.exe'}
+2026-01-01 10:56:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1088,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 10:56:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1088,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 10:56:00.500000+00:00,LABVM,13,Sysmon,code.exe,,,1088,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 10:58:00+00:00,LABVM,1,Sysmon,mspaint.exe,C:\Windows\SysWOW64\mspaint.exe,208a6c235ea640a6a430f5b3fd2e08b9,1089,1088.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\mspaint.exe'}
+2026-01-01 10:58:00.100000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1089,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 10:58:00.150000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1089,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 10:58:00.200000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1089,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 11:00:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Windows\System32\taskmgr.exe,61160cc96af544a18b26fad439f4dcac,1090,1089.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\taskmgr.exe'}
+2026-01-01 11:00:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1090,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 11:00:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1090,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 11:00:00.500000+00:00,LABVM,13,Sysmon,taskmgr.exe,,,1090,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 11:02:00+00:00,LABVM,1,Sysmon,code.exe,C:\Windows\SysWOW64\code.exe,f1de0180328346c6a4b77d0cc802177c,1091,1090.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\code.exe'}
+2026-01-01 11:02:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1091,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 11:02:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1091,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 11:02:00.200000+00:00,LABVM,7,Sysmon,code.exe,,,1091,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:02:00.500000+00:00,LABVM,13,Sysmon,code.exe,,,1091,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 11:04:00+00:00,LABVM,1,Sysmon,calc.exe,C:\Windows\SysWOW64\calc.exe,5be8e7520b8e4f93b1cbe41e2a48b8a6,1092,1091.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\calc.exe'}
+2026-01-01 11:04:00.100000+00:00,LABVM,7,Sysmon,calc.exe,,,1092,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 11:04:00.150000+00:00,LABVM,7,Sysmon,calc.exe,,,1092,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 11:04:00.500000+00:00,LABVM,13,Sysmon,calc.exe,,,1092,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 11:06:00+00:00,LABVM,1,Sysmon,cmd.exe,C:\Windows\SysWOW64\cmd.exe,f0b3ddc7109c43b3a885f989250360e5,1093,1092.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\cmd.exe'}
+2026-01-01 11:06:00.100000+00:00,LABVM,7,Sysmon,cmd.exe,,,1093,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 11:06:00.150000+00:00,LABVM,7,Sysmon,cmd.exe,,,1093,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 11:06:00.200000+00:00,LABVM,7,Sysmon,cmd.exe,,,1093,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:08:00+00:00,LABVM,1,Sysmon,cmd.exe,C:\Windows\System32\cmd.exe,038aac7feeb74bc68c053db7fe225dac,1094,1093.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\cmd.exe'}
+2026-01-01 11:08:00.100000+00:00,LABVM,7,Sysmon,cmd.exe,,,1094,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 11:08:00.150000+00:00,LABVM,7,Sysmon,cmd.exe,,,1094,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 11:08:00.200000+00:00,LABVM,7,Sysmon,cmd.exe,,,1094,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 11:08:00.250000+00:00,LABVM,7,Sysmon,cmd.exe,,,1094,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:08:00.300000+00:00,LABVM,7,Sysmon,cmd.exe,,,1094,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 11:10:00+00:00,LABVM,1,Sysmon,notepad.exe,C:\Program Files\notepad.exe,1ba16b74766540dd9bb315f2ef55f7b2,1095,1094.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\notepad.exe'}
+2026-01-01 11:10:00.100000+00:00,LABVM,7,Sysmon,notepad.exe,,,1095,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:10:00.150000+00:00,LABVM,7,Sysmon,notepad.exe,,,1095,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 11:10:00.200000+00:00,LABVM,7,Sysmon,notepad.exe,,,1095,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 11:10:00.500000+00:00,LABVM,13,Sysmon,notepad.exe,,,1095,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 11:12:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Windows\System32\wordpad.exe,de4bc9a8a14049e7a407fa3cff508e83,1096,1095.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\wordpad.exe'}
+2026-01-01 11:12:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1096,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 11:12:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1096,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:12:00.200000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1096,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 11:14:00+00:00,LABVM,1,Sysmon,code.exe,C:\Windows\SysWOW64\code.exe,c1efa2075ccf47cf9a0736f5e4641a42,1097,1096.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\code.exe'}
+2026-01-01 11:14:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1097,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 11:14:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1097,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 11:14:00.200000+00:00,LABVM,7,Sysmon,code.exe,,,1097,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 11:16:00+00:00,LABVM,1,Sysmon,code.exe,C:\Windows\System32\code.exe,1a5710c647304be9b497e0a646ad82d1,1098,1097.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\code.exe'}
+2026-01-01 11:16:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1098,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:16:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1098,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 11:16:00.200000+00:00,LABVM,7,Sysmon,code.exe,,,1098,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 11:16:00.250000+00:00,LABVM,7,Sysmon,code.exe,,,1098,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 11:16:00.500000+00:00,LABVM,13,Sysmon,code.exe,,,1098,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 11:18:00+00:00,LABVM,1,Sysmon,mspaint.exe,C:\Windows\SysWOW64\mspaint.exe,075b3f052a414ed8b75b858cac066f56,1099,1098.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\mspaint.exe'}
+2026-01-01 11:18:00.100000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1099,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 11:18:00.150000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1099,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 11:20:00+00:00,LABVM,1,Sysmon,cmd.exe,C:\Program Files\cmd.exe,eadaa43594bd4fdaa42fad7ac7a02ba9,1100,1099.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\cmd.exe'}
+2026-01-01 11:20:00.100000+00:00,LABVM,7,Sysmon,cmd.exe,,,1100,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 11:20:00.150000+00:00,LABVM,7,Sysmon,cmd.exe,,,1100,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:20:00.200000+00:00,LABVM,7,Sysmon,cmd.exe,,,1100,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 11:20:00.250000+00:00,LABVM,7,Sysmon,cmd.exe,,,1100,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 11:20:00.300000+00:00,LABVM,7,Sysmon,cmd.exe,,,1100,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 11:22:00+00:00,LABVM,1,Sysmon,python.exe,C:\Program Files\python.exe,b417c48e66e64e81865cd0a55c5acc5e,1101,1100.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\python.exe'}
+2026-01-01 11:22:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1101,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 11:22:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1101,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 11:22:00.200000+00:00,LABVM,7,Sysmon,python.exe,,,1101,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 11:22:00.250000+00:00,LABVM,7,Sysmon,python.exe,,,1101,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:22:00.300000+00:00,LABVM,7,Sysmon,python.exe,,,1101,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 11:24:00+00:00,LABVM,1,Sysmon,notepad.exe,C:\Windows\System32\notepad.exe,96daba6ae0d0432c819eec53ae4d2059,1102,1101.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\notepad.exe'}
+2026-01-01 11:24:00.100000+00:00,LABVM,7,Sysmon,notepad.exe,,,1102,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 11:24:00.150000+00:00,LABVM,7,Sysmon,notepad.exe,,,1102,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 11:24:00.500000+00:00,LABVM,13,Sysmon,notepad.exe,,,1102,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 11:26:00+00:00,LABVM,1,Sysmon,mspaint.exe,C:\Windows\SysWOW64\mspaint.exe,58b336d3bb534191bc39ce002f35ad9a,1103,1102.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\mspaint.exe'}
+2026-01-01 11:26:00.100000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1103,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 11:26:00.150000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1103,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 11:26:00.200000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1103,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:26:00.250000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1103,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 11:28:00+00:00,LABVM,1,Sysmon,code.exe,C:\Windows\SysWOW64\code.exe,5e0c260943b34868b02cb9b9412152c3,1104,1103.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\code.exe'}
+2026-01-01 11:28:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1104,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 11:28:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1104,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 11:28:00.200000+00:00,LABVM,7,Sysmon,code.exe,,,1104,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 11:28:00.250000+00:00,LABVM,7,Sysmon,code.exe,,,1104,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 11:30:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Windows\SysWOW64\taskmgr.exe,dccce8d73b3846ee91604e5a2e4344bf,1105,1104.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\taskmgr.exe'}
+2026-01-01 11:30:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1105,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 11:30:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1105,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:30:00.200000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1105,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 11:30:00.250000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1105,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 11:30:00.300000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1105,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 11:32:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Program Files\firefox.exe,8fd6243c3a094d97b603e885c6494a12,1106,1105.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\firefox.exe'}
+2026-01-01 11:32:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1106,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 11:32:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1106,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 11:32:00.200000+00:00,LABVM,7,Sysmon,firefox.exe,,,1106,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 11:32:00.250000+00:00,LABVM,7,Sysmon,firefox.exe,,,1106,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 11:32:00.300000+00:00,LABVM,7,Sysmon,firefox.exe,,,1106,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 11:34:00+00:00,LABVM,1,Sysmon,code.exe,C:\Program Files\code.exe,db965bbdfe90449696b5edc95d3cd012,1107,1106.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\code.exe'}
+2026-01-01 11:34:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1107,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:34:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1107,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 11:36:00+00:00,LABVM,1,Sysmon,explorer.exe,C:\Windows\SysWOW64\explorer.exe,1bf8daf4633d47898b7743a567d6a186,1108,1107.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\explorer.exe'}
+2026-01-01 11:36:00.100000+00:00,LABVM,7,Sysmon,explorer.exe,,,1108,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 11:36:00.150000+00:00,LABVM,7,Sysmon,explorer.exe,,,1108,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 11:38:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Program Files\wordpad.exe,97b848e744f743cfb09822d8a5f253c0,1109,1108.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\wordpad.exe'}
+2026-01-01 11:38:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1109,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 11:38:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1109,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 11:38:00.200000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1109,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:38:00.250000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1109,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 11:38:00.500000+00:00,LABVM,13,Sysmon,wordpad.exe,,,1109,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 11:40:00+00:00,LABVM,1,Sysmon,calc.exe,C:\Windows\SysWOW64\calc.exe,08fd4bd6b2b7430fb7ba8959b6bbe839,1110,1109.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\calc.exe'}
+2026-01-01 11:40:00.100000+00:00,LABVM,7,Sysmon,calc.exe,,,1110,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 11:40:00.150000+00:00,LABVM,7,Sysmon,calc.exe,,,1110,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 11:40:00.200000+00:00,LABVM,7,Sysmon,calc.exe,,,1110,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 11:42:00+00:00,LABVM,1,Sysmon,explorer.exe,C:\Windows\SysWOW64\explorer.exe,934bf2a7138a40ae944573e68aafacf1,1111,1110.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\explorer.exe'}
+2026-01-01 11:42:00.100000+00:00,LABVM,7,Sysmon,explorer.exe,,,1111,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:42:00.150000+00:00,LABVM,7,Sysmon,explorer.exe,,,1111,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 11:42:00.200000+00:00,LABVM,7,Sysmon,explorer.exe,,,1111,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 11:42:00.250000+00:00,LABVM,7,Sysmon,explorer.exe,,,1111,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 11:42:00.300000+00:00,LABVM,7,Sysmon,explorer.exe,,,1111,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 11:42:00.500000+00:00,LABVM,13,Sysmon,explorer.exe,,,1111,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 11:44:00+00:00,LABVM,1,Sysmon,cmd.exe,C:\Program Files\cmd.exe,ebfb2e27394f48ac8b8a84d19a04b83e,1112,1111.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\cmd.exe'}
+2026-01-01 11:44:00.100000+00:00,LABVM,7,Sysmon,cmd.exe,,,1112,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 11:44:00.150000+00:00,LABVM,7,Sysmon,cmd.exe,,,1112,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 11:46:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Windows\SysWOW64\firefox.exe,bd932234a55d4498ae2e568f272931f3,1113,1112.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\firefox.exe'}
+2026-01-01 11:46:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1113,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 11:46:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1113,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 11:46:00.500000+00:00,LABVM,13,Sysmon,firefox.exe,,,1113,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 11:48:00+00:00,LABVM,1,Sysmon,cmd.exe,C:\Program Files\cmd.exe,9fc1393ea969482f9e003e59095ce5ef,1114,1113.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\cmd.exe'}
+2026-01-01 11:48:00.100000+00:00,LABVM,7,Sysmon,cmd.exe,,,1114,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 11:48:00.150000+00:00,LABVM,7,Sysmon,cmd.exe,,,1114,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 11:48:00.200000+00:00,LABVM,7,Sysmon,cmd.exe,,,1114,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:50:00+00:00,LABVM,1,Sysmon,python.exe,C:\Program Files\python.exe,2f435ac6b88b4f2fa371f2f668192c63,1115,1114.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\python.exe'}
+2026-01-01 11:50:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1115,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 11:50:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1115,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 11:50:00.200000+00:00,LABVM,7,Sysmon,python.exe,,,1115,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 11:50:00.250000+00:00,LABVM,7,Sysmon,python.exe,,,1115,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 11:50:00.300000+00:00,LABVM,7,Sysmon,python.exe,,,1115,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:50:00.500000+00:00,LABVM,13,Sysmon,python.exe,,,1115,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 11:52:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Windows\System32\firefox.exe,9dd9f63751904ea080a75f57ad04df71,1116,1115.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\firefox.exe'}
+2026-01-01 11:52:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1116,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 11:52:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1116,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:52:00.200000+00:00,LABVM,7,Sysmon,firefox.exe,,,1116,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 11:52:00.250000+00:00,LABVM,7,Sysmon,firefox.exe,,,1116,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 11:52:00.300000+00:00,LABVM,7,Sysmon,firefox.exe,,,1116,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 11:54:00+00:00,LABVM,1,Sysmon,mspaint.exe,C:\Program Files\mspaint.exe,f4e228266ac74930b8f4d338374aff74,1117,1116.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\mspaint.exe'}
+2026-01-01 11:54:00.100000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1117,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 11:54:00.150000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1117,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 11:56:00+00:00,LABVM,1,Sysmon,code.exe,C:\Windows\System32\code.exe,b9a8771a98c744fe9198213b7e5b925b,1118,1117.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\code.exe'}
+2026-01-01 11:56:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1118,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 11:56:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1118,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 11:56:00.200000+00:00,LABVM,7,Sysmon,code.exe,,,1118,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 11:56:00.250000+00:00,LABVM,7,Sysmon,code.exe,,,1118,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 11:56:00.300000+00:00,LABVM,7,Sysmon,code.exe,,,1118,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 11:58:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Program Files\firefox.exe,c1877fb58de749b3af8aa8ece8580775,1119,1118.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\firefox.exe'}
+2026-01-01 11:58:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1119,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 11:58:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1119,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 11:58:00.200000+00:00,LABVM,7,Sysmon,firefox.exe,,,1119,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 11:58:00.250000+00:00,LABVM,7,Sysmon,firefox.exe,,,1119,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 12:00:00+00:00,LABVM,1,Sysmon,notepad.exe,C:\Program Files\notepad.exe,521190fb0707406a8f2d7a32d2bbfaa2,1120,1119.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\notepad.exe'}
+2026-01-01 12:00:00.100000+00:00,LABVM,7,Sysmon,notepad.exe,,,1120,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 12:00:00.150000+00:00,LABVM,7,Sysmon,notepad.exe,,,1120,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 12:00:00.200000+00:00,LABVM,7,Sysmon,notepad.exe,,,1120,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 12:00:00.500000+00:00,LABVM,13,Sysmon,notepad.exe,,,1120,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 12:02:00+00:00,LABVM,1,Sysmon,calc.exe,C:\Program Files\calc.exe,12d5c9471c4143eeb1150b732b0bbe7d,1121,1120.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\calc.exe'}
+2026-01-01 12:02:00.100000+00:00,LABVM,7,Sysmon,calc.exe,,,1121,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 12:02:00.150000+00:00,LABVM,7,Sysmon,calc.exe,,,1121,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 12:02:00.200000+00:00,LABVM,7,Sysmon,calc.exe,,,1121,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 12:02:00.250000+00:00,LABVM,7,Sysmon,calc.exe,,,1121,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 12:02:00.300000+00:00,LABVM,7,Sysmon,calc.exe,,,1121,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 12:04:00+00:00,LABVM,1,Sysmon,notepad.exe,C:\Windows\SysWOW64\notepad.exe,1c2347126f6d4b8ab4762d5d78bb7c4f,1122,1121.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\notepad.exe'}
+2026-01-01 12:04:00.100000+00:00,LABVM,7,Sysmon,notepad.exe,,,1122,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 12:04:00.150000+00:00,LABVM,7,Sysmon,notepad.exe,,,1122,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 12:04:00.200000+00:00,LABVM,7,Sysmon,notepad.exe,,,1122,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 12:04:00.250000+00:00,LABVM,7,Sysmon,notepad.exe,,,1122,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 12:06:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Windows\System32\powershell.exe,b05f2b6d60a647f7845065925d24c82b,1123,1122.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\powershell.exe'}
+2026-01-01 12:06:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1123,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 12:06:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1123,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 12:06:00.200000+00:00,LABVM,7,Sysmon,powershell.exe,,,1123,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 12:08:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Windows\SysWOW64\wordpad.exe,5b53915bd640465c91df5845a2f9d674,1124,1123.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\wordpad.exe'}
+2026-01-01 12:08:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1124,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 12:08:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1124,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 12:08:00.200000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1124,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 12:10:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Windows\System32\powershell.exe,937125b8dbed4a878642d050f18b8637,1125,1124.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\powershell.exe'}
+2026-01-01 12:10:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1125,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 12:10:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1125,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 12:10:00.200000+00:00,LABVM,7,Sysmon,powershell.exe,,,1125,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 12:10:00.250000+00:00,LABVM,7,Sysmon,powershell.exe,,,1125,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 12:12:00+00:00,LABVM,1,Sysmon,explorer.exe,C:\Program Files\explorer.exe,e6c22f84ce9b4e55a6089cc8db37fc5f,1126,1125.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\explorer.exe'}
+2026-01-01 12:12:00.100000+00:00,LABVM,7,Sysmon,explorer.exe,,,1126,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 12:12:00.150000+00:00,LABVM,7,Sysmon,explorer.exe,,,1126,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 12:12:00.200000+00:00,LABVM,7,Sysmon,explorer.exe,,,1126,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 12:12:00.250000+00:00,LABVM,7,Sysmon,explorer.exe,,,1126,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 12:14:00+00:00,LABVM,1,Sysmon,code.exe,C:\Windows\System32\code.exe,a3e755c34d31470b908bce6cc4f33878,1127,1126.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\code.exe'}
+2026-01-01 12:14:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1127,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 12:14:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1127,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 12:14:00.200000+00:00,LABVM,7,Sysmon,code.exe,,,1127,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 12:14:00.250000+00:00,LABVM,7,Sysmon,code.exe,,,1127,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 12:14:00.300000+00:00,LABVM,7,Sysmon,code.exe,,,1127,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 12:16:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Windows\SysWOW64\powershell.exe,2f65a1016cad406a92a4ffeba3b7d583,1128,1127.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\powershell.exe'}
+2026-01-01 12:16:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1128,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 12:16:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1128,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 12:18:00+00:00,LABVM,1,Sysmon,explorer.exe,C:\Windows\System32\explorer.exe,b398f5ffa0214cc5bff5fe42ad0b0ced,1129,1128.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\explorer.exe'}
+2026-01-01 12:18:00.100000+00:00,LABVM,7,Sysmon,explorer.exe,,,1129,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 12:18:00.150000+00:00,LABVM,7,Sysmon,explorer.exe,,,1129,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 12:18:00.200000+00:00,LABVM,7,Sysmon,explorer.exe,,,1129,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 12:20:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Program Files\taskmgr.exe,87026302f6ba4486bba8c533752b147b,1130,1129.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\taskmgr.exe'}
+2026-01-01 12:20:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1130,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 12:20:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1130,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 12:22:00+00:00,LABVM,1,Sysmon,notepad.exe,C:\Program Files\notepad.exe,f34cdda5d4954dfc903656072dce81c2,1131,1130.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\notepad.exe'}
+2026-01-01 12:22:00.100000+00:00,LABVM,7,Sysmon,notepad.exe,,,1131,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 12:22:00.150000+00:00,LABVM,7,Sysmon,notepad.exe,,,1131,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 12:22:00.200000+00:00,LABVM,7,Sysmon,notepad.exe,,,1131,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 12:24:00+00:00,LABVM,1,Sysmon,mspaint.exe,C:\Windows\System32\mspaint.exe,07a2c1c0aaab43e1ae593a30af5fa49e,1132,1131.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\mspaint.exe'}
+2026-01-01 12:24:00.100000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1132,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 12:24:00.150000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1132,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 12:24:00.200000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1132,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 12:24:00.250000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1132,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 12:26:00+00:00,LABVM,1,Sysmon,code.exe,C:\Windows\SysWOW64\code.exe,0a41ea5f0de6442c8176ef98b31a67e0,1133,1132.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\code.exe'}
+2026-01-01 12:26:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1133,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 12:26:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1133,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 12:26:00.500000+00:00,LABVM,13,Sysmon,code.exe,,,1133,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 12:28:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Program Files\wordpad.exe,a8c8a5803e304b9881fcf53d5bd65d24,1134,1133.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\wordpad.exe'}
+2026-01-01 12:28:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1134,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 12:28:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1134,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 12:28:00.200000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1134,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 12:28:00.250000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1134,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 12:28:00.500000+00:00,LABVM,13,Sysmon,wordpad.exe,,,1134,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 12:30:00+00:00,LABVM,1,Sysmon,calc.exe,C:\Windows\SysWOW64\calc.exe,cdc833a76aba47be83311e0bdbddf3c7,1135,1134.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\calc.exe'}
+2026-01-01 12:30:00.100000+00:00,LABVM,7,Sysmon,calc.exe,,,1135,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 12:30:00.150000+00:00,LABVM,7,Sysmon,calc.exe,,,1135,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 12:30:00.200000+00:00,LABVM,7,Sysmon,calc.exe,,,1135,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 12:30:00.250000+00:00,LABVM,7,Sysmon,calc.exe,,,1135,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 12:30:00.500000+00:00,LABVM,13,Sysmon,calc.exe,,,1135,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 12:32:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Windows\SysWOW64\wordpad.exe,7f26f673dcd8484db32c48e32dc736e0,1136,1135.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\wordpad.exe'}
+2026-01-01 12:32:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1136,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 12:32:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1136,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 12:32:00.200000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1136,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 12:32:00.250000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1136,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 12:34:00+00:00,LABVM,1,Sysmon,explorer.exe,C:\Program Files\explorer.exe,3181503e4f1a44bca49bf7d2d9cba1f8,1137,1136.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\explorer.exe'}
+2026-01-01 12:34:00.100000+00:00,LABVM,7,Sysmon,explorer.exe,,,1137,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 12:34:00.150000+00:00,LABVM,7,Sysmon,explorer.exe,,,1137,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 12:36:00+00:00,LABVM,1,Sysmon,explorer.exe,C:\Windows\SysWOW64\explorer.exe,65f198708b02453b9779e2389d20be81,1138,1137.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\explorer.exe'}
+2026-01-01 12:36:00.100000+00:00,LABVM,7,Sysmon,explorer.exe,,,1138,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 12:36:00.150000+00:00,LABVM,7,Sysmon,explorer.exe,,,1138,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 12:36:00.500000+00:00,LABVM,13,Sysmon,explorer.exe,,,1138,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 12:38:00+00:00,LABVM,1,Sysmon,code.exe,C:\Windows\SysWOW64\code.exe,e7bf0960e9314d8ea646ba4a4523bd9a,1139,1138.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\code.exe'}
+2026-01-01 12:38:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1139,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 12:38:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1139,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 12:38:00.200000+00:00,LABVM,7,Sysmon,code.exe,,,1139,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 12:40:00+00:00,LABVM,1,Sysmon,cmd.exe,C:\Windows\SysWOW64\cmd.exe,98d216ab804e4ad0a0f9407a9928a380,1140,1139.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\cmd.exe'}
+2026-01-01 12:40:00.100000+00:00,LABVM,7,Sysmon,cmd.exe,,,1140,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 12:40:00.150000+00:00,LABVM,7,Sysmon,cmd.exe,,,1140,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 12:42:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Windows\SysWOW64\wordpad.exe,570b05bbff5248d1be82ea64c3256755,1141,1140.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\wordpad.exe'}
+2026-01-01 12:42:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1141,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 12:42:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1141,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 12:42:00.200000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1141,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 12:42:00.250000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1141,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 12:42:00.500000+00:00,LABVM,13,Sysmon,wordpad.exe,,,1141,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 12:44:00+00:00,LABVM,1,Sysmon,calc.exe,C:\Windows\SysWOW64\calc.exe,fa39b88475ff4a8fbefce8448d7c6935,1142,1141.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\calc.exe'}
+2026-01-01 12:44:00.100000+00:00,LABVM,7,Sysmon,calc.exe,,,1142,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 12:44:00.150000+00:00,LABVM,7,Sysmon,calc.exe,,,1142,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 12:44:00.200000+00:00,LABVM,7,Sysmon,calc.exe,,,1142,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 12:44:00.500000+00:00,LABVM,13,Sysmon,calc.exe,,,1142,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 12:46:00+00:00,LABVM,1,Sysmon,mspaint.exe,C:\Program Files\mspaint.exe,0c9a4eb696a543da81609ca201c0a5a7,1143,1142.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\mspaint.exe'}
+2026-01-01 12:46:00.100000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1143,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 12:46:00.150000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1143,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 12:46:00.500000+00:00,LABVM,13,Sysmon,mspaint.exe,,,1143,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 12:48:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Windows\SysWOW64\wordpad.exe,7897647ef4f04d779a601d622aee248b,1144,1143.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\wordpad.exe'}
+2026-01-01 12:48:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1144,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 12:48:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1144,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 12:50:00+00:00,LABVM,1,Sysmon,mspaint.exe,C:\Program Files\mspaint.exe,3c14e120b6924dceaec3ae875d001a38,1145,1144.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\mspaint.exe'}
+2026-01-01 12:50:00.100000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1145,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 12:50:00.150000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1145,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 12:50:00.200000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1145,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 12:50:00.500000+00:00,LABVM,13,Sysmon,mspaint.exe,,,1145,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 12:52:00+00:00,LABVM,1,Sysmon,chrome.exe,C:\Windows\System32\chrome.exe,41103f0b9db24c698cddfd893a916d04,1146,1145.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\chrome.exe'}
+2026-01-01 12:52:00.100000+00:00,LABVM,7,Sysmon,chrome.exe,,,1146,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 12:52:00.150000+00:00,LABVM,7,Sysmon,chrome.exe,,,1146,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 12:52:00.500000+00:00,LABVM,13,Sysmon,chrome.exe,,,1146,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 12:54:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Windows\SysWOW64\taskmgr.exe,bad921c015eb470eada37694125828e9,1147,1146.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\taskmgr.exe'}
+2026-01-01 12:54:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1147,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 12:54:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1147,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 12:56:00+00:00,LABVM,1,Sysmon,python.exe,C:\Program Files\python.exe,37b7253d2d8446beb47bbcecae76e17e,1148,1147.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\python.exe'}
+2026-01-01 12:56:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1148,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 12:56:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1148,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 12:56:00.200000+00:00,LABVM,7,Sysmon,python.exe,,,1148,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 12:56:00.250000+00:00,LABVM,7,Sysmon,python.exe,,,1148,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 12:56:00.300000+00:00,LABVM,7,Sysmon,python.exe,,,1148,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 12:58:00+00:00,LABVM,1,Sysmon,notepad.exe,C:\Windows\System32\notepad.exe,d866adda88c84fe7b6a1bb5928194df7,1149,1148.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\notepad.exe'}
+2026-01-01 12:58:00.100000+00:00,LABVM,7,Sysmon,notepad.exe,,,1149,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 12:58:00.150000+00:00,LABVM,7,Sysmon,notepad.exe,,,1149,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 12:58:00.200000+00:00,LABVM,7,Sysmon,notepad.exe,,,1149,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 12:58:00.250000+00:00,LABVM,7,Sysmon,notepad.exe,,,1149,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 12:58:00.300000+00:00,LABVM,7,Sysmon,notepad.exe,,,1149,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 12:58:00.500000+00:00,LABVM,13,Sysmon,notepad.exe,,,1149,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 13:00:00+00:00,LABVM,1,Sysmon,calc.exe,C:\Windows\SysWOW64\calc.exe,a3ea8d74ac72495d87a1b9a8ba7220be,1150,1149.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\calc.exe'}
+2026-01-01 13:00:00.100000+00:00,LABVM,7,Sysmon,calc.exe,,,1150,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 13:00:00.150000+00:00,LABVM,7,Sysmon,calc.exe,,,1150,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 13:02:00+00:00,LABVM,1,Sysmon,cmd.exe,C:\Program Files\cmd.exe,ac7ce683577546b5b14152cdd683ab53,1151,1150.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\cmd.exe'}
+2026-01-01 13:02:00.100000+00:00,LABVM,7,Sysmon,cmd.exe,,,1151,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 13:02:00.150000+00:00,LABVM,7,Sysmon,cmd.exe,,,1151,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 13:02:00.200000+00:00,LABVM,7,Sysmon,cmd.exe,,,1151,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 13:02:00.250000+00:00,LABVM,7,Sysmon,cmd.exe,,,1151,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 13:02:00.300000+00:00,LABVM,7,Sysmon,cmd.exe,,,1151,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 13:02:00.500000+00:00,LABVM,13,Sysmon,cmd.exe,,,1151,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 13:04:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Windows\System32\taskmgr.exe,8859481bd65142dca68a092e2c06e455,1152,1151.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\taskmgr.exe'}
+2026-01-01 13:04:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1152,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 13:04:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1152,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 13:04:00.200000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1152,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 13:04:00.250000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1152,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 13:04:00.300000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1152,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 13:06:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Windows\System32\taskmgr.exe,635aacce41ab409fb94e2d15b7378a95,1153,1152.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\taskmgr.exe'}
+2026-01-01 13:06:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1153,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 13:06:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1153,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 13:06:00.200000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1153,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 13:06:00.250000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1153,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 13:06:00.300000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1153,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 13:08:00+00:00,LABVM,1,Sysmon,code.exe,C:\Windows\System32\code.exe,7a5fbbdd1cf04812a5f0321470627629,1154,1153.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\code.exe'}
+2026-01-01 13:08:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1154,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 13:08:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1154,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 13:08:00.500000+00:00,LABVM,13,Sysmon,code.exe,,,1154,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 13:10:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Windows\SysWOW64\taskmgr.exe,c284b2a857aa47a3be52d13cd546ef25,1155,1154.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\taskmgr.exe'}
+2026-01-01 13:10:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1155,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 13:10:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1155,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 13:10:00.500000+00:00,LABVM,13,Sysmon,taskmgr.exe,,,1155,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 13:12:00+00:00,LABVM,1,Sysmon,chrome.exe,C:\Program Files\chrome.exe,aacd78b98b914dbd82973ae10bb162a6,1156,1155.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\chrome.exe'}
+2026-01-01 13:12:00.100000+00:00,LABVM,7,Sysmon,chrome.exe,,,1156,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 13:12:00.150000+00:00,LABVM,7,Sysmon,chrome.exe,,,1156,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 13:14:00+00:00,LABVM,1,Sysmon,calc.exe,C:\Program Files\calc.exe,c4f094bbb61c48b5b424a11638220351,1157,1156.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\calc.exe'}
+2026-01-01 13:14:00.100000+00:00,LABVM,7,Sysmon,calc.exe,,,1157,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 13:14:00.150000+00:00,LABVM,7,Sysmon,calc.exe,,,1157,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 13:14:00.200000+00:00,LABVM,7,Sysmon,calc.exe,,,1157,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 13:16:00+00:00,LABVM,1,Sysmon,python.exe,C:\Windows\SysWOW64\python.exe,9289038282ea4b77b502dae37f43b9dd,1158,1157.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\python.exe'}
+2026-01-01 13:16:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1158,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 13:16:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1158,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 13:16:00.200000+00:00,LABVM,7,Sysmon,python.exe,,,1158,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 13:16:00.250000+00:00,LABVM,7,Sysmon,python.exe,,,1158,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 13:18:00+00:00,LABVM,1,Sysmon,cmd.exe,C:\Program Files\cmd.exe,42baf97780b74cfca3463bb0151cf904,1159,1158.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\cmd.exe'}
+2026-01-01 13:18:00.100000+00:00,LABVM,7,Sysmon,cmd.exe,,,1159,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 13:18:00.150000+00:00,LABVM,7,Sysmon,cmd.exe,,,1159,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 13:18:00.200000+00:00,LABVM,7,Sysmon,cmd.exe,,,1159,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 13:18:00.250000+00:00,LABVM,7,Sysmon,cmd.exe,,,1159,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 13:20:00+00:00,LABVM,1,Sysmon,chrome.exe,C:\Windows\System32\chrome.exe,b1b31afb51f44c2cb8f75ce600f1265a,1160,1159.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\chrome.exe'}
+2026-01-01 13:20:00.100000+00:00,LABVM,7,Sysmon,chrome.exe,,,1160,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 13:20:00.150000+00:00,LABVM,7,Sysmon,chrome.exe,,,1160,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 13:20:00.200000+00:00,LABVM,7,Sysmon,chrome.exe,,,1160,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 13:22:00+00:00,LABVM,1,Sysmon,notepad.exe,C:\Windows\System32\notepad.exe,630f78bb515749618299399b2a35b87b,1161,1160.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\notepad.exe'}
+2026-01-01 13:22:00.100000+00:00,LABVM,7,Sysmon,notepad.exe,,,1161,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 13:22:00.150000+00:00,LABVM,7,Sysmon,notepad.exe,,,1161,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 13:22:00.200000+00:00,LABVM,7,Sysmon,notepad.exe,,,1161,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 13:22:00.250000+00:00,LABVM,7,Sysmon,notepad.exe,,,1161,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 13:22:00.300000+00:00,LABVM,7,Sysmon,notepad.exe,,,1161,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 13:24:00+00:00,LABVM,1,Sysmon,chrome.exe,C:\Program Files\chrome.exe,9d4c2fd9ea71488f95076610b097cc1c,1162,1161.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\chrome.exe'}
+2026-01-01 13:24:00.100000+00:00,LABVM,7,Sysmon,chrome.exe,,,1162,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 13:24:00.150000+00:00,LABVM,7,Sysmon,chrome.exe,,,1162,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 13:26:00+00:00,LABVM,1,Sysmon,notepad.exe,C:\Program Files\notepad.exe,4fef38588f23473c8c08398eb71a4d18,1163,1162.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\notepad.exe'}
+2026-01-01 13:26:00.100000+00:00,LABVM,7,Sysmon,notepad.exe,,,1163,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 13:26:00.150000+00:00,LABVM,7,Sysmon,notepad.exe,,,1163,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 13:26:00.200000+00:00,LABVM,7,Sysmon,notepad.exe,,,1163,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 13:26:00.250000+00:00,LABVM,7,Sysmon,notepad.exe,,,1163,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 13:28:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Windows\SysWOW64\firefox.exe,f4dea77bf65944dd80fadfc098a70f3f,1164,1163.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\firefox.exe'}
+2026-01-01 13:28:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1164,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 13:28:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1164,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 13:28:00.500000+00:00,LABVM,13,Sysmon,firefox.exe,,,1164,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 13:30:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Program Files\powershell.exe,da16fc0b032e47f1bc1fd2b80611d59f,1165,1164.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\powershell.exe'}
+2026-01-01 13:30:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1165,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 13:30:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1165,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 13:30:00.200000+00:00,LABVM,7,Sysmon,powershell.exe,,,1165,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 13:30:00.250000+00:00,LABVM,7,Sysmon,powershell.exe,,,1165,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 13:30:00.500000+00:00,LABVM,13,Sysmon,powershell.exe,,,1165,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 13:32:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Windows\SysWOW64\wordpad.exe,d89e242103d94962a57d9c19b2388fdb,1166,1165.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\wordpad.exe'}
+2026-01-01 13:32:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1166,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 13:32:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1166,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 13:32:00.200000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1166,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 13:32:00.500000+00:00,LABVM,13,Sysmon,wordpad.exe,,,1166,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 13:34:00+00:00,LABVM,1,Sysmon,code.exe,C:\Program Files\code.exe,55e5871e7e054398bf7366b92171c9d0,1167,1166.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\code.exe'}
+2026-01-01 13:34:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1167,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 13:34:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1167,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 13:34:00.200000+00:00,LABVM,7,Sysmon,code.exe,,,1167,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 13:36:00+00:00,LABVM,1,Sysmon,python.exe,C:\Program Files\python.exe,6505b5d96af84700bb6a8e80279fd518,1168,1167.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\python.exe'}
+2026-01-01 13:36:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1168,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 13:36:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1168,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 13:38:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Windows\System32\firefox.exe,444780d0e51e433c933ba14c073efaec,1169,1168.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\firefox.exe'}
+2026-01-01 13:38:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1169,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 13:38:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1169,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 13:40:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Program Files\firefox.exe,a11288752a04446fa3fb6291501e5eaa,1170,1169.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\firefox.exe'}
+2026-01-01 13:40:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1170,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 13:40:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1170,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 13:40:00.200000+00:00,LABVM,7,Sysmon,firefox.exe,,,1170,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 13:40:00.250000+00:00,LABVM,7,Sysmon,firefox.exe,,,1170,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 13:40:00.500000+00:00,LABVM,13,Sysmon,firefox.exe,,,1170,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 13:42:00+00:00,LABVM,1,Sysmon,cmd.exe,C:\Windows\SysWOW64\cmd.exe,ff12286a9ce546cf944f2ba2a97584c6,1171,1170.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\cmd.exe'}
+2026-01-01 13:42:00.100000+00:00,LABVM,7,Sysmon,cmd.exe,,,1171,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 13:42:00.150000+00:00,LABVM,7,Sysmon,cmd.exe,,,1171,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 13:42:00.500000+00:00,LABVM,13,Sysmon,cmd.exe,,,1171,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 13:44:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Program Files\firefox.exe,3e6c040b6b934ef896b721777a8a9648,1172,1171.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\firefox.exe'}
+2026-01-01 13:44:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1172,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 13:44:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1172,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 13:46:00+00:00,LABVM,1,Sysmon,chrome.exe,C:\Windows\System32\chrome.exe,c311f365289c4ff4b886422f43d46509,1173,1172.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\chrome.exe'}
+2026-01-01 13:46:00.100000+00:00,LABVM,7,Sysmon,chrome.exe,,,1173,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 13:46:00.150000+00:00,LABVM,7,Sysmon,chrome.exe,,,1173,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 13:46:00.200000+00:00,LABVM,7,Sysmon,chrome.exe,,,1173,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 13:46:00.500000+00:00,LABVM,13,Sysmon,chrome.exe,,,1173,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 13:48:00+00:00,LABVM,1,Sysmon,python.exe,C:\Windows\System32\python.exe,15a2503aacdd4affb0ab324fa808bbfe,1174,1173.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\python.exe'}
+2026-01-01 13:48:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1174,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 13:48:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1174,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 13:48:00.200000+00:00,LABVM,7,Sysmon,python.exe,,,1174,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 13:48:00.250000+00:00,LABVM,7,Sysmon,python.exe,,,1174,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 13:48:00.500000+00:00,LABVM,13,Sysmon,python.exe,,,1174,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 13:50:00+00:00,LABVM,1,Sysmon,mspaint.exe,C:\Program Files\mspaint.exe,6e0a9a7ba5ec481ca7ec4592e32593a9,1175,1174.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\mspaint.exe'}
+2026-01-01 13:50:00.100000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1175,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 13:50:00.150000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1175,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 13:52:00+00:00,LABVM,1,Sysmon,code.exe,C:\Program Files\code.exe,2dfc67af32a94a1b80f01b55ae0ea64f,1176,1175.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\code.exe'}
+2026-01-01 13:52:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1176,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 13:52:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1176,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 13:52:00.200000+00:00,LABVM,7,Sysmon,code.exe,,,1176,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 13:52:00.250000+00:00,LABVM,7,Sysmon,code.exe,,,1176,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 13:54:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Windows\SysWOW64\powershell.exe,198c609d950e42d68cd5f0d51dcf47da,1177,1176.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\powershell.exe'}
+2026-01-01 13:54:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1177,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 13:54:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1177,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 13:54:00.500000+00:00,LABVM,13,Sysmon,powershell.exe,,,1177,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 13:56:00+00:00,LABVM,1,Sysmon,code.exe,C:\Windows\SysWOW64\code.exe,c2a42207d8e24e809c9238b67869c950,1178,1177.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\code.exe'}
+2026-01-01 13:56:00.100000+00:00,LABVM,7,Sysmon,code.exe,,,1178,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 13:56:00.150000+00:00,LABVM,7,Sysmon,code.exe,,,1178,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 13:56:00.500000+00:00,LABVM,13,Sysmon,code.exe,,,1178,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 13:58:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Windows\System32\powershell.exe,83bb026c59614f788c970bb2aae81098,1179,1178.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\powershell.exe'}
+2026-01-01 13:58:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1179,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 13:58:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1179,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 13:58:00.200000+00:00,LABVM,7,Sysmon,powershell.exe,,,1179,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 13:58:00.250000+00:00,LABVM,7,Sysmon,powershell.exe,,,1179,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 13:58:00.300000+00:00,LABVM,7,Sysmon,powershell.exe,,,1179,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 14:00:00+00:00,LABVM,1,Sysmon,python.exe,C:\Windows\System32\python.exe,ec35a87b3ae3482ab0ab578829d8b444,1180,1179.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\python.exe'}
+2026-01-01 14:00:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1180,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 14:00:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1180,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 14:00:00.200000+00:00,LABVM,7,Sysmon,python.exe,,,1180,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 14:00:00.250000+00:00,LABVM,7,Sysmon,python.exe,,,1180,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 14:00:00.300000+00:00,LABVM,7,Sysmon,python.exe,,,1180,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 14:00:00.500000+00:00,LABVM,13,Sysmon,python.exe,,,1180,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 14:02:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Windows\SysWOW64\taskmgr.exe,fe2e1203d9f94482a2bdf2a45e16d1ec,1181,1180.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\taskmgr.exe'}
+2026-01-01 14:02:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1181,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 14:02:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1181,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 14:02:00.200000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1181,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 14:04:00+00:00,LABVM,1,Sysmon,chrome.exe,C:\Program Files\chrome.exe,73e943a64df3408d9df45ee3d8c42c3f,1182,1181.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\chrome.exe'}
+2026-01-01 14:04:00.100000+00:00,LABVM,7,Sysmon,chrome.exe,,,1182,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 14:04:00.150000+00:00,LABVM,7,Sysmon,chrome.exe,,,1182,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 14:04:00.200000+00:00,LABVM,7,Sysmon,chrome.exe,,,1182,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 14:04:00.250000+00:00,LABVM,7,Sysmon,chrome.exe,,,1182,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 14:06:00+00:00,LABVM,1,Sysmon,explorer.exe,C:\Windows\SysWOW64\explorer.exe,9e16e50b65034bd4b38d7232fd21cdb4,1183,1182.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\explorer.exe'}
+2026-01-01 14:06:00.100000+00:00,LABVM,7,Sysmon,explorer.exe,,,1183,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 14:06:00.150000+00:00,LABVM,7,Sysmon,explorer.exe,,,1183,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 14:06:00.200000+00:00,LABVM,7,Sysmon,explorer.exe,,,1183,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 14:06:00.250000+00:00,LABVM,7,Sysmon,explorer.exe,,,1183,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 14:08:00+00:00,LABVM,1,Sysmon,explorer.exe,C:\Program Files\explorer.exe,540c062d299d49fc8c3f514d1f19f81e,1184,1183.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\explorer.exe'}
+2026-01-01 14:08:00.100000+00:00,LABVM,7,Sysmon,explorer.exe,,,1184,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 14:08:00.150000+00:00,LABVM,7,Sysmon,explorer.exe,,,1184,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 14:08:00.200000+00:00,LABVM,7,Sysmon,explorer.exe,,,1184,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 14:10:00+00:00,LABVM,1,Sysmon,chrome.exe,C:\Windows\System32\chrome.exe,39713c9a804343b5a44b7b4d7f689246,1185,1184.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\chrome.exe'}
+2026-01-01 14:10:00.100000+00:00,LABVM,7,Sysmon,chrome.exe,,,1185,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 14:10:00.150000+00:00,LABVM,7,Sysmon,chrome.exe,,,1185,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 14:10:00.200000+00:00,LABVM,7,Sysmon,chrome.exe,,,1185,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 14:10:00.250000+00:00,LABVM,7,Sysmon,chrome.exe,,,1185,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 14:10:00.300000+00:00,LABVM,7,Sysmon,chrome.exe,,,1185,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 14:12:00+00:00,LABVM,1,Sysmon,chrome.exe,C:\Windows\SysWOW64\chrome.exe,f21f5cbfbe2b49499e25a234ed0b881b,1186,1185.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\chrome.exe'}
+2026-01-01 14:12:00.100000+00:00,LABVM,7,Sysmon,chrome.exe,,,1186,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 14:12:00.150000+00:00,LABVM,7,Sysmon,chrome.exe,,,1186,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 14:12:00.200000+00:00,LABVM,7,Sysmon,chrome.exe,,,1186,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 14:12:00.500000+00:00,LABVM,13,Sysmon,chrome.exe,,,1186,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 14:14:00+00:00,LABVM,1,Sysmon,calc.exe,C:\Program Files\calc.exe,cf710669849e44de9e400b95b8e89e7b,1187,1186.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\calc.exe'}
+2026-01-01 14:14:00.100000+00:00,LABVM,7,Sysmon,calc.exe,,,1187,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 14:14:00.150000+00:00,LABVM,7,Sysmon,calc.exe,,,1187,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 14:14:00.200000+00:00,LABVM,7,Sysmon,calc.exe,,,1187,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 14:14:00.250000+00:00,LABVM,7,Sysmon,calc.exe,,,1187,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 14:14:00.500000+00:00,LABVM,13,Sysmon,calc.exe,,,1187,,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,DisplayName,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall,,,benign,,{}
+2026-01-01 14:16:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Program Files\taskmgr.exe,b3cd4fa8307d4ae4bb2ef98bcccf55ef,1188,1187.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\taskmgr.exe'}
+2026-01-01 14:16:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1188,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 14:16:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1188,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 14:16:00.200000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1188,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 14:16:00.250000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1188,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 14:16:00.300000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1188,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 14:18:00+00:00,LABVM,1,Sysmon,taskmgr.exe,C:\Windows\SysWOW64\taskmgr.exe,de7cdf6c9853491780684dbb30552710,1189,1188.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\taskmgr.exe'}
+2026-01-01 14:18:00.100000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1189,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 14:18:00.150000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1189,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 14:18:00.200000+00:00,LABVM,7,Sysmon,taskmgr.exe,,,1189,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 14:20:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Windows\SysWOW64\wordpad.exe,4a75fd686cf343478bc5878144f0fcf5,1190,1189.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\wordpad.exe'}
+2026-01-01 14:20:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1190,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 14:20:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1190,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 14:20:00.200000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1190,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 14:20:00.250000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1190,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 14:20:00.300000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1190,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 14:22:00+00:00,LABVM,1,Sysmon,wordpad.exe,C:\Program Files\wordpad.exe,6221c309fc1b4ee7ad6ddf377137f336,1191,1190.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\wordpad.exe'}
+2026-01-01 14:22:00.100000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1191,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 14:22:00.150000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1191,,,C:\Windows\System32\rpcrt4.dll,,,,True,,benign,,{}
+2026-01-01 14:22:00.200000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1191,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 14:22:00.250000+00:00,LABVM,7,Sysmon,wordpad.exe,,,1191,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 14:24:00+00:00,LABVM,1,Sysmon,calc.exe,C:\Program Files\calc.exe,fc927bcbb1d3483da7bdb58d98960a81,1192,1191.0,explorer.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\calc.exe'}
+2026-01-01 14:24:00.100000+00:00,LABVM,7,Sysmon,calc.exe,,,1192,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 14:24:00.150000+00:00,LABVM,7,Sysmon,calc.exe,,,1192,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 14:24:00.200000+00:00,LABVM,7,Sysmon,calc.exe,,,1192,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 14:24:00.250000+00:00,LABVM,7,Sysmon,calc.exe,,,1192,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 14:26:00+00:00,LABVM,1,Sysmon,python.exe,C:\Windows\System32\python.exe,8331625da6054f67aab1815f27c16897,1193,1192.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\python.exe'}
+2026-01-01 14:26:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1193,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 14:26:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1193,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 14:28:00+00:00,LABVM,1,Sysmon,chrome.exe,C:\Windows\System32\chrome.exe,1ff1697978624dcc9c1439f85f92efd6,1194,1193.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\chrome.exe'}
+2026-01-01 14:28:00.100000+00:00,LABVM,7,Sysmon,chrome.exe,,,1194,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 14:28:00.150000+00:00,LABVM,7,Sysmon,chrome.exe,,,1194,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 14:30:00+00:00,LABVM,1,Sysmon,firefox.exe,C:\Windows\System32\firefox.exe,074af3fdc21b4399b4ae401ba61982b4,1195,1194.0,cmd.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\firefox.exe'}
+2026-01-01 14:30:00.100000+00:00,LABVM,7,Sysmon,firefox.exe,,,1195,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 14:30:00.150000+00:00,LABVM,7,Sysmon,firefox.exe,,,1195,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 14:30:00.200000+00:00,LABVM,7,Sysmon,firefox.exe,,,1195,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 14:32:00+00:00,LABVM,1,Sysmon,powershell.exe,C:\Windows\SysWOW64\powershell.exe,d138d1f8f9da4839a308c2d3d385d229,1196,1195.0,svchost.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\SysWOW64\\powershell.exe'}
+2026-01-01 14:32:00.100000+00:00,LABVM,7,Sysmon,powershell.exe,,,1196,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 14:32:00.150000+00:00,LABVM,7,Sysmon,powershell.exe,,,1196,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 14:32:00.200000+00:00,LABVM,7,Sysmon,powershell.exe,,,1196,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 14:34:00+00:00,LABVM,1,Sysmon,mspaint.exe,C:\Program Files\mspaint.exe,a786c9fede654a929af0f0b2f54384ee,1197,1196.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\mspaint.exe'}
+2026-01-01 14:34:00.100000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1197,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 14:34:00.150000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1197,,,C:\Windows\System32\advapi32.dll,,,,True,,benign,,{}
+2026-01-01 14:34:00.200000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1197,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}
+2026-01-01 14:34:00.250000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1197,,,C:\Windows\System32\kernelbase.dll,,,,True,,benign,,{}
+2026-01-01 14:34:00.300000+00:00,LABVM,7,Sysmon,mspaint.exe,,,1197,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 14:36:00+00:00,LABVM,1,Sysmon,python.exe,C:\Program Files\python.exe,cf674816c1b04039ac68021af7b0dd1c,1198,1197.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Program Files\\python.exe'}
+2026-01-01 14:36:00.100000+00:00,LABVM,7,Sysmon,python.exe,,,1198,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 14:36:00.150000+00:00,LABVM,7,Sysmon,python.exe,,,1198,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 14:38:00+00:00,LABVM,1,Sysmon,notepad.exe,C:\Windows\System32\notepad.exe,aa3cface1549495487cab55201e45096,1199,1198.0,powershell.exe,,,,,True,,benign,,{'CommandLine': 'C:\\Windows\\System32\\notepad.exe'}
+2026-01-01 14:38:00.100000+00:00,LABVM,7,Sysmon,notepad.exe,,,1199,,,C:\Windows\System32\kernel32.dll,,,,True,,benign,,{}
+2026-01-01 14:38:00.150000+00:00,LABVM,7,Sysmon,notepad.exe,,,1199,,,C:\Windows\System32\ntdll.dll,,,,True,,benign,,{}
+2026-01-01 14:38:00.200000+00:00,LABVM,7,Sysmon,notepad.exe,,,1199,,,C:\Windows\System32\msvcrt.dll,,,,True,,benign,,{}
+2026-01-01 14:38:00.250000+00:00,LABVM,7,Sysmon,notepad.exe,,,1199,,,C:\Windows\System32\combase.dll,,,,True,,benign,,{}
+2026-01-01 14:38:00.300000+00:00,LABVM,7,Sysmon,notepad.exe,,,1199,,,C:\Windows\System32\sechost.dll,,,,True,,benign,,{}

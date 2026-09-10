@@ -1,0 +1,99 @@
+# Detection Pack: Registry-Based Persistence Rules
+# ==================================================
+# Covers keylogger persistence via Run keys, AppInit_DLLs, and
+# keyboard filter driver registration.
+#
+# MITRE ATT&CK:
+#   T1547.001 — Boot/Logon Autostart: Registry Run Keys
+#   T1546.010 — AppInit DLLs
+#   T1056.001 — Input Capture: Keylogging
+
+pack_version: "1.0"
+pack_name: "registry-persistence"
+
+rules:
+
+  - id: KL-005
+    name: "Unsigned process wrote to Run/RunOnce autostart key"
+    description: >
+      An unsigned process wrote a value to a standard autostart registry key.
+      Keyloggers commonly persist via HKCU/HKLM Run keys to survive reboots.
+      Unsigned writers from non-system paths are highly suspicious.
+    applies_to:
+      - event_id: 13   # Registry Value Set
+    condition:
+      registry_key_contains_any:
+        - "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run"
+        - "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\RunOnce"
+      NOT:
+        signed: true
+      NOT:
+        process_in_allowlist: true
+    severity: high
+    score: 65
+    mitre_technique: "T1547.001"
+    evidence_template: >
+      Unsigned process '{process_name}' (PID {pid}) wrote to autostart key:
+      {registry_key} = {registry_value}
+
+  - id: KL-006
+    name: "AppInit_DLLs registry key modified"
+    description: >
+      The AppInit_DLLs registry value was modified.  This mechanism causes
+      the specified DLL to be loaded into every process that loads user32.dll,
+      making it a classic keylogger injection vector.  Any modification is
+      suspicious unless performed by a known security product.
+    applies_to:
+      - event_id: 13   # Registry Value Set
+    condition:
+      registry_key_contains: "AppInit_DLLs"
+      NOT:
+        process_in_allowlist: true
+    severity: critical
+    score: 85
+    mitre_technique: "T1546.010"
+    evidence_template: >
+      AppInit_DLLs modified by '{process_name}' (PID {pid}).
+      Key: {registry_key}
+      Value: {registry_value}
+
+  - id: KL-007
+    name: "Keyboard filter driver service registered"
+    description: >
+      A new service was registered under the keyboard device class registry
+      key (GUID 4D36E96B).  Kernel-level keyloggers register as keyboard
+      filter drivers via this mechanism.
+    applies_to:
+      - event_id: 12   # Registry Object Create
+      - event_id: 13   # Registry Value Set
+    condition:
+      registry_key_contains: "4D36E96B"
+      NOT:
+        process_in_allowlist: true
+    severity: critical
+    score: 90
+    mitre_technique: "T1056.001"
+    evidence_template: >
+      Keyboard device class registry key modified by '{process_name}' (PID {pid}).
+      This may indicate a kernel-level keyboard filter driver installation.
+      Key: {registry_key}
+
+  - id: KL-008
+    name: "Winlogon notification package modified"
+    description: >
+      The Winlogon registry key was modified.  Attackers use Winlogon
+      notification packages to load DLLs at logon, which can intercept
+      credentials and keystrokes during the authentication process.
+    applies_to:
+      - event_id: 13   # Registry Value Set
+    condition:
+      registry_key_contains: "SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon"
+      NOT:
+        process_in_allowlist: true
+    severity: high
+    score: 70
+    mitre_technique: "T1547.004"
+    evidence_template: >
+      Winlogon key modified by '{process_name}' (PID {pid}).
+      Key: {registry_key}
+      Value: {registry_value}

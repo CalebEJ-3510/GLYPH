@@ -1,0 +1,104 @@
+# Glyph — Process Allow-List
+# ====================================================
+# Processes listed here are known-legitimate hook users, accessibility tools,
+# remote-desktop clients, and game overlays.  A rule match against a process
+# in this list will have its severity downgraded and will NOT trigger a
+# high-severity alert on its own.
+#
+# Format:
+#   process_names:   list of executable filenames (case-insensitive)
+#   process_paths:   list of path substrings (case-insensitive)
+#   signatures:      list of Authenticode signer name substrings
+#
+# Rationale for each entry is documented inline.
+
+version: "1.0"
+
+# ---------------------------------------------------------------------------
+# Accessibility & input automation
+# ---------------------------------------------------------------------------
+process_names:
+  - autohotkey.exe          # AutoHotkey — legitimate keyboard hook user
+  - autohotkey64.exe
+  - ahk.exe
+  - nvda.exe                # NVDA screen reader
+  - jaws.exe                # JAWS screen reader
+  - zoomtext.exe            # ZoomText accessibility
+  - magnify.exe             # Windows Magnifier
+  - osk.exe                 # On-Screen Keyboard
+  - narrator.exe            # Windows Narrator
+
+# ---------------------------------------------------------------------------
+# Remote desktop / KVM / VNC
+# ---------------------------------------------------------------------------
+  - teamviewer.exe          # TeamViewer — installs keyboard hooks for remote control
+  - teamviewer_service.exe
+  - tvnserver.exe           # TightVNC server
+  - vncviewer.exe
+  - ultravnc.exe
+  - rdpclip.exe             # RDP clipboard integration
+  - mstsc.exe               # Remote Desktop Client
+  - anydesk.exe             # AnyDesk
+
+# ---------------------------------------------------------------------------
+# Game overlays & launchers (hook into foreground window for hotkeys)
+# ---------------------------------------------------------------------------
+  - steam.exe
+  - steamwebhelper.exe
+  - gameoverlayui.exe       # Steam overlay
+  - discord.exe             # Discord overlay
+  - obs64.exe               # OBS Studio
+  - obs32.exe
+  - fraps.exe
+  - afterburner.exe         # MSI Afterburner
+  - rtss.exe                # RivaTuner Statistics Server
+
+# ---------------------------------------------------------------------------
+# Security / endpoint tools (may legitimately monitor keyboard for DLP)
+# ---------------------------------------------------------------------------
+  - mbam.exe                # Malwarebytes
+  - mbamservice.exe
+  - avgui.exe               # AVG
+  - avguard.exe             # Avira
+  - bdagent.exe             # Bitdefender
+  - mcshield.exe            # McAfee
+
+# ---------------------------------------------------------------------------
+# Windows system processes that legitimately load user32.dll
+# ---------------------------------------------------------------------------
+  - explorer.exe
+  - dwm.exe
+  - winlogon.exe
+  - csrss.exe
+  - lsass.exe
+  - svchost.exe
+  - taskmgr.exe
+  - ctfmon.exe              # CTF loader (input method framework)
+  - tabtip.exe              # Touch keyboard
+
+# ---------------------------------------------------------------------------
+# Path-based allowlist (substring match, case-insensitive)
+# ---------------------------------------------------------------------------
+process_paths:
+  - "C:\\Windows\\System32\\"
+  - "C:\\Windows\\SysWOW64\\"
+  - "C:\\Program Files\\AutoHotkey\\"
+  - "C:\\Program Files (x86)\\AutoHotkey\\"
+  - "C:\\Program Files\\TeamViewer\\"
+  - "C:\\Program Files (x86)\\TeamViewer\\"
+  - "C:\\Program Files\\Steam\\"
+  - "C:\\Program Files (x86)\\Steam\\"
+  - "C:\\Program Files\\Discord\\"
+  - "C:\\Program Files\\OBS Studio\\"
+
+# ---------------------------------------------------------------------------
+# Authenticode signer allowlist (substring match, case-insensitive)
+# ---------------------------------------------------------------------------
+signatures:
+  - "Microsoft Windows"
+  - "Microsoft Corporation"
+  - "AutoHotkey Foundation"
+  - "TeamViewer GmbH"
+  - "Valve Corporation"
+  - "Discord Inc"
+  - "OBS Project"

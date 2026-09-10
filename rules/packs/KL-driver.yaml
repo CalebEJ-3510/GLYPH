@@ -1,0 +1,86 @@
+# Detection Pack: Driver/Kernel-Level Keylogger Rules
+# =====================================================
+# Covers kernel-mode keyloggers that use keyboard filter drivers or
+# direct device access to capture keystrokes below the OS API layer.
+#
+# MITRE ATT&CK:
+#   T1056.001 — Input Capture: Keylogging
+#   T1014     — Rootkit
+#   T1543.003 — Create or Modify System Process: Windows Service
+
+pack_version: "1.0"
+pack_name: "driver-kernel-keylogger"
+
+rules:
+
+  - id: KL-013
+    name: "RawAccessRead on keyboard device"
+    description: >
+      A process performed raw read access on a keyboard device path
+      (\\Device\\KeyboardClass0 or similar).  This is the hallmark of
+      kernel-level keyloggers that bypass the Win32 API entirely and
+      read directly from the keyboard device object.
+    applies_to:
+      - event_id: 9   # RawAccessRead
+    condition:
+      target_object_contains_any:
+        - "\\Device\\KeyboardClass"
+        - "\\Device\\Keyboard"
+      NOT:
+        process_in_allowlist: true
+    severity: critical
+    score: 95
+    mitre_technique: "T1056.001"
+    evidence_template: >
+      Process '{process_name}' (PID {pid}) performed raw read on keyboard device:
+      {target_object}
+      This is characteristic of a kernel-level keylogger.
+
+  - id: KL-014
+    name: "Unsigned driver loaded (potential keyboard filter)"
+    description: >
+      An unsigned driver image was loaded.  Kernel-level keyloggers install
+      as keyboard filter drivers.  Unsigned drivers are blocked by default
+      on modern Windows (Secure Boot + Driver Signature Enforcement) but
+      may appear in test-signing mode or on older systems.
+    applies_to:
+      - event_id: 7   # Image Load
+    condition:
+      image_loaded_contains_any:
+        - ".sys"
+      NOT:
+        signed: true
+      NOT:
+        process_in_allowlist: true
+    severity: high
+    score: 70
+    mitre_technique: "T1014"
+    evidence_template: >
+      Unsigned driver loaded by '{process_name}' (PID {pid}):
+      {image_loaded}
+
+  - id: KL-015
+    name: "New service registered with keyboard-related name"
+    description: >
+      A new Windows service was registered with a name or path containing
+      keyboard-related strings.  Kernel keyloggers register as services
+      to load their filter driver at boot.
+    applies_to:
+      - event_id: 13   # Registry Value Set
+    condition:
+      registry_key_contains: "SYSTEM\\CurrentControlSet\\Services"
+      registry_value_contains_any:
+        - "keyboard"
+        - "kbfilter"
+        - "kbhook"
+        - "keylog"
+        - "kbcapture"
+      NOT:
+        process_in_allowlist: true
+    severity: critical
+    score: 88
+    mitre_technique: "T1543.003"
+    evidence_template: >
+      Keyboard-related service registered by '{process_name}' (PID {pid}).
+      Key: {registry_key}
+      Value: {registry_value}

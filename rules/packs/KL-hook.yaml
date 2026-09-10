@@ -1,0 +1,101 @@
+# Detection Pack: Hook-Based Keylogger Rules
+# ===========================================
+# Covers SetWindowsHookEx (WH_KEYBOARD_LL / WH_KEYBOARD) based keyloggers.
+# These loggers must load user32.dll and typically run from non-standard paths.
+#
+# MITRE ATT&CK: T1056.001 — Input Capture: Keylogging
+
+pack_version: "1.0"
+pack_name: "hook-based-keylogger"
+
+rules:
+
+  - id: KL-001
+    name: "Unsigned process loaded user32.dll (potential hook install)"
+    description: >
+      A process that is not Authenticode-signed loaded user32.dll.
+      Hook-based keyloggers must load user32.dll to call SetWindowsHookEx.
+      Unsigned processes doing this from non-system paths are suspicious.
+    applies_to:
+      - event_id: 7   # Image Load
+    condition:
+      image_loaded_endswith: "user32.dll"
+      NOT:
+        signed: true
+        process_in_allowlist: true
+    severity: medium
+    score: 30
+    mitre_technique: "T1056.001"
+    evidence_template: >
+      Process '{process_name}' (PID {pid}) loaded user32.dll but is unsigned.
+      Path: {process_path}
+
+  - id: KL-002
+    name: "Process loaded user32.dll from Temp/AppData/Downloads (high suspicion)"
+    description: >
+      A process running from a user-writable temp/staging directory loaded
+      user32.dll.  Legitimate software rarely runs from these locations.
+      Keyloggers frequently drop to Temp or AppData before executing.
+    applies_to:
+      - event_id: 7   # Image Load
+    condition:
+      image_loaded_endswith: "user32.dll"
+      process_path_contains_any:
+        - "\\Temp\\"
+        - "\\AppData\\Local\\Temp\\"
+        - "\\AppData\\Roaming\\"
+        - "\\Downloads\\"
+        - "\\Desktop\\"
+    severity: high
+    score: 55
+    mitre_technique: "T1056.001"
+    evidence_template: >
+      Process '{process_name}' (PID {pid}) loaded user32.dll from a
+      suspicious staging path: {process_path}
+
+  - id: KL-003
+    name: "Process loaded user32.dll AND hid.dll (raw input + hook combo)"
+    description: >
+      A process loaded both user32.dll and hid.dll in the same session.
+      This combination is characteristic of keyloggers that use both
+      SetWindowsHookEx and RegisterRawInputDevices as fallback mechanisms.
+    applies_to:
+      - event_id: 7   # Image Load (correlated across session)
+    condition:
+      session_loaded_all:
+        - "user32.dll"
+        - "hid.dll"
+      NOT:
+        process_in_allowlist: true
+    severity: high
+    score: 60
+    mitre_technique: "T1056.001"
+    evidence_template: >
+      Process '{process_name}' (PID {pid}) loaded both user32.dll and hid.dll
+      — characteristic of a dual hook+rawinput keylogger.
+
+  - id: KL-004
+    name: "Unsigned process loaded user32.dll with no visible window"
+    description: >
+      An unsigned, headless (no window) process loaded user32.dll.
+      Legitimate GUI applications have windows; keyloggers typically run
+      hidden.  Headless detection is approximated by checking for processes
+      spawned without a console or GUI parent.
+    applies_to:
+      - event_id: 7   # Image Load
+    condition:
+      image_loaded_endswith: "user32.dll"
+      NOT:
+        signed: true
+      parent_process_name_in:
+        - "cmd.exe"
+        - "powershell.exe"
+        - "wscript.exe"
+        - "cscript.exe"
+        - "mshta.exe"
+    severity: high
+    score: 50
+    mitre_technique: "T1056.001"
+    evidence_template: >
+      Headless unsigned process '{process_name}' (PID {pid}) loaded user32.dll.
+      Parent: {parent_process_name}. Path: {process_path}

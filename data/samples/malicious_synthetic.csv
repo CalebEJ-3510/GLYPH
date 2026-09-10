@@ -1,0 +1,781 @@
+timestamp,host,event_id,event_source,process_name,process_path,process_hash,pid,ppid,parent_process_name,image_loaded,registry_key,registry_value,target_object,signed,signature,label,technique_tag,raw_fields
+2026-01-01 10:00:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\AppData\Roaming\inputcap.exe,ab748add52254cf3ac32673eead5fcce,1200,1199.0,svchost.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\inputcap.exe'}
+2026-01-01 10:00:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1200,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:00:00.150000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1200,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:00:00.200000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1200,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:00:00.300000+00:00,LABVM,13,Sysmon,inputcap.exe,,,1200,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,inputcap.exe=C:\Users\User\AppData\Roaming\inputcap.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:00:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1200,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:01:00+00:00,LABVM,13,Sysmon,inputcap.exe,,,1200,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:01:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1200,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:02:00+00:00,LABVM,13,Sysmon,inputcap.exe,,,1200,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:03:00+00:00,LABVM,1,Sysmon,svchost32.exe,C:\Users\User\Downloads\svchost32.exe,79c169a687b64113b0853f3fb8c043e0,1201,1200.0,powershell.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\Downloads\\svchost32.exe'}
+2026-01-01 10:03:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1201,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:03:00.150000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1201,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:03:11.214106+00:00,LABVM,7,Sysmon,svchost32.exe,,,1201,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:03:11.314106+00:00,LABVM,13,Sysmon,svchost32.exe,,,1201,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,svchost32.exe=C:\Users\User\Downloads\svchost32.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:03:41.014106+00:00,LABVM,13,Sysmon,svchost32.exe,,,1201,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:04:11.014106+00:00,LABVM,13,Sysmon,svchost32.exe,,,1201,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:04:41.014106+00:00,LABVM,13,Sysmon,svchost32.exe,,,1201,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:05:11.014106+00:00,LABVM,13,Sysmon,svchost32.exe,,,1201,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:06:00+00:00,LABVM,1,Sysmon,updater.exe,C:\Windows\System32\updater.exe,57553e92b25b45f2b8a68cbef11c8820,1202,1201.0,cmd.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Windows\\System32\\updater.exe'}
+2026-01-01 10:06:00.100000+00:00,LABVM,7,Sysmon,updater.exe,,,1202,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:06:00.150000+00:00,LABVM,7,Sysmon,updater.exe,,,1202,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:07:17.313610+00:00,LABVM,7,Sysmon,updater.exe,,,1202,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:07:17.413610+00:00,LABVM,13,Sysmon,updater.exe,,,1202,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,updater.exe=C:\Windows\System32\updater.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:08:01.741012+00:00,LABVM,13,Sysmon,updater.exe,,,1202,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:08:40.716393+00:00,LABVM,13,Sysmon,updater.exe,,,1202,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:09:17.606788+00:00,LABVM,13,Sysmon,updater.exe,,,1202,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:10:07.900038+00:00,LABVM,13,Sysmon,updater.exe,,,1202,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:09:00+00:00,LABVM,1,Sysmon,keylogger.exe,C:\Users\User\Desktop\keylogger.exe,7486a39c957649bb87fdf6a59d0f61bb,1203,1202.0,cmd.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\Desktop\\keylogger.exe'}
+2026-01-01 10:09:00.100000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1203,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:09:00.150000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1203,,,C:\Windows\System32\msvcrt.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:09:00.200000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1203,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:09:00.300000+00:00,LABVM,13,Sysmon,keylogger.exe,,,1203,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,keylogger.exe=C:\Users\User\Desktop\keylogger.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:09:30+00:00,LABVM,13,Sysmon,keylogger.exe,,,1203,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:10:00+00:00,LABVM,13,Sysmon,keylogger.exe,,,1203,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:10:30+00:00,LABVM,13,Sysmon,keylogger.exe,,,1203,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:11:00+00:00,LABVM,13,Sysmon,keylogger.exe,,,1203,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:12:00+00:00,LABVM,1,Sysmon,svchost32.exe,C:\Users\User\Downloads\svchost32.exe,363cad5e6f9d4f229a489abd6b3d92ed,1204,1203.0,cmd.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\Downloads\\svchost32.exe'}
+2026-01-01 10:12:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1204,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:12:00.150000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1204,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:12:24.913000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1204,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:12:25.013000+00:00,LABVM,13,Sysmon,svchost32.exe,,,1204,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,svchost32.exe=C:\Users\User\Downloads\svchost32.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:12:54.713000+00:00,LABVM,13,Sysmon,svchost32.exe,,,1204,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:13:24.713000+00:00,LABVM,13,Sysmon,svchost32.exe,,,1204,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:13:54.713000+00:00,LABVM,13,Sysmon,svchost32.exe,,,1204,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:14:24.713000+00:00,LABVM,13,Sysmon,svchost32.exe,,,1204,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:15:00+00:00,LABVM,1,Sysmon,updater.exe,C:\Windows\System32\updater.exe,edf4b38717b144a5803b9d515b4e8a09,1205,1204.0,cmd.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Windows\\System32\\updater.exe'}
+2026-01-01 10:15:00.100000+00:00,LABVM,7,Sysmon,updater.exe,,,1205,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:15:00.150000+00:00,LABVM,7,Sysmon,updater.exe,,,1205,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:16:39.635124+00:00,LABVM,7,Sysmon,updater.exe,,,1205,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:16:39.735124+00:00,LABVM,13,Sysmon,updater.exe,,,1205,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,updater.exe=C:\Windows\System32\updater.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:17:11.912558+00:00,LABVM,13,Sysmon,updater.exe,,,1205,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:17:49.047004+00:00,LABVM,13,Sysmon,updater.exe,,,1205,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:18:25.014846+00:00,LABVM,13,Sysmon,updater.exe,,,1205,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:18:57.649797+00:00,LABVM,13,Sysmon,updater.exe,,,1205,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:18:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\Desktop\inputcap.exe,a754931e62e24d4cbca7ef2a7b699f6d,1206,1205.0,svchost.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\Desktop\\inputcap.exe'}
+2026-01-01 10:18:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1206,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:18:00.150000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1206,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:18:00.200000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1206,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:18:00.300000+00:00,LABVM,13,Sysmon,inputcap.exe,,,1206,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,inputcap.exe=C:\Users\User\Desktop\inputcap.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:18:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1206,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:19:00+00:00,LABVM,13,Sysmon,inputcap.exe,,,1206,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:19:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1206,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:20:00+00:00,LABVM,13,Sysmon,inputcap.exe,,,1206,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:21:00+00:00,LABVM,1,Sysmon,sync.exe,C:\Users\User\AppData\Local\Temp\sync.exe,1a11eabe007f4ca092fb9dcde78ec212,1207,1206.0,explorer.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\sync.exe'}
+2026-01-01 10:21:00.100000+00:00,LABVM,7,Sysmon,sync.exe,,,1207,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:21:00.150000+00:00,LABVM,7,Sysmon,sync.exe,,,1207,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:21:12.536064+00:00,LABVM,7,Sysmon,sync.exe,,,1207,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:21:12.636064+00:00,LABVM,13,Sysmon,sync.exe,,,1207,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,sync.exe=C:\Users\User\AppData\Local\Temp\sync.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:21:42.336064+00:00,LABVM,13,Sysmon,sync.exe,,,1207,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:22:12.336064+00:00,LABVM,13,Sysmon,sync.exe,,,1207,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:22:42.336064+00:00,LABVM,13,Sysmon,sync.exe,,,1207,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:23:12.336064+00:00,LABVM,13,Sysmon,sync.exe,,,1207,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:24:00+00:00,LABVM,1,Sysmon,agent.exe,C:\Windows\System32\agent.exe,27e71a7ee8b048129295e5b96b1b78f9,1208,1207.0,powershell.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Windows\\System32\\agent.exe'}
+2026-01-01 10:24:00.100000+00:00,LABVM,7,Sysmon,agent.exe,,,1208,,,C:\Windows\System32\msvcrt.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:24:00.150000+00:00,LABVM,7,Sysmon,agent.exe,,,1208,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:25:54.203388+00:00,LABVM,7,Sysmon,agent.exe,,,1208,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:25:54.303388+00:00,LABVM,13,Sysmon,agent.exe,,,1208,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,agent.exe=C:\Windows\System32\agent.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:26:16.937224+00:00,LABVM,13,Sysmon,agent.exe,,,1208,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:26:34.794159+00:00,LABVM,13,Sysmon,agent.exe,,,1208,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:27:02.019266+00:00,LABVM,13,Sysmon,agent.exe,,,1208,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:27:15.340752+00:00,LABVM,13,Sysmon,agent.exe,,,1208,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:27:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\Downloads\inputcap.exe,410e29034b5b43b490b9812d4ae30447,1209,1208.0,cmd.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\Downloads\\inputcap.exe'}
+2026-01-01 10:27:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1209,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:27:00.150000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1209,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:27:00.200000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1209,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:27:00.300000+00:00,LABVM,13,Sysmon,inputcap.exe,,,1209,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,inputcap.exe=C:\Users\User\Downloads\inputcap.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:27:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1209,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:28:00+00:00,LABVM,13,Sysmon,inputcap.exe,,,1209,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:28:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1209,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:29:00+00:00,LABVM,13,Sysmon,inputcap.exe,,,1209,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:30:00+00:00,LABVM,1,Sysmon,monitor.exe,C:\Users\User\Desktop\monitor.exe,3efc00427b6f4be7a9aa2a14b6c9ed5c,1210,1209.0,powershell.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\Desktop\\monitor.exe'}
+2026-01-01 10:30:00.100000+00:00,LABVM,7,Sysmon,monitor.exe,,,1210,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:30:00.150000+00:00,LABVM,7,Sysmon,monitor.exe,,,1210,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:30:23.782693+00:00,LABVM,7,Sysmon,monitor.exe,,,1210,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:30:23.882693+00:00,LABVM,13,Sysmon,monitor.exe,,,1210,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,monitor.exe=C:\Users\User\Desktop\monitor.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:30:53.582693+00:00,LABVM,13,Sysmon,monitor.exe,,,1210,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:31:23.582693+00:00,LABVM,13,Sysmon,monitor.exe,,,1210,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:31:53.582693+00:00,LABVM,13,Sysmon,monitor.exe,,,1210,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:32:23.582693+00:00,LABVM,13,Sysmon,monitor.exe,,,1210,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:33:00+00:00,LABVM,1,Sysmon,sync.exe,C:\Windows\System32\sync.exe,c04a813611214fc1b4bf6e277be49c54,1211,1210.0,cmd.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Windows\\System32\\sync.exe'}
+2026-01-01 10:33:00.100000+00:00,LABVM,7,Sysmon,sync.exe,,,1211,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:33:00.150000+00:00,LABVM,7,Sysmon,sync.exe,,,1211,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:34:32.486164+00:00,LABVM,7,Sysmon,sync.exe,,,1211,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:34:32.586164+00:00,LABVM,13,Sysmon,sync.exe,,,1211,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,sync.exe=C:\Windows\System32\sync.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:35:17.158687+00:00,LABVM,13,Sysmon,sync.exe,,,1211,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:36:11.477203+00:00,LABVM,13,Sysmon,sync.exe,,,1211,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:37:02.759336+00:00,LABVM,13,Sysmon,sync.exe,,,1211,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:37:49.073920+00:00,LABVM,13,Sysmon,sync.exe,,,1211,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:36:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\AppData\Local\Temp\kbhook.exe,8b2bbf9ad48545cf80500ee9c6a67530,1212,1211.0,explorer.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\kbhook.exe'}
+2026-01-01 10:36:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1212,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:36:00.150000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1212,,,C:\Windows\System32\msvcrt.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:36:00.200000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1212,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:36:00.300000+00:00,LABVM,13,Sysmon,kbhook.exe,,,1212,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,kbhook.exe=C:\Users\User\AppData\Local\Temp\kbhook.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:36:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1212,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:37:00+00:00,LABVM,13,Sysmon,kbhook.exe,,,1212,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:37:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1212,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:38:00+00:00,LABVM,13,Sysmon,kbhook.exe,,,1212,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:39:00+00:00,LABVM,1,Sysmon,service.exe,C:\Users\User\Downloads\service.exe,185e8047a90545beb879d7f13b66dd5e,1213,1212.0,powershell.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\Downloads\\service.exe'}
+2026-01-01 10:39:00.100000+00:00,LABVM,7,Sysmon,service.exe,,,1213,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:39:00.150000+00:00,LABVM,7,Sysmon,service.exe,,,1213,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:39:16.347894+00:00,LABVM,7,Sysmon,service.exe,,,1213,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:39:16.447894+00:00,LABVM,13,Sysmon,service.exe,,,1213,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,service.exe=C:\Users\User\Downloads\service.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:39:46.147894+00:00,LABVM,13,Sysmon,service.exe,,,1213,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:40:16.147894+00:00,LABVM,13,Sysmon,service.exe,,,1213,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:40:46.147894+00:00,LABVM,13,Sysmon,service.exe,,,1213,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:41:16.147894+00:00,LABVM,13,Sysmon,service.exe,,,1213,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:42:00+00:00,LABVM,1,Sysmon,sync.exe,C:\Windows\System32\sync.exe,15e4037e8c5a4bddaf74a050bca4d862,1214,1213.0,explorer.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Windows\\System32\\sync.exe'}
+2026-01-01 10:42:00.100000+00:00,LABVM,7,Sysmon,sync.exe,,,1214,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:42:00.150000+00:00,LABVM,7,Sysmon,sync.exe,,,1214,,,C:\Windows\System32\msvcrt.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:43:01.839229+00:00,LABVM,7,Sysmon,sync.exe,,,1214,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:43:01.939229+00:00,LABVM,13,Sysmon,sync.exe,,,1214,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,sync.exe=C:\Windows\System32\sync.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:43:59.310806+00:00,LABVM,13,Sysmon,sync.exe,,,1214,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:45:06.291549+00:00,LABVM,13,Sysmon,sync.exe,,,1214,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:46:05.896344+00:00,LABVM,13,Sysmon,sync.exe,,,1214,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:46:57.093736+00:00,LABVM,13,Sysmon,sync.exe,,,1214,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:45:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\Desktop\inputcap.exe,2b7405a81d2c4a039512c28f0c165794,1215,1214.0,cmd.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\Desktop\\inputcap.exe'}
+2026-01-01 10:45:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1215,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:45:00.150000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1215,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:45:00.200000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1215,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:45:00.300000+00:00,LABVM,13,Sysmon,inputcap.exe,,,1215,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,inputcap.exe=C:\Users\User\Desktop\inputcap.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:45:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1215,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:46:00+00:00,LABVM,13,Sysmon,inputcap.exe,,,1215,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:46:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1215,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:47:00+00:00,LABVM,13,Sysmon,inputcap.exe,,,1215,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:48:00+00:00,LABVM,1,Sysmon,helper.exe,C:\Users\User\Desktop\helper.exe,36f9db4e644e45c590658add80b261e1,1216,1215.0,explorer.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\Desktop\\helper.exe'}
+2026-01-01 10:48:00.100000+00:00,LABVM,7,Sysmon,helper.exe,,,1216,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:48:00.150000+00:00,LABVM,7,Sysmon,helper.exe,,,1216,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:48:06.069974+00:00,LABVM,7,Sysmon,helper.exe,,,1216,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:48:06.169974+00:00,LABVM,13,Sysmon,helper.exe,,,1216,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,helper.exe=C:\Users\User\Desktop\helper.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:48:35.869974+00:00,LABVM,13,Sysmon,helper.exe,,,1216,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:49:05.869974+00:00,LABVM,13,Sysmon,helper.exe,,,1216,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:49:35.869974+00:00,LABVM,13,Sysmon,helper.exe,,,1216,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:50:05.869974+00:00,LABVM,13,Sysmon,helper.exe,,,1216,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:51:00+00:00,LABVM,1,Sysmon,agent.exe,C:\Windows\System32\agent.exe,c907c4a97b604c52a1e69ce496ce39f2,1217,1216.0,explorer.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Windows\\System32\\agent.exe'}
+2026-01-01 10:51:00.100000+00:00,LABVM,7,Sysmon,agent.exe,,,1217,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:51:00.150000+00:00,LABVM,7,Sysmon,agent.exe,,,1217,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:52:02.793552+00:00,LABVM,7,Sysmon,agent.exe,,,1217,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:52:02.893552+00:00,LABVM,13,Sysmon,agent.exe,,,1217,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,agent.exe=C:\Windows\System32\agent.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:52:39.300100+00:00,LABVM,13,Sysmon,agent.exe,,,1217,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:53:18.026751+00:00,LABVM,13,Sysmon,agent.exe,,,1217,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:53:52.353115+00:00,LABVM,13,Sysmon,agent.exe,,,1217,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:54:30.958115+00:00,LABVM,13,Sysmon,agent.exe,,,1217,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:54:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\Desktop\kbhook.exe,265a56a241ab4c9090e979533e88cc57,1218,1217.0,cmd.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\Desktop\\kbhook.exe'}
+2026-01-01 10:54:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1218,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:54:00.150000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1218,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:54:00.200000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1218,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:54:00.300000+00:00,LABVM,13,Sysmon,kbhook.exe,,,1218,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,kbhook.exe=C:\Users\User\Desktop\kbhook.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:54:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1218,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:55:00+00:00,LABVM,13,Sysmon,kbhook.exe,,,1218,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:55:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1218,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:56:00+00:00,LABVM,13,Sysmon,kbhook.exe,,,1218,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:57:00+00:00,LABVM,1,Sysmon,updater.exe,C:\Users\User\AppData\Local\Temp\updater.exe,4b6e2c2b599e43eb8857ffd9190429b8,1219,1218.0,powershell.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\updater.exe'}
+2026-01-01 10:57:00.100000+00:00,LABVM,7,Sysmon,updater.exe,,,1219,,,C:\Windows\System32\msvcrt.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:57:00.150000+00:00,LABVM,7,Sysmon,updater.exe,,,1219,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:57:23.591871+00:00,LABVM,7,Sysmon,updater.exe,,,1219,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 10:57:23.691871+00:00,LABVM,13,Sysmon,updater.exe,,,1219,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,updater.exe=C:\Users\User\AppData\Local\Temp\updater.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:57:53.391871+00:00,LABVM,13,Sysmon,updater.exe,,,1219,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:58:23.391871+00:00,LABVM,13,Sysmon,updater.exe,,,1219,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:58:53.391871+00:00,LABVM,13,Sysmon,updater.exe,,,1219,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 10:59:23.391871+00:00,LABVM,13,Sysmon,updater.exe,,,1219,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:00:00+00:00,LABVM,1,Sysmon,updater.exe,C:\Windows\System32\updater.exe,aec5c25edb0a434ab252211664e0d876,1220,1219.0,cmd.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Windows\\System32\\updater.exe'}
+2026-01-01 11:00:00.100000+00:00,LABVM,7,Sysmon,updater.exe,,,1220,,,C:\Windows\System32\msvcrt.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:00:00.150000+00:00,LABVM,7,Sysmon,updater.exe,,,1220,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:00:53.759901+00:00,LABVM,7,Sysmon,updater.exe,,,1220,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:00:53.859901+00:00,LABVM,13,Sysmon,updater.exe,,,1220,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,updater.exe=C:\Windows\System32\updater.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:01:51.270274+00:00,LABVM,13,Sysmon,updater.exe,,,1220,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:02:57.433899+00:00,LABVM,13,Sysmon,updater.exe,,,1220,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:03:53.035716+00:00,LABVM,13,Sysmon,updater.exe,,,1220,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:04:49.204693+00:00,LABVM,13,Sysmon,updater.exe,,,1220,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:03:00+00:00,LABVM,1,Sysmon,keylogger.exe,C:\Users\User\Desktop\keylogger.exe,8eabbfc2fb194fd481339dce6a64eae3,1221,1220.0,svchost.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\Desktop\\keylogger.exe'}
+2026-01-01 11:03:00.100000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1221,,,C:\Windows\System32\msvcrt.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:03:00.150000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1221,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:03:00.200000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1221,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:03:00.300000+00:00,LABVM,13,Sysmon,keylogger.exe,,,1221,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,keylogger.exe=C:\Users\User\Desktop\keylogger.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:03:30+00:00,LABVM,13,Sysmon,keylogger.exe,,,1221,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:04:00+00:00,LABVM,13,Sysmon,keylogger.exe,,,1221,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:04:30+00:00,LABVM,13,Sysmon,keylogger.exe,,,1221,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:05:00+00:00,LABVM,13,Sysmon,keylogger.exe,,,1221,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:06:00+00:00,LABVM,1,Sysmon,agent.exe,C:\Users\User\Downloads\agent.exe,37725cd32ff54d18a9d9654325c881bf,1222,1221.0,cmd.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\Downloads\\agent.exe'}
+2026-01-01 11:06:00.100000+00:00,LABVM,7,Sysmon,agent.exe,,,1222,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:06:00.150000+00:00,LABVM,7,Sysmon,agent.exe,,,1222,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:06:22.938512+00:00,LABVM,7,Sysmon,agent.exe,,,1222,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:06:23.038512+00:00,LABVM,13,Sysmon,agent.exe,,,1222,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,agent.exe=C:\Users\User\Downloads\agent.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:06:52.738512+00:00,LABVM,13,Sysmon,agent.exe,,,1222,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:07:22.738512+00:00,LABVM,13,Sysmon,agent.exe,,,1222,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:07:52.738512+00:00,LABVM,13,Sysmon,agent.exe,,,1222,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:08:22.738512+00:00,LABVM,13,Sysmon,agent.exe,,,1222,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:09:00+00:00,LABVM,1,Sysmon,helper.exe,C:\Windows\System32\helper.exe,6f12fadfb8404e78abc9cc8ecf47e51d,1223,1222.0,svchost.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Windows\\System32\\helper.exe'}
+2026-01-01 11:09:00.100000+00:00,LABVM,7,Sysmon,helper.exe,,,1223,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:09:00.150000+00:00,LABVM,7,Sysmon,helper.exe,,,1223,,,C:\Windows\System32\msvcrt.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:10:41.632675+00:00,LABVM,7,Sysmon,helper.exe,,,1223,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:10:41.732675+00:00,LABVM,13,Sysmon,helper.exe,,,1223,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,helper.exe=C:\Windows\System32\helper.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:11:30.482663+00:00,LABVM,13,Sysmon,helper.exe,,,1223,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:12:24.738148+00:00,LABVM,13,Sysmon,helper.exe,,,1223,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:13:15.089521+00:00,LABVM,13,Sysmon,helper.exe,,,1223,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:14:08.885956+00:00,LABVM,13,Sysmon,helper.exe,,,1223,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:12:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\AppData\Roaming\kbhook.exe,86a3b6be16e3414ea91fcbcd927c7146,1224,1223.0,explorer.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\kbhook.exe'}
+2026-01-01 11:12:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1224,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:12:00.150000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1224,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:12:00.200000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1224,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:12:00.300000+00:00,LABVM,13,Sysmon,kbhook.exe,,,1224,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,kbhook.exe=C:\Users\User\AppData\Roaming\kbhook.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:12:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1224,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:13:00+00:00,LABVM,13,Sysmon,kbhook.exe,,,1224,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:13:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1224,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:14:00+00:00,LABVM,13,Sysmon,kbhook.exe,,,1224,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:15:00+00:00,LABVM,1,Sysmon,monitor.exe,C:\Users\User\Desktop\monitor.exe,7046178acdb74a96bb7149c0615ef190,1225,1224.0,powershell.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\Desktop\\monitor.exe'}
+2026-01-01 11:15:00.100000+00:00,LABVM,7,Sysmon,monitor.exe,,,1225,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:15:00.150000+00:00,LABVM,7,Sysmon,monitor.exe,,,1225,,,C:\Windows\System32\msvcrt.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:15:18.342391+00:00,LABVM,7,Sysmon,monitor.exe,,,1225,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:15:18.442391+00:00,LABVM,13,Sysmon,monitor.exe,,,1225,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,monitor.exe=C:\Users\User\Desktop\monitor.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:15:48.142391+00:00,LABVM,13,Sysmon,monitor.exe,,,1225,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:16:18.142391+00:00,LABVM,13,Sysmon,monitor.exe,,,1225,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:16:48.142391+00:00,LABVM,13,Sysmon,monitor.exe,,,1225,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:17:18.142391+00:00,LABVM,13,Sysmon,monitor.exe,,,1225,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:18:00+00:00,LABVM,1,Sysmon,agent.exe,C:\Windows\System32\agent.exe,0c762b84019944b494ab9caac030ee65,1226,1225.0,powershell.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Windows\\System32\\agent.exe'}
+2026-01-01 11:18:00.100000+00:00,LABVM,7,Sysmon,agent.exe,,,1226,,,C:\Windows\System32\msvcrt.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:18:00.150000+00:00,LABVM,7,Sysmon,agent.exe,,,1226,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:19:28.010473+00:00,LABVM,7,Sysmon,agent.exe,,,1226,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:19:28.110473+00:00,LABVM,13,Sysmon,agent.exe,,,1226,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,agent.exe=C:\Windows\System32\agent.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:20:04.788220+00:00,LABVM,13,Sysmon,agent.exe,,,1226,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:20:52.489811+00:00,LABVM,13,Sysmon,agent.exe,,,1226,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:21:30.406709+00:00,LABVM,13,Sysmon,agent.exe,,,1226,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:22:11.465935+00:00,LABVM,13,Sysmon,agent.exe,,,1226,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:21:00+00:00,LABVM,1,Sysmon,keylogger.exe,C:\Users\User\Desktop\keylogger.exe,990e93d7f640485b9110e5bc0392640e,1227,1226.0,explorer.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\Desktop\\keylogger.exe'}
+2026-01-01 11:21:00.100000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1227,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:21:00.150000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1227,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:21:00.200000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1227,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:21:00.300000+00:00,LABVM,13,Sysmon,keylogger.exe,,,1227,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,keylogger.exe=C:\Users\User\Desktop\keylogger.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:21:30+00:00,LABVM,13,Sysmon,keylogger.exe,,,1227,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:22:00+00:00,LABVM,13,Sysmon,keylogger.exe,,,1227,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:22:30+00:00,LABVM,13,Sysmon,keylogger.exe,,,1227,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:23:00+00:00,LABVM,13,Sysmon,keylogger.exe,,,1227,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:24:00+00:00,LABVM,1,Sysmon,helper.exe,C:\Users\User\Downloads\helper.exe,c2ad829bd4f444a0bca7eb89beb28c7f,1228,1227.0,cmd.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Users\\User\\Downloads\\helper.exe'}
+2026-01-01 11:24:00.100000+00:00,LABVM,7,Sysmon,helper.exe,,,1228,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:24:00.150000+00:00,LABVM,7,Sysmon,helper.exe,,,1228,,,C:\Windows\System32\msvcrt.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:24:09.316427+00:00,LABVM,7,Sysmon,helper.exe,,,1228,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:24:09.416427+00:00,LABVM,13,Sysmon,helper.exe,,,1228,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,helper.exe=C:\Users\User\Downloads\helper.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:24:39.116427+00:00,LABVM,13,Sysmon,helper.exe,,,1228,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:25:09.116427+00:00,LABVM,13,Sysmon,helper.exe,,,1228,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:25:39.116427+00:00,LABVM,13,Sysmon,helper.exe,,,1228,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:26:09.116427+00:00,LABVM,13,Sysmon,helper.exe,,,1228,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:27:00+00:00,LABVM,1,Sysmon,service.exe,C:\Windows\System32\service.exe,fbb38a9d55e34b55bb5ecd43956a2944,1229,1228.0,cmd.exe,,,,,False,,malicious,hook,{'CommandLine': 'C:\\Windows\\System32\\service.exe'}
+2026-01-01 11:27:00.100000+00:00,LABVM,7,Sysmon,service.exe,,,1229,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:27:00.150000+00:00,LABVM,7,Sysmon,service.exe,,,1229,,,C:\Windows\System32\kernelbase.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:28:46.334034+00:00,LABVM,7,Sysmon,service.exe,,,1229,,,C:\Windows\System32\user32.dll,,,,True,,malicious,hook,{}
+2026-01-01 11:28:46.434034+00:00,LABVM,13,Sysmon,service.exe,,,1229,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,service.exe=C:\Windows\System32\service.exe,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:29:42.132609+00:00,LABVM,13,Sysmon,service.exe,,,1229,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_0,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:30:43.892387+00:00,LABVM,13,Sysmon,service.exe,,,1229,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_1,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:31:42.040512+00:00,LABVM,13,Sysmon,service.exe,,,1229,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_2,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:32:35.084578+00:00,LABVM,13,Sysmon,service.exe,,,1229,,,,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,update_3,HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run,,,malicious,hook,{}
+2026-01-01 11:00:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\AppData\Roaming\inputcap.exe,d64ba286116140c7bbd8d0a49c808168,1230,1229.0,wscript.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\inputcap.exe'}
+2026-01-01 11:00:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1230,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:00:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1230,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:01:00+00:00,LABVM,13,Sysmon,inputcap.exe,,,1230,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:01:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1230,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:02:00+00:00,LABVM,13,Sysmon,inputcap.exe,,,1230,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:02:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1230,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:03:00+00:00,LABVM,1,Sysmon,helper.exe,C:\Users\User\AppData\Roaming\helper.exe,d6f0bf9eae2a4b6d91a8b9604b62100e,1231,1230.0,wscript.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\helper.exe'}
+2026-01-01 11:03:00.100000+00:00,LABVM,7,Sysmon,helper.exe,,,1231,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:04:09.875957+00:00,LABVM,13,Sysmon,helper.exe,,,1231,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:05:00.424270+00:00,LABVM,13,Sysmon,helper.exe,,,1231,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:06:13.986412+00:00,LABVM,13,Sysmon,helper.exe,,,1231,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:06:58.167642+00:00,LABVM,13,Sysmon,helper.exe,,,1231,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:08:16.455319+00:00,LABVM,13,Sysmon,helper.exe,,,1231,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:06:00+00:00,LABVM,1,Sysmon,updater.exe,C:\Users\User\AppData\Local\Temp\updater.exe,903d91be4bf24428918df3df5f1c30a5,1232,1231.0,wscript.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\updater.exe'}
+2026-01-01 11:06:00.100000+00:00,LABVM,7,Sysmon,updater.exe,,,1232,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:07:08.119796+00:00,LABVM,13,Sysmon,updater.exe,,,1232,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:08:19.869523+00:00,LABVM,13,Sysmon,updater.exe,,,1232,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:09:39.922777+00:00,LABVM,13,Sysmon,updater.exe,,,1232,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:10:53.668879+00:00,LABVM,13,Sysmon,updater.exe,,,1232,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:11:54.739106+00:00,LABVM,13,Sysmon,updater.exe,,,1232,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:09:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\Downloads\inputcap.exe,9ca020c431aa4a7e9c1d4a9a5f5ef262,1233,1232.0,wscript.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Downloads\\inputcap.exe'}
+2026-01-01 11:09:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1233,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:09:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1233,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:10:00+00:00,LABVM,13,Sysmon,inputcap.exe,,,1233,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:10:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1233,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:11:00+00:00,LABVM,13,Sysmon,inputcap.exe,,,1233,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:11:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1233,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:12:00+00:00,LABVM,1,Sysmon,service.exe,C:\Users\User\Desktop\service.exe,9c2e3b44b1da43869a0645ad9c2f8235,1234,1233.0,cmd.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Desktop\\service.exe'}
+2026-01-01 11:12:00.100000+00:00,LABVM,7,Sysmon,service.exe,,,1234,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:13:19.051428+00:00,LABVM,13,Sysmon,service.exe,,,1234,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:14:26.651901+00:00,LABVM,13,Sysmon,service.exe,,,1234,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:15:37.514295+00:00,LABVM,13,Sysmon,service.exe,,,1234,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:16:52.604707+00:00,LABVM,13,Sysmon,service.exe,,,1234,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:18:15.550168+00:00,LABVM,13,Sysmon,service.exe,,,1234,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:15:00+00:00,LABVM,1,Sysmon,sync.exe,C:\Users\User\Desktop\sync.exe,c012d3f9b86847839e504b60ff89dd0f,1235,1234.0,cmd.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Desktop\\sync.exe'}
+2026-01-01 11:15:00.100000+00:00,LABVM,7,Sysmon,sync.exe,,,1235,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:15:33.387816+00:00,LABVM,13,Sysmon,sync.exe,,,1235,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:16:28.258587+00:00,LABVM,13,Sysmon,sync.exe,,,1235,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:16:57.929656+00:00,LABVM,13,Sysmon,sync.exe,,,1235,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:17:51.818238+00:00,LABVM,13,Sysmon,sync.exe,,,1235,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:18:19.479624+00:00,LABVM,13,Sysmon,sync.exe,,,1235,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:18:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\AppData\Roaming\kbhook.exe,4f29d583aa4d4d66921debd382e36e3b,1236,1235.0,powershell.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\kbhook.exe'}
+2026-01-01 11:18:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1236,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:18:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1236,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:19:00+00:00,LABVM,13,Sysmon,kbhook.exe,,,1236,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:19:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1236,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:20:00+00:00,LABVM,13,Sysmon,kbhook.exe,,,1236,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:20:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1236,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:21:00+00:00,LABVM,1,Sysmon,updater.exe,C:\Users\User\Downloads\updater.exe,d84bc6fa929e439689dd15291f1482c9,1237,1236.0,cmd.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Downloads\\updater.exe'}
+2026-01-01 11:21:00.100000+00:00,LABVM,7,Sysmon,updater.exe,,,1237,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:21:45.334876+00:00,LABVM,13,Sysmon,updater.exe,,,1237,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:22:34.929263+00:00,LABVM,13,Sysmon,updater.exe,,,1237,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:23:21.892561+00:00,LABVM,13,Sysmon,updater.exe,,,1237,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:24:15.746010+00:00,LABVM,13,Sysmon,updater.exe,,,1237,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:25:07.610209+00:00,LABVM,13,Sysmon,updater.exe,,,1237,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:24:00+00:00,LABVM,1,Sysmon,monitor.exe,C:\Users\User\AppData\Roaming\monitor.exe,c9fbd0c494074f45a369d088d72d5c22,1238,1237.0,cmd.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\monitor.exe'}
+2026-01-01 11:24:00.100000+00:00,LABVM,7,Sysmon,monitor.exe,,,1238,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:25:24.685869+00:00,LABVM,13,Sysmon,monitor.exe,,,1238,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:26:36.444246+00:00,LABVM,13,Sysmon,monitor.exe,,,1238,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:27:41.829197+00:00,LABVM,13,Sysmon,monitor.exe,,,1238,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:28:57.230202+00:00,LABVM,13,Sysmon,monitor.exe,,,1238,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:30:29.973581+00:00,LABVM,13,Sysmon,monitor.exe,,,1238,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:27:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\Desktop\kbhook.exe,48d279e8d4cb419bb36a6f64e1f51e40,1239,1238.0,powershell.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Desktop\\kbhook.exe'}
+2026-01-01 11:27:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1239,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:27:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1239,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:28:00+00:00,LABVM,13,Sysmon,kbhook.exe,,,1239,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:28:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1239,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:29:00+00:00,LABVM,13,Sysmon,kbhook.exe,,,1239,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:29:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1239,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:30:00+00:00,LABVM,1,Sysmon,sync.exe,C:\Users\User\AppData\Local\Temp\sync.exe,08ab08d1135244c8b9acf779307db72d,1240,1239.0,cmd.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\sync.exe'}
+2026-01-01 11:30:00.100000+00:00,LABVM,7,Sysmon,sync.exe,,,1240,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:31:26.001350+00:00,LABVM,13,Sysmon,sync.exe,,,1240,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:33:01.118653+00:00,LABVM,13,Sysmon,sync.exe,,,1240,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:34:11.980269+00:00,LABVM,13,Sysmon,sync.exe,,,1240,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:35:40.627743+00:00,LABVM,13,Sysmon,sync.exe,,,1240,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:37:00.473110+00:00,LABVM,13,Sysmon,sync.exe,,,1240,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:33:00+00:00,LABVM,1,Sysmon,sync.exe,C:\Users\User\Desktop\sync.exe,6a57683ae65c439596b71658837df902,1241,1240.0,powershell.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Desktop\\sync.exe'}
+2026-01-01 11:33:00.100000+00:00,LABVM,7,Sysmon,sync.exe,,,1241,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:34:02.195254+00:00,LABVM,13,Sysmon,sync.exe,,,1241,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:34:49.122168+00:00,LABVM,13,Sysmon,sync.exe,,,1241,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:35:53.404533+00:00,LABVM,13,Sysmon,sync.exe,,,1241,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:36:45.557386+00:00,LABVM,13,Sysmon,sync.exe,,,1241,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:37:41.536166+00:00,LABVM,13,Sysmon,sync.exe,,,1241,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:36:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\AppData\Local\Temp\kbhook.exe,30be340e8dab49c5934eb49c4ea21629,1242,1241.0,powershell.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\kbhook.exe'}
+2026-01-01 11:36:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1242,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:36:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1242,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:37:00+00:00,LABVM,13,Sysmon,kbhook.exe,,,1242,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:37:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1242,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:38:00+00:00,LABVM,13,Sysmon,kbhook.exe,,,1242,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:38:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1242,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:39:00+00:00,LABVM,1,Sysmon,svchost32.exe,C:\Users\User\AppData\Roaming\svchost32.exe,bd90e7c7bcaa4902b2a58d43bb2ce33e,1243,1242.0,powershell.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\svchost32.exe'}
+2026-01-01 11:39:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1243,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:39:47.962354+00:00,LABVM,13,Sysmon,svchost32.exe,,,1243,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:40:53.068550+00:00,LABVM,13,Sysmon,svchost32.exe,,,1243,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:41:54.763241+00:00,LABVM,13,Sysmon,svchost32.exe,,,1243,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:42:41.561292+00:00,LABVM,13,Sysmon,svchost32.exe,,,1243,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:43:52.240411+00:00,LABVM,13,Sysmon,svchost32.exe,,,1243,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:42:00+00:00,LABVM,1,Sysmon,updater.exe,C:\Users\User\AppData\Roaming\updater.exe,b3d2848181e24ae683d0bb668f20dcd3,1244,1243.0,cmd.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\updater.exe'}
+2026-01-01 11:42:00.100000+00:00,LABVM,7,Sysmon,updater.exe,,,1244,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:42:50.440723+00:00,LABVM,13,Sysmon,updater.exe,,,1244,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:43:25.867263+00:00,LABVM,13,Sysmon,updater.exe,,,1244,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:44:22.407307+00:00,LABVM,13,Sysmon,updater.exe,,,1244,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:45:03.270417+00:00,LABVM,13,Sysmon,updater.exe,,,1244,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:45:36.695050+00:00,LABVM,13,Sysmon,updater.exe,,,1244,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:45:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\Desktop\inputcap.exe,d22e7b54e216483194428357dc287ac9,1245,1244.0,wscript.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Desktop\\inputcap.exe'}
+2026-01-01 11:45:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1245,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:45:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1245,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:46:00+00:00,LABVM,13,Sysmon,inputcap.exe,,,1245,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:46:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1245,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:47:00+00:00,LABVM,13,Sysmon,inputcap.exe,,,1245,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:47:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1245,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:48:00+00:00,LABVM,1,Sysmon,svchost32.exe,C:\Users\User\AppData\Local\Temp\svchost32.exe,390d5886d6404453999b53f81e7e4dee,1246,1245.0,cmd.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\svchost32.exe'}
+2026-01-01 11:48:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1246,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:48:21.938542+00:00,LABVM,13,Sysmon,svchost32.exe,,,1246,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:48:50.030339+00:00,LABVM,13,Sysmon,svchost32.exe,,,1246,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:49:14.972955+00:00,LABVM,13,Sysmon,svchost32.exe,,,1246,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:49:43.236123+00:00,LABVM,13,Sysmon,svchost32.exe,,,1246,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:50:06.698755+00:00,LABVM,13,Sysmon,svchost32.exe,,,1246,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:51:00+00:00,LABVM,1,Sysmon,agent.exe,C:\Users\User\Downloads\agent.exe,4200a41a909345a798dacda7a5e41cde,1247,1246.0,cmd.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Downloads\\agent.exe'}
+2026-01-01 11:51:00.100000+00:00,LABVM,7,Sysmon,agent.exe,,,1247,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:51:46.801604+00:00,LABVM,13,Sysmon,agent.exe,,,1247,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:52:35.795227+00:00,LABVM,13,Sysmon,agent.exe,,,1247,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:53:15.289275+00:00,LABVM,13,Sysmon,agent.exe,,,1247,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:53:58.032676+00:00,LABVM,13,Sysmon,agent.exe,,,1247,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:54:42.552252+00:00,LABVM,13,Sysmon,agent.exe,,,1247,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:54:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\Downloads\kbhook.exe,138dedf9a6d84b8e92eae59902b019f6,1248,1247.0,powershell.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Downloads\\kbhook.exe'}
+2026-01-01 11:54:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1248,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:54:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1248,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:55:00+00:00,LABVM,13,Sysmon,kbhook.exe,,,1248,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:55:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1248,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:56:00+00:00,LABVM,13,Sysmon,kbhook.exe,,,1248,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:56:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1248,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:57:00+00:00,LABVM,1,Sysmon,svchost32.exe,C:\Users\User\Downloads\svchost32.exe,5f46df9e00e0452fa2e9f0d78ea21fa3,1249,1248.0,powershell.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Downloads\\svchost32.exe'}
+2026-01-01 11:57:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1249,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 11:58:15.133440+00:00,LABVM,13,Sysmon,svchost32.exe,,,1249,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 11:59:12.745002+00:00,LABVM,13,Sysmon,svchost32.exe,,,1249,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:00:22.541535+00:00,LABVM,13,Sysmon,svchost32.exe,,,1249,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:01:26.648402+00:00,LABVM,13,Sysmon,svchost32.exe,,,1249,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:02:31.438270+00:00,LABVM,13,Sysmon,svchost32.exe,,,1249,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:00:00+00:00,LABVM,1,Sysmon,svchost32.exe,C:\Users\User\Desktop\svchost32.exe,28586621ef0f4c25be3c0d833be10483,1250,1249.0,powershell.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Desktop\\svchost32.exe'}
+2026-01-01 12:00:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1250,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 12:01:33.188382+00:00,LABVM,13,Sysmon,svchost32.exe,,,1250,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:03:00.583845+00:00,LABVM,13,Sysmon,svchost32.exe,,,1250,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:04:24.143595+00:00,LABVM,13,Sysmon,svchost32.exe,,,1250,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:05:54.549211+00:00,LABVM,13,Sysmon,svchost32.exe,,,1250,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:07:19.321977+00:00,LABVM,13,Sysmon,svchost32.exe,,,1250,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:03:00+00:00,LABVM,1,Sysmon,keylogger.exe,C:\Users\User\Desktop\keylogger.exe,98d25815d8db462d9a66fb0eb5663ea0,1251,1250.0,cmd.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Desktop\\keylogger.exe'}
+2026-01-01 12:03:00.100000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1251,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 12:03:30+00:00,LABVM,13,Sysmon,keylogger.exe,,,1251,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:04:00+00:00,LABVM,13,Sysmon,keylogger.exe,,,1251,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:04:30+00:00,LABVM,13,Sysmon,keylogger.exe,,,1251,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:05:00+00:00,LABVM,13,Sysmon,keylogger.exe,,,1251,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:05:30+00:00,LABVM,13,Sysmon,keylogger.exe,,,1251,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:06:00+00:00,LABVM,1,Sysmon,runtime.exe,C:\Users\User\AppData\Local\Temp\runtime.exe,9699d424f9694b39b15402093e783124,1252,1251.0,wscript.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\runtime.exe'}
+2026-01-01 12:06:00.100000+00:00,LABVM,7,Sysmon,runtime.exe,,,1252,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 12:07:18.313298+00:00,LABVM,13,Sysmon,runtime.exe,,,1252,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:08:42.609523+00:00,LABVM,13,Sysmon,runtime.exe,,,1252,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:10:14.620013+00:00,LABVM,13,Sysmon,runtime.exe,,,1252,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:11:37.490176+00:00,LABVM,13,Sysmon,runtime.exe,,,1252,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:13:14.386944+00:00,LABVM,13,Sysmon,runtime.exe,,,1252,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:09:00+00:00,LABVM,1,Sysmon,monitor.exe,C:\Users\User\Desktop\monitor.exe,51c06a4e2aeb4cdaa740c5b92658d080,1253,1252.0,wscript.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Desktop\\monitor.exe'}
+2026-01-01 12:09:00.100000+00:00,LABVM,7,Sysmon,monitor.exe,,,1253,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 12:10:13.670662+00:00,LABVM,13,Sysmon,monitor.exe,,,1253,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:11:19.483979+00:00,LABVM,13,Sysmon,monitor.exe,,,1253,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:12:29.883208+00:00,LABVM,13,Sysmon,monitor.exe,,,1253,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:13:48.183087+00:00,LABVM,13,Sysmon,monitor.exe,,,1253,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:14:47.343207+00:00,LABVM,13,Sysmon,monitor.exe,,,1253,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:12:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\Downloads\kbhook.exe,1da71757684044f390bb3d734c75e573,1254,1253.0,cmd.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Downloads\\kbhook.exe'}
+2026-01-01 12:12:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1254,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 12:12:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1254,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:13:00+00:00,LABVM,13,Sysmon,kbhook.exe,,,1254,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:13:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1254,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:14:00+00:00,LABVM,13,Sysmon,kbhook.exe,,,1254,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:14:30+00:00,LABVM,13,Sysmon,kbhook.exe,,,1254,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:15:00+00:00,LABVM,1,Sysmon,sync.exe,C:\Users\User\Downloads\sync.exe,6f21dcb1820441399d29d75f79a0acf4,1255,1254.0,wscript.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Downloads\\sync.exe'}
+2026-01-01 12:15:00.100000+00:00,LABVM,7,Sysmon,sync.exe,,,1255,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 12:15:47.011320+00:00,LABVM,13,Sysmon,sync.exe,,,1255,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:16:27.561540+00:00,LABVM,13,Sysmon,sync.exe,,,1255,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:17:07.580754+00:00,LABVM,13,Sysmon,sync.exe,,,1255,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:17:50.152363+00:00,LABVM,13,Sysmon,sync.exe,,,1255,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:18:30.059152+00:00,LABVM,13,Sysmon,sync.exe,,,1255,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:18:00+00:00,LABVM,1,Sysmon,runtime.exe,C:\Users\User\AppData\Roaming\runtime.exe,2a124dedddd449fca2c1f372023714d9,1256,1255.0,powershell.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\runtime.exe'}
+2026-01-01 12:18:00.100000+00:00,LABVM,7,Sysmon,runtime.exe,,,1256,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 12:18:51.353840+00:00,LABVM,13,Sysmon,runtime.exe,,,1256,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:20:03.171210+00:00,LABVM,13,Sysmon,runtime.exe,,,1256,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:20:46.521788+00:00,LABVM,13,Sysmon,runtime.exe,,,1256,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:21:43.206078+00:00,LABVM,13,Sysmon,runtime.exe,,,1256,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:22:38.428050+00:00,LABVM,13,Sysmon,runtime.exe,,,1256,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:21:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\Desktop\inputcap.exe,bf3b06b072284403b24d347228b408db,1257,1256.0,powershell.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Desktop\\inputcap.exe'}
+2026-01-01 12:21:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1257,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 12:21:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1257,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:22:00+00:00,LABVM,13,Sysmon,inputcap.exe,,,1257,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:22:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1257,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:23:00+00:00,LABVM,13,Sysmon,inputcap.exe,,,1257,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:23:30+00:00,LABVM,13,Sysmon,inputcap.exe,,,1257,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:24:00+00:00,LABVM,1,Sysmon,sync.exe,C:\Users\User\Downloads\sync.exe,f6fc6d608aa8405cbd083efd6d3d2a42,1258,1257.0,wscript.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Downloads\\sync.exe'}
+2026-01-01 12:24:00.100000+00:00,LABVM,7,Sysmon,sync.exe,,,1258,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 12:25:30.935635+00:00,LABVM,13,Sysmon,sync.exe,,,1258,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:26:45.524207+00:00,LABVM,13,Sysmon,sync.exe,,,1258,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:28:07.520066+00:00,LABVM,13,Sysmon,sync.exe,,,1258,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:29:43.642557+00:00,LABVM,13,Sysmon,sync.exe,,,1258,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:31:02.731524+00:00,LABVM,13,Sysmon,sync.exe,,,1258,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:27:00+00:00,LABVM,1,Sysmon,monitor.exe,C:\Users\User\Downloads\monitor.exe,5808643748d9444eb5cbc4b0d4591321,1259,1258.0,cmd.exe,,,,,False,,malicious,poll,{'CommandLine': 'C:\\Users\\User\\Downloads\\monitor.exe'}
+2026-01-01 12:27:00.100000+00:00,LABVM,7,Sysmon,monitor.exe,,,1259,,,C:\Windows\System32\user32.dll,,,,True,,malicious,poll,{}
+2026-01-01 12:27:32.536556+00:00,LABVM,13,Sysmon,monitor.exe,,,1259,,,,HKCU\SOFTWARE\AppData\poll_log,entry_0,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:28:17.850724+00:00,LABVM,13,Sysmon,monitor.exe,,,1259,,,,HKCU\SOFTWARE\AppData\poll_log,entry_1,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:28:47.279117+00:00,LABVM,13,Sysmon,monitor.exe,,,1259,,,,HKCU\SOFTWARE\AppData\poll_log,entry_2,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:29:25.983318+00:00,LABVM,13,Sysmon,monitor.exe,,,1259,,,,HKCU\SOFTWARE\AppData\poll_log,entry_3,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:29:59.048624+00:00,LABVM,13,Sysmon,monitor.exe,,,1259,,,,HKCU\SOFTWARE\AppData\poll_log,entry_4,HKCU\SOFTWARE\AppData\poll_log,,,malicious,poll,{}
+2026-01-01 12:00:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\AppData\Roaming\kbhook.exe,dc7081946c5947dc8cfd9ac4d6bb1cd5,1260,1259.0,svchost.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\kbhook.exe'}
+2026-01-01 12:00:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1260,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:00:00.150000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1260,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:03:00+00:00,LABVM,1,Sysmon,service.exe,C:\Users\User\Downloads\service.exe,4784208ba80f43749d518bade66a7a41,1261,1260.0,svchost.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\Downloads\\service.exe'}
+2026-01-01 12:03:00.100000+00:00,LABVM,7,Sysmon,service.exe,,,1261,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:03:00.150000+00:00,LABVM,7,Sysmon,service.exe,,,1261,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:06:00+00:00,LABVM,1,Sysmon,updater.exe,C:\Users\User\AppData\Roaming\updater.exe,cd5aab9eadcf45d2ae1a881f1dce1560,1262,1261.0,svchost.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\updater.exe'}
+2026-01-01 12:06:00.100000+00:00,LABVM,7,Sysmon,updater.exe,,,1262,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:06:00.150000+00:00,LABVM,7,Sysmon,updater.exe,,,1262,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:09:00+00:00,LABVM,1,Sysmon,keylogger.exe,C:\Users\User\AppData\Roaming\keylogger.exe,8299d6eae82b4bd89fa82bdaea05142f,1263,1262.0,svchost.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\keylogger.exe'}
+2026-01-01 12:09:00.100000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1263,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:09:00.150000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1263,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:12:00+00:00,LABVM,1,Sysmon,svchost32.exe,C:\Users\User\AppData\Local\Temp\svchost32.exe,07090641ecd947968b57b13c0d750e16,1264,1263.0,powershell.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\svchost32.exe'}
+2026-01-01 12:12:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1264,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:12:00.150000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1264,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:15:00+00:00,LABVM,1,Sysmon,agent.exe,C:\Users\User\Desktop\agent.exe,62c2069b5d874251a9d2be415775722c,1265,1264.0,explorer.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\Desktop\\agent.exe'}
+2026-01-01 12:15:00.100000+00:00,LABVM,7,Sysmon,agent.exe,,,1265,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:15:00.150000+00:00,LABVM,7,Sysmon,agent.exe,,,1265,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:18:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\AppData\Roaming\inputcap.exe,fa50b034b0f2443c96eaab37e34a8278,1266,1265.0,explorer.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\inputcap.exe'}
+2026-01-01 12:18:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1266,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:18:00.150000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1266,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:21:00+00:00,LABVM,1,Sysmon,helper.exe,C:\Users\User\Desktop\helper.exe,7a1e078710844f12ab12878e178b92b0,1267,1266.0,powershell.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\Desktop\\helper.exe'}
+2026-01-01 12:21:00.100000+00:00,LABVM,7,Sysmon,helper.exe,,,1267,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:21:00.150000+00:00,LABVM,7,Sysmon,helper.exe,,,1267,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:24:00+00:00,LABVM,1,Sysmon,sync.exe,C:\Users\User\AppData\Roaming\sync.exe,5de6d1ec9c8a49b2be08ba1f587d63bf,1268,1267.0,cmd.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\sync.exe'}
+2026-01-01 12:24:00.100000+00:00,LABVM,7,Sysmon,sync.exe,,,1268,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:24:00.150000+00:00,LABVM,7,Sysmon,sync.exe,,,1268,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:27:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\Downloads\kbhook.exe,9c545a14f94b4894a298704eceeadd08,1269,1268.0,explorer.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\Downloads\\kbhook.exe'}
+2026-01-01 12:27:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1269,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:27:00.150000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1269,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:30:00+00:00,LABVM,1,Sysmon,updater.exe,C:\Users\User\AppData\Roaming\updater.exe,4c61b368dcf84118a4e831742c22f29a,1270,1269.0,explorer.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\updater.exe'}
+2026-01-01 12:30:00.100000+00:00,LABVM,7,Sysmon,updater.exe,,,1270,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:30:00.150000+00:00,LABVM,7,Sysmon,updater.exe,,,1270,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:33:00+00:00,LABVM,1,Sysmon,helper.exe,C:\Users\User\Desktop\helper.exe,2023bcbe43434863b48bfcc9f0f421a0,1271,1270.0,svchost.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\Desktop\\helper.exe'}
+2026-01-01 12:33:00.100000+00:00,LABVM,7,Sysmon,helper.exe,,,1271,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:33:00.150000+00:00,LABVM,7,Sysmon,helper.exe,,,1271,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:36:00+00:00,LABVM,1,Sysmon,keylogger.exe,C:\Users\User\Desktop\keylogger.exe,03e462a2a35b47a4bd845fa4417fa2a7,1272,1271.0,powershell.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\Desktop\\keylogger.exe'}
+2026-01-01 12:36:00.100000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1272,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:36:00.150000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1272,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:39:00+00:00,LABVM,1,Sysmon,helper.exe,C:\Users\User\Downloads\helper.exe,8e3b4648b5c448708aad5d042c7e1b62,1273,1272.0,explorer.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\Downloads\\helper.exe'}
+2026-01-01 12:39:00.100000+00:00,LABVM,7,Sysmon,helper.exe,,,1273,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:39:00.150000+00:00,LABVM,7,Sysmon,helper.exe,,,1273,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:42:00+00:00,LABVM,1,Sysmon,svchost32.exe,C:\Users\User\Downloads\svchost32.exe,8f007ee47a9d40dab2dca65777a4f572,1274,1273.0,explorer.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\Downloads\\svchost32.exe'}
+2026-01-01 12:42:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1274,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:42:00.150000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1274,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:45:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\Downloads\kbhook.exe,f1935f38e23d46308375aaa39227ebb9,1275,1274.0,powershell.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\Downloads\\kbhook.exe'}
+2026-01-01 12:45:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1275,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:45:00.150000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1275,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:48:00+00:00,LABVM,1,Sysmon,sync.exe,C:\Users\User\AppData\Roaming\sync.exe,01dda49043424ab1a3550d1bebb0c9df,1276,1275.0,powershell.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\sync.exe'}
+2026-01-01 12:48:00.100000+00:00,LABVM,7,Sysmon,sync.exe,,,1276,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:48:00.150000+00:00,LABVM,7,Sysmon,sync.exe,,,1276,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:51:00+00:00,LABVM,1,Sysmon,service.exe,C:\Users\User\AppData\Roaming\service.exe,4d9f1a875acb4098b6bc4b66d668c672,1277,1276.0,explorer.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\service.exe'}
+2026-01-01 12:51:00.100000+00:00,LABVM,7,Sysmon,service.exe,,,1277,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:51:00.150000+00:00,LABVM,7,Sysmon,service.exe,,,1277,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:54:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\AppData\Roaming\kbhook.exe,14ee87f768fb4181a7a431c08030058c,1278,1277.0,powershell.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\kbhook.exe'}
+2026-01-01 12:54:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1278,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:54:00.150000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1278,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:57:00+00:00,LABVM,1,Sysmon,service.exe,C:\Users\User\AppData\Roaming\service.exe,495af7f18a5a4a7c8fc84423e16896fb,1279,1278.0,explorer.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\service.exe'}
+2026-01-01 12:57:00.100000+00:00,LABVM,7,Sysmon,service.exe,,,1279,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 12:57:00.150000+00:00,LABVM,7,Sysmon,service.exe,,,1279,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:00:00+00:00,LABVM,1,Sysmon,agent.exe,C:\Users\User\Downloads\agent.exe,b4c6096d827c416b98cc8b01e43cc47a,1280,1279.0,svchost.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\Downloads\\agent.exe'}
+2026-01-01 13:00:00.100000+00:00,LABVM,7,Sysmon,agent.exe,,,1280,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:00:00.150000+00:00,LABVM,7,Sysmon,agent.exe,,,1280,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:03:00+00:00,LABVM,1,Sysmon,keylogger.exe,C:\Users\User\Desktop\keylogger.exe,495fa9630cbf44dba5de26dbded9c39f,1281,1280.0,powershell.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\Desktop\\keylogger.exe'}
+2026-01-01 13:03:00.100000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1281,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:03:00.150000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1281,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:06:00+00:00,LABVM,1,Sysmon,agent.exe,C:\Users\User\AppData\Local\Temp\agent.exe,de8dc9349ca746b289af5722448c5dfb,1282,1281.0,powershell.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\agent.exe'}
+2026-01-01 13:06:00.100000+00:00,LABVM,7,Sysmon,agent.exe,,,1282,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:06:00.150000+00:00,LABVM,7,Sysmon,agent.exe,,,1282,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:09:00+00:00,LABVM,1,Sysmon,updater.exe,C:\Users\User\AppData\Roaming\updater.exe,d6e1a5caaae849b28448c9e06382264a,1283,1282.0,svchost.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\updater.exe'}
+2026-01-01 13:09:00.100000+00:00,LABVM,7,Sysmon,updater.exe,,,1283,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:09:00.150000+00:00,LABVM,7,Sysmon,updater.exe,,,1283,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:12:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\Downloads\kbhook.exe,9fa154ea20914ed3a09821342c397364,1284,1283.0,svchost.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\Downloads\\kbhook.exe'}
+2026-01-01 13:12:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1284,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:12:00.150000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1284,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:15:00+00:00,LABVM,1,Sysmon,svchost32.exe,C:\Users\User\Downloads\svchost32.exe,506a5bacbed74529a38aba5d2c91830b,1285,1284.0,powershell.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\Downloads\\svchost32.exe'}
+2026-01-01 13:15:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1285,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:15:00.150000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1285,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:18:00+00:00,LABVM,1,Sysmon,runtime.exe,C:\Users\User\Desktop\runtime.exe,9e045b9a9e244957847b26a66c7363e0,1286,1285.0,cmd.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\Desktop\\runtime.exe'}
+2026-01-01 13:18:00.100000+00:00,LABVM,7,Sysmon,runtime.exe,,,1286,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:18:00.150000+00:00,LABVM,7,Sysmon,runtime.exe,,,1286,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:21:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\Downloads\kbhook.exe,c5a384d9b6df40a982bc1a6dc8ad5e33,1287,1286.0,explorer.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\Downloads\\kbhook.exe'}
+2026-01-01 13:21:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1287,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:21:00.150000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1287,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:24:00+00:00,LABVM,1,Sysmon,service.exe,C:\Users\User\Downloads\service.exe,e2962ca85d5e423b80ef28118ad302d0,1288,1287.0,svchost.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\Downloads\\service.exe'}
+2026-01-01 13:24:00.100000+00:00,LABVM,7,Sysmon,service.exe,,,1288,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:24:00.150000+00:00,LABVM,7,Sysmon,service.exe,,,1288,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:27:00+00:00,LABVM,1,Sysmon,svchost32.exe,C:\Users\User\AppData\Local\Temp\svchost32.exe,ca2aaf0d0e4142c5b0b808c39e68cf27,1289,1288.0,powershell.exe,,,,,False,,malicious,rawinput,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\svchost32.exe'}
+2026-01-01 13:27:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1289,,,C:\Windows\System32\user32.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:27:00.150000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1289,,,C:\Windows\System32\hid.dll,,,,True,,malicious,rawinput,{}
+2026-01-01 13:00:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\AppData\Roaming\kbhook.exe,d3ceac01a24643cb8e79d4e3516ed075,1290,1289.0,powershell.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\kbhook.exe'}
+2026-01-01 13:00:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1290,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:00:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1290,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:00:00.500000+00:00,LABVM,8,Sysmon,kbhook.exe,,,1290,,,,,,firefox.exe,,,malicious,injection,{}
+2026-01-01 13:03:00+00:00,LABVM,1,Sysmon,updater.exe,C:\Users\User\Downloads\updater.exe,c383821d33e5417e949fa4770511082b,1291,1290.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\Downloads\\updater.exe'}
+2026-01-01 13:03:00.100000+00:00,LABVM,7,Sysmon,updater.exe,,,1291,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:03:00.100000+00:00,LABVM,7,Sysmon,updater.exe,,,1291,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:03:10.478215+00:00,LABVM,8,Sysmon,updater.exe,,,1291,,,,,,firefox.exe,,,malicious,injection,{}
+2026-01-01 13:06:00+00:00,LABVM,1,Sysmon,helper.exe,C:\Users\User\Desktop\helper.exe,447524d936c44249a3fa7cb8dd8bbc09,1292,1291.0,powershell.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\Desktop\\helper.exe'}
+2026-01-01 13:06:00.100000+00:00,LABVM,7,Sysmon,helper.exe,,,1292,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:06:00.100000+00:00,LABVM,7,Sysmon,helper.exe,,,1292,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:06:23.693371+00:00,LABVM,8,Sysmon,helper.exe,,,1292,,,,,,chrome.exe,,,malicious,injection,{}
+2026-01-01 13:09:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\Downloads\inputcap.exe,f3a4a12143d54962aad984006cea5828,1293,1292.0,powershell.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\Downloads\\inputcap.exe'}
+2026-01-01 13:09:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1293,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:09:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1293,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:09:00.500000+00:00,LABVM,8,Sysmon,inputcap.exe,,,1293,,,,,,firefox.exe,,,malicious,injection,{}
+2026-01-01 13:12:00+00:00,LABVM,1,Sysmon,runtime.exe,C:\Users\User\AppData\Roaming\runtime.exe,744fecb8b0c44d1584e4615c816e32fb,1294,1293.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\runtime.exe'}
+2026-01-01 13:12:00.100000+00:00,LABVM,7,Sysmon,runtime.exe,,,1294,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:12:00.100000+00:00,LABVM,7,Sysmon,runtime.exe,,,1294,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:12:18.137666+00:00,LABVM,8,Sysmon,runtime.exe,,,1294,,,,,,explorer.exe,,,malicious,injection,{}
+2026-01-01 13:15:00+00:00,LABVM,1,Sysmon,agent.exe,C:\Users\User\AppData\Local\Temp\agent.exe,7e63b09a06244b4687a392475cd3133a,1295,1294.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\agent.exe'}
+2026-01-01 13:15:00.100000+00:00,LABVM,7,Sysmon,agent.exe,,,1295,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:15:00.100000+00:00,LABVM,7,Sysmon,agent.exe,,,1295,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:15:06.543951+00:00,LABVM,8,Sysmon,agent.exe,,,1295,,,,,,explorer.exe,,,malicious,injection,{}
+2026-01-01 13:18:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\AppData\Roaming\inputcap.exe,a09e7a45b5054bf5bc01c1b23b2c67fd,1296,1295.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\inputcap.exe'}
+2026-01-01 13:18:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1296,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:18:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1296,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:18:00.500000+00:00,LABVM,8,Sysmon,inputcap.exe,,,1296,,,,,,explorer.exe,,,malicious,injection,{}
+2026-01-01 13:21:00+00:00,LABVM,1,Sysmon,helper.exe,C:\Users\User\Downloads\helper.exe,34771553e80c475abde9e57816498db1,1297,1296.0,powershell.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\Downloads\\helper.exe'}
+2026-01-01 13:21:00.100000+00:00,LABVM,7,Sysmon,helper.exe,,,1297,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:21:00.100000+00:00,LABVM,7,Sysmon,helper.exe,,,1297,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:21:07.906001+00:00,LABVM,8,Sysmon,helper.exe,,,1297,,,,,,explorer.exe,,,malicious,injection,{}
+2026-01-01 13:24:00+00:00,LABVM,1,Sysmon,runtime.exe,C:\Users\User\Desktop\runtime.exe,8b7ed347b98e4769961c45d2c48c3b11,1298,1297.0,powershell.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\Desktop\\runtime.exe'}
+2026-01-01 13:24:00.100000+00:00,LABVM,7,Sysmon,runtime.exe,,,1298,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:24:00.100000+00:00,LABVM,7,Sysmon,runtime.exe,,,1298,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:24:25.217302+00:00,LABVM,8,Sysmon,runtime.exe,,,1298,,,,,,chrome.exe,,,malicious,injection,{}
+2026-01-01 13:27:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\AppData\Roaming\kbhook.exe,3a38166accce440e89d3627373ebde2d,1299,1298.0,powershell.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\kbhook.exe'}
+2026-01-01 13:27:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1299,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:27:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1299,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:27:00.500000+00:00,LABVM,8,Sysmon,kbhook.exe,,,1299,,,,,,explorer.exe,,,malicious,injection,{}
+2026-01-01 13:30:00+00:00,LABVM,1,Sysmon,sync.exe,C:\Users\User\AppData\Local\Temp\sync.exe,87b5ab3eb1234454a4c3530481f41531,1300,1299.0,powershell.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\sync.exe'}
+2026-01-01 13:30:00.100000+00:00,LABVM,7,Sysmon,sync.exe,,,1300,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:30:00.100000+00:00,LABVM,7,Sysmon,sync.exe,,,1300,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:30:21.819193+00:00,LABVM,8,Sysmon,sync.exe,,,1300,,,,,,explorer.exe,,,malicious,injection,{}
+2026-01-01 13:33:00+00:00,LABVM,1,Sysmon,service.exe,C:\Users\User\AppData\Local\Temp\service.exe,127a163d6f234a10a7e9d00fbfb82178,1301,1300.0,powershell.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\service.exe'}
+2026-01-01 13:33:00.100000+00:00,LABVM,7,Sysmon,service.exe,,,1301,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:33:00.100000+00:00,LABVM,7,Sysmon,service.exe,,,1301,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:33:25.411331+00:00,LABVM,8,Sysmon,service.exe,,,1301,,,,,,firefox.exe,,,malicious,injection,{}
+2026-01-01 13:36:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\AppData\Roaming\inputcap.exe,8f370662a51b4dcf82751b7fe2bda1e7,1302,1301.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\inputcap.exe'}
+2026-01-01 13:36:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1302,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:36:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1302,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:36:00.500000+00:00,LABVM,8,Sysmon,inputcap.exe,,,1302,,,,,,explorer.exe,,,malicious,injection,{}
+2026-01-01 13:39:00+00:00,LABVM,1,Sysmon,svchost32.exe,C:\Users\User\Desktop\svchost32.exe,a86fdb29906f43d68ebbc21a861e18cf,1303,1302.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\Desktop\\svchost32.exe'}
+2026-01-01 13:39:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1303,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:39:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1303,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:39:18.529088+00:00,LABVM,8,Sysmon,svchost32.exe,,,1303,,,,,,firefox.exe,,,malicious,injection,{}
+2026-01-01 13:42:00+00:00,LABVM,1,Sysmon,svchost32.exe,C:\Users\User\AppData\Local\Temp\svchost32.exe,92677444397440c69701dfa2e80318e1,1304,1303.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\svchost32.exe'}
+2026-01-01 13:42:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1304,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:42:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1304,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:42:12.177268+00:00,LABVM,8,Sysmon,svchost32.exe,,,1304,,,,,,firefox.exe,,,malicious,injection,{}
+2026-01-01 13:45:00+00:00,LABVM,1,Sysmon,keylogger.exe,C:\Users\User\AppData\Roaming\keylogger.exe,1d4b710061bd4ffeb989a8f07ea9feb9,1305,1304.0,powershell.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\keylogger.exe'}
+2026-01-01 13:45:00.100000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1305,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:45:00.100000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1305,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:45:00.500000+00:00,LABVM,8,Sysmon,keylogger.exe,,,1305,,,,,,explorer.exe,,,malicious,injection,{}
+2026-01-01 13:48:00+00:00,LABVM,1,Sysmon,agent.exe,C:\Users\User\Desktop\agent.exe,b9ab4ec3b25d437995191f757ee97142,1306,1305.0,powershell.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\Desktop\\agent.exe'}
+2026-01-01 13:48:00.100000+00:00,LABVM,7,Sysmon,agent.exe,,,1306,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:48:00.100000+00:00,LABVM,7,Sysmon,agent.exe,,,1306,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:48:14.391138+00:00,LABVM,8,Sysmon,agent.exe,,,1306,,,,,,firefox.exe,,,malicious,injection,{}
+2026-01-01 13:51:00+00:00,LABVM,1,Sysmon,helper.exe,C:\Users\User\Downloads\helper.exe,12485c6cd2ff4f3ebdf267fbde40da32,1307,1306.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\Downloads\\helper.exe'}
+2026-01-01 13:51:00.100000+00:00,LABVM,7,Sysmon,helper.exe,,,1307,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:51:00.100000+00:00,LABVM,7,Sysmon,helper.exe,,,1307,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:51:29.821169+00:00,LABVM,8,Sysmon,helper.exe,,,1307,,,,,,chrome.exe,,,malicious,injection,{}
+2026-01-01 13:54:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\AppData\Roaming\kbhook.exe,d1933119f9d24bdbbee588f4adfd451f,1308,1307.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\kbhook.exe'}
+2026-01-01 13:54:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1308,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:54:00.100000+00:00,LABVM,7,Sysmon,kbhook.exe,,,1308,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:54:00.500000+00:00,LABVM,8,Sysmon,kbhook.exe,,,1308,,,,,,explorer.exe,,,malicious,injection,{}
+2026-01-01 13:57:00+00:00,LABVM,1,Sysmon,svchost32.exe,C:\Users\User\AppData\Local\Temp\svchost32.exe,3502e4a3724e4951973447b72711316f,1309,1308.0,powershell.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\svchost32.exe'}
+2026-01-01 13:57:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1309,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:57:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1309,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 13:57:21.837496+00:00,LABVM,8,Sysmon,svchost32.exe,,,1309,,,,,,firefox.exe,,,malicious,injection,{}
+2026-01-01 14:00:00+00:00,LABVM,1,Sysmon,monitor.exe,C:\Users\User\Desktop\monitor.exe,4213bbde843d40dc912649215e48e8b4,1310,1309.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\Desktop\\monitor.exe'}
+2026-01-01 14:00:00.100000+00:00,LABVM,7,Sysmon,monitor.exe,,,1310,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:00:00.100000+00:00,LABVM,7,Sysmon,monitor.exe,,,1310,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:00:16.515632+00:00,LABVM,8,Sysmon,monitor.exe,,,1310,,,,,,chrome.exe,,,malicious,injection,{}
+2026-01-01 14:03:00+00:00,LABVM,1,Sysmon,keylogger.exe,C:\Users\User\Downloads\keylogger.exe,525c782cf5344c428d4e42f4b6e277d8,1311,1310.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\Downloads\\keylogger.exe'}
+2026-01-01 14:03:00.100000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1311,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:03:00.100000+00:00,LABVM,7,Sysmon,keylogger.exe,,,1311,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:03:00.500000+00:00,LABVM,8,Sysmon,keylogger.exe,,,1311,,,,,,chrome.exe,,,malicious,injection,{}
+2026-01-01 14:06:00+00:00,LABVM,1,Sysmon,svchost32.exe,C:\Users\User\Desktop\svchost32.exe,be62d48b45144028b0476c575780379c,1312,1311.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\Desktop\\svchost32.exe'}
+2026-01-01 14:06:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1312,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:06:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1312,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:06:11.016657+00:00,LABVM,8,Sysmon,svchost32.exe,,,1312,,,,,,explorer.exe,,,malicious,injection,{}
+2026-01-01 14:09:00+00:00,LABVM,1,Sysmon,updater.exe,C:\Users\User\AppData\Local\Temp\updater.exe,5c45ece611a14b3badff5322404aee89,1313,1312.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\updater.exe'}
+2026-01-01 14:09:00.100000+00:00,LABVM,7,Sysmon,updater.exe,,,1313,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:09:00.100000+00:00,LABVM,7,Sysmon,updater.exe,,,1313,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:09:16.161027+00:00,LABVM,8,Sysmon,updater.exe,,,1313,,,,,,explorer.exe,,,malicious,injection,{}
+2026-01-01 14:12:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\AppData\Local\Temp\inputcap.exe,734319a0b2634ea6b479d2e32ecb07e7,1314,1313.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\inputcap.exe'}
+2026-01-01 14:12:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1314,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:12:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1314,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:12:00.500000+00:00,LABVM,8,Sysmon,inputcap.exe,,,1314,,,,,,chrome.exe,,,malicious,injection,{}
+2026-01-01 14:15:00+00:00,LABVM,1,Sysmon,monitor.exe,C:\Users\User\Desktop\monitor.exe,3ca662af97e944e499fef58f21b13c30,1315,1314.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\Desktop\\monitor.exe'}
+2026-01-01 14:15:00.100000+00:00,LABVM,7,Sysmon,monitor.exe,,,1315,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:15:00.100000+00:00,LABVM,7,Sysmon,monitor.exe,,,1315,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:15:23.859643+00:00,LABVM,8,Sysmon,monitor.exe,,,1315,,,,,,chrome.exe,,,malicious,injection,{}
+2026-01-01 14:18:00+00:00,LABVM,1,Sysmon,svchost32.exe,C:\Users\User\AppData\Roaming\svchost32.exe,48c233b8c780443f8976779d5ddcf3ac,1316,1315.0,powershell.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\svchost32.exe'}
+2026-01-01 14:18:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1316,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:18:00.100000+00:00,LABVM,7,Sysmon,svchost32.exe,,,1316,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:18:10.854038+00:00,LABVM,8,Sysmon,svchost32.exe,,,1316,,,,,,explorer.exe,,,malicious,injection,{}
+2026-01-01 14:21:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\Downloads\inputcap.exe,aa45c638f8f1424d8d6e6dbc96618a0e,1317,1316.0,powershell.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\Downloads\\inputcap.exe'}
+2026-01-01 14:21:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1317,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:21:00.100000+00:00,LABVM,7,Sysmon,inputcap.exe,,,1317,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:21:00.500000+00:00,LABVM,8,Sysmon,inputcap.exe,,,1317,,,,,,explorer.exe,,,malicious,injection,{}
+2026-01-01 14:24:00+00:00,LABVM,1,Sysmon,runtime.exe,C:\Users\User\Downloads\runtime.exe,69887213d5994f929fc1980cfd2b4523,1318,1317.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\Downloads\\runtime.exe'}
+2026-01-01 14:24:00.100000+00:00,LABVM,7,Sysmon,runtime.exe,,,1318,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:24:00.100000+00:00,LABVM,7,Sysmon,runtime.exe,,,1318,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:24:15.339005+00:00,LABVM,8,Sysmon,runtime.exe,,,1318,,,,,,chrome.exe,,,malicious,injection,{}
+2026-01-01 14:27:00+00:00,LABVM,1,Sysmon,service.exe,C:\Users\User\AppData\Local\Temp\service.exe,244e2ad001884f4b911d8997bf917b45,1319,1318.0,cmd.exe,,,,,False,,malicious,injection,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\service.exe'}
+2026-01-01 14:27:00.100000+00:00,LABVM,7,Sysmon,service.exe,,,1319,,,C:\Windows\System32\ntdll.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:27:00.100000+00:00,LABVM,7,Sysmon,service.exe,,,1319,,,C:\Windows\System32\kernel32.dll,,,,True,,malicious,injection,{}
+2026-01-01 14:27:20.649828+00:00,LABVM,8,Sysmon,service.exe,,,1319,,,,,,explorer.exe,,,malicious,injection,{}
+2026-01-01 14:00:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\Desktop\kbhook.exe,bfe815e512794eb39042aadc080ae068,1320,1319.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Desktop\\kbhook.exe'}
+2026-01-01 14:00:00.200000+00:00,LABVM,13,Sysmon,kbhook.exe,,,1320,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:00:00.500000+00:00,LABVM,9,Sysmon,kbhook.exe,,,1320,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:03:00+00:00,LABVM,1,Sysmon,svchost32.exe,C:\Users\User\Downloads\svchost32.exe,4f48acfb69954861a4e3ed9e46ee7922,1321,1320.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Downloads\\svchost32.exe'}
+2026-01-01 14:03:00.200000+00:00,LABVM,13,Sysmon,svchost32.exe,,,1321,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:03:00.500000+00:00,LABVM,9,Sysmon,svchost32.exe,,,1321,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:06:00+00:00,LABVM,1,Sysmon,monitor.exe,C:\Users\User\Downloads\monitor.exe,dd15ce5e2adc4e3ea7f4cc399c6725dc,1322,1321.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Downloads\\monitor.exe'}
+2026-01-01 14:06:00.200000+00:00,LABVM,13,Sysmon,monitor.exe,,,1322,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:06:00.500000+00:00,LABVM,9,Sysmon,monitor.exe,,,1322,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:09:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\Desktop\inputcap.exe,f1f924e680344ed7b1d8b918519a6dbf,1323,1322.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Desktop\\inputcap.exe'}
+2026-01-01 14:09:00.200000+00:00,LABVM,13,Sysmon,inputcap.exe,,,1323,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:09:00.500000+00:00,LABVM,9,Sysmon,inputcap.exe,,,1323,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:12:00+00:00,LABVM,1,Sysmon,monitor.exe,C:\Users\User\AppData\Roaming\monitor.exe,5ae04d1f4ad9490abfc150614b1a7949,1324,1323.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\monitor.exe'}
+2026-01-01 14:12:00.200000+00:00,LABVM,13,Sysmon,monitor.exe,,,1324,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:12:00.500000+00:00,LABVM,9,Sysmon,monitor.exe,,,1324,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:15:00+00:00,LABVM,1,Sysmon,service.exe,C:\Users\User\Desktop\service.exe,ab1db6842dad4d86857f6068ed3e8fd4,1325,1324.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Desktop\\service.exe'}
+2026-01-01 14:15:00.200000+00:00,LABVM,13,Sysmon,service.exe,,,1325,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:15:00.500000+00:00,LABVM,9,Sysmon,service.exe,,,1325,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:18:00+00:00,LABVM,1,Sysmon,keylogger.exe,C:\Users\User\Desktop\keylogger.exe,8152d5e95a8d417791f74543667da338,1326,1325.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Desktop\\keylogger.exe'}
+2026-01-01 14:18:00.200000+00:00,LABVM,13,Sysmon,keylogger.exe,,,1326,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:18:00.500000+00:00,LABVM,9,Sysmon,keylogger.exe,,,1326,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:21:00+00:00,LABVM,1,Sysmon,runtime.exe,C:\Users\User\AppData\Roaming\runtime.exe,eef712a9067c4bb4a2689ccc2ba426a3,1327,1326.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\runtime.exe'}
+2026-01-01 14:21:00.200000+00:00,LABVM,13,Sysmon,runtime.exe,,,1327,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:21:00.500000+00:00,LABVM,9,Sysmon,runtime.exe,,,1327,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:24:00+00:00,LABVM,1,Sysmon,service.exe,C:\Users\User\AppData\Roaming\service.exe,85f2a7e0d9d24636b2ed242f3e1ca1f0,1328,1327.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\service.exe'}
+2026-01-01 14:24:00.200000+00:00,LABVM,13,Sysmon,service.exe,,,1328,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:24:00.500000+00:00,LABVM,9,Sysmon,service.exe,,,1328,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:27:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\AppData\Local\Temp\kbhook.exe,e533673aeccd4e74b3ca2bcbf19a5025,1329,1328.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\kbhook.exe'}
+2026-01-01 14:27:00.200000+00:00,LABVM,13,Sysmon,kbhook.exe,,,1329,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:27:00.500000+00:00,LABVM,9,Sysmon,kbhook.exe,,,1329,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:30:00+00:00,LABVM,1,Sysmon,monitor.exe,C:\Users\User\Desktop\monitor.exe,e2b48acfb6ca45aabab9e2dd077e62b7,1330,1329.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Desktop\\monitor.exe'}
+2026-01-01 14:30:00.200000+00:00,LABVM,13,Sysmon,monitor.exe,,,1330,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:30:00.500000+00:00,LABVM,9,Sysmon,monitor.exe,,,1330,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:33:00+00:00,LABVM,1,Sysmon,helper.exe,C:\Users\User\Desktop\helper.exe,3cc9a9bda0a94cd2aedae57ba9bf68fc,1331,1330.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Desktop\\helper.exe'}
+2026-01-01 14:33:00.200000+00:00,LABVM,13,Sysmon,helper.exe,,,1331,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:33:00.500000+00:00,LABVM,9,Sysmon,helper.exe,,,1331,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:36:00+00:00,LABVM,1,Sysmon,keylogger.exe,C:\Users\User\Downloads\keylogger.exe,2dfc27ad4b7e477a98c0e040dca1ab90,1332,1331.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Downloads\\keylogger.exe'}
+2026-01-01 14:36:00.200000+00:00,LABVM,13,Sysmon,keylogger.exe,,,1332,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:36:00.500000+00:00,LABVM,9,Sysmon,keylogger.exe,,,1332,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:39:00+00:00,LABVM,1,Sysmon,runtime.exe,C:\Users\User\Downloads\runtime.exe,bd02994233dc4b1f8d0b6624199056b2,1333,1332.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Downloads\\runtime.exe'}
+2026-01-01 14:39:00.200000+00:00,LABVM,13,Sysmon,runtime.exe,,,1333,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:39:00.500000+00:00,LABVM,9,Sysmon,runtime.exe,,,1333,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:42:00+00:00,LABVM,1,Sysmon,updater.exe,C:\Users\User\Desktop\updater.exe,5955527a0aae42c099262eaf482abd39,1334,1333.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Desktop\\updater.exe'}
+2026-01-01 14:42:00.200000+00:00,LABVM,13,Sysmon,updater.exe,,,1334,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:42:00.500000+00:00,LABVM,9,Sysmon,updater.exe,,,1334,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:45:00+00:00,LABVM,1,Sysmon,kbhook.exe,C:\Users\User\AppData\Local\Temp\kbhook.exe,9e7de4a2f3cd4a6dbbcbd3cd810f6b61,1335,1334.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\kbhook.exe'}
+2026-01-01 14:45:00.200000+00:00,LABVM,13,Sysmon,kbhook.exe,,,1335,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:45:00.500000+00:00,LABVM,9,Sysmon,kbhook.exe,,,1335,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:48:00+00:00,LABVM,1,Sysmon,runtime.exe,C:\Users\User\AppData\Local\Temp\runtime.exe,14c39c0922c94cb3981068c75559dce0,1336,1335.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\runtime.exe'}
+2026-01-01 14:48:00.200000+00:00,LABVM,13,Sysmon,runtime.exe,,,1336,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:48:00.500000+00:00,LABVM,9,Sysmon,runtime.exe,,,1336,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:51:00+00:00,LABVM,1,Sysmon,service.exe,C:\Users\User\Desktop\service.exe,50526b9280804b41b57e2b895339988d,1337,1336.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Desktop\\service.exe'}
+2026-01-01 14:51:00.200000+00:00,LABVM,13,Sysmon,service.exe,,,1337,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:51:00.500000+00:00,LABVM,9,Sysmon,service.exe,,,1337,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:54:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\AppData\Local\Temp\inputcap.exe,6386f52a84c343bdab6b671385e5f6af,1338,1337.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\inputcap.exe'}
+2026-01-01 14:54:00.200000+00:00,LABVM,13,Sysmon,inputcap.exe,,,1338,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:54:00.500000+00:00,LABVM,9,Sysmon,inputcap.exe,,,1338,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 14:57:00+00:00,LABVM,1,Sysmon,updater.exe,C:\Users\User\AppData\Roaming\updater.exe,bbbd8a14d0ca491d91583d4c9237faf2,1339,1338.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\updater.exe'}
+2026-01-01 14:57:00.200000+00:00,LABVM,13,Sysmon,updater.exe,,,1339,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 14:57:00.500000+00:00,LABVM,9,Sysmon,updater.exe,,,1339,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 15:00:00+00:00,LABVM,1,Sysmon,runtime.exe,C:\Users\User\Desktop\runtime.exe,7b1aeccf4fea4c01bfd431ecd2cb33d2,1340,1339.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Desktop\\runtime.exe'}
+2026-01-01 15:00:00.200000+00:00,LABVM,13,Sysmon,runtime.exe,,,1340,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 15:00:00.500000+00:00,LABVM,9,Sysmon,runtime.exe,,,1340,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 15:03:00+00:00,LABVM,1,Sysmon,keylogger.exe,C:\Users\User\Downloads\keylogger.exe,3bbff521290743a889cec9fce18cfa7f,1341,1340.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Downloads\\keylogger.exe'}
+2026-01-01 15:03:00.200000+00:00,LABVM,13,Sysmon,keylogger.exe,,,1341,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 15:03:00.500000+00:00,LABVM,9,Sysmon,keylogger.exe,,,1341,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 15:06:00+00:00,LABVM,1,Sysmon,service.exe,C:\Users\User\AppData\Local\Temp\service.exe,68da5332fa904c9198336b8f8b48cc0e,1342,1341.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\service.exe'}
+2026-01-01 15:06:00.200000+00:00,LABVM,13,Sysmon,service.exe,,,1342,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 15:06:00.500000+00:00,LABVM,9,Sysmon,service.exe,,,1342,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 15:09:00+00:00,LABVM,1,Sysmon,runtime.exe,C:\Users\User\AppData\Roaming\runtime.exe,1ea77ea23e6d4af7ad5374db3d8bc65c,1343,1342.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\runtime.exe'}
+2026-01-01 15:09:00.200000+00:00,LABVM,13,Sysmon,runtime.exe,,,1343,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 15:09:00.500000+00:00,LABVM,9,Sysmon,runtime.exe,,,1343,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 15:12:00+00:00,LABVM,1,Sysmon,inputcap.exe,C:\Users\User\AppData\Local\Temp\inputcap.exe,495dc65de0e0412c91f99a6bb617aa3d,1344,1343.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\AppData\\Local\\Temp\\inputcap.exe'}
+2026-01-01 15:12:00.200000+00:00,LABVM,13,Sysmon,inputcap.exe,,,1344,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 15:12:00.500000+00:00,LABVM,9,Sysmon,inputcap.exe,,,1344,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 15:15:00+00:00,LABVM,1,Sysmon,sync.exe,C:\Users\User\AppData\Roaming\sync.exe,14b3f5cdf16647738c99633c87e8ff70,1345,1344.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\AppData\\Roaming\\sync.exe'}
+2026-01-01 15:15:00.200000+00:00,LABVM,13,Sysmon,sync.exe,,,1345,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 15:15:00.500000+00:00,LABVM,9,Sysmon,sync.exe,,,1345,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 15:18:00+00:00,LABVM,1,Sysmon,runtime.exe,C:\Users\User\Desktop\runtime.exe,6b815945f7674716aaf4cb2b52b21a9a,1346,1345.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Desktop\\runtime.exe'}
+2026-01-01 15:18:00.200000+00:00,LABVM,13,Sysmon,runtime.exe,,,1346,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 15:18:00.500000+00:00,LABVM,9,Sysmon,runtime.exe,,,1346,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 15:21:00+00:00,LABVM,1,Sysmon,keylogger.exe,C:\Users\User\Downloads\keylogger.exe,663b236c829a484c84791b19758ff5df,1347,1346.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Downloads\\keylogger.exe'}
+2026-01-01 15:21:00.200000+00:00,LABVM,13,Sysmon,keylogger.exe,,,1347,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 15:21:00.500000+00:00,LABVM,9,Sysmon,keylogger.exe,,,1347,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 15:24:00+00:00,LABVM,1,Sysmon,service.exe,C:\Users\User\Desktop\service.exe,043b6881e4a0410cae45e87d8dfe3b89,1348,1347.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Desktop\\service.exe'}
+2026-01-01 15:24:00.200000+00:00,LABVM,13,Sysmon,service.exe,,,1348,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 15:24:00.500000+00:00,LABVM,9,Sysmon,service.exe,,,1348,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
+2026-01-01 15:27:00+00:00,LABVM,1,Sysmon,sync.exe,C:\Users\User\Downloads\sync.exe,20bd8c224e0544da9fe1df9721c92e60,1349,1348.0,cmd.exe,,,,,False,,malicious,driver,{'CommandLine': 'C:\\Users\\User\\Downloads\\sync.exe'}
+2026-01-01 15:27:00.200000+00:00,LABVM,13,Sysmon,sync.exe,,,1349,,,,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,ImagePath=C:\Windows\System32\drivers\kbfilter.sys,HKLM\SYSTEM\CurrentControlSet\Services\kbfilter,,,malicious,driver,{}
+2026-01-01 15:27:00.500000+00:00,LABVM,9,Sysmon,sync.exe,,,1349,,,,,,\Device\KeyboardClass0,,,malicious,driver,{}
